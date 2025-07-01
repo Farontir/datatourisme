@@ -1,0 +1,5488 @@
+{
+  "@id": "https://data.datatourisme.fr/23/005819a3-aaf9-31ba-9f1f-5616e78d8738",
+  "dc:identifier": "HLOAQU087V5004TY",
+  "@type": [
+    "schema:Accommodation",
+    "schema:LodgingBusiness",
+    "Accommodation",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "RentalAccommodation",
+    "SelfCateringAccommodation"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "In einem kleinen Weiler mit drei Häusern öffnet sich dieses Ferienhaus auf eine Terrasse und ein großes Rasengrundstück, auf dem die Kinder sicher spielen können. In der Nähe: die Seen der Haute-Charente, die zum Baden, Segeln, Angeln und für andere Aktivitäten in der Natur eingerichtet wurden. Ein Fußweg führt in einer Viertelstunde zum Strand."
+    ],
+    "en": [
+      "In a small hamlet of three houses, this gîte opens onto a terrace and a large lawn where children can play safely. Nearby: the lakes of the Haute-Charente are suitable for swimming, sailing, fishing and other outdoor activities. A footpath leads to the beach in a quarter of an hour."
+    ],
+    "it": [
+      "In un piccolo borgo di tre case, questo gîte si apre su una terrazza e su un ampio prato dove i bambini possono giocare in tutta sicurezza. Nelle vicinanze: i laghi della Haute-Charente sono ideali per il nuoto, la vela, la pesca e altre attività all'aperto. Un sentiero pedonale conduce alla spiaggia in un quarto d'ora."
+    ],
+    "fr": [
+      "Dans un petit hameau de trois maisons, ce gîte ouvre sur une terrasse et un grand terrain en pelouse où les enfants peuvent jouer en toute sécurité. A proximité : les lacs de Haute-Charente aménagés pour la baignade, la voile, la pêche et autres activités de pleine nature. Un chemin pédestre mène à la plage en un quart d'heure."
+    ],
+    "nl": [
+      "In een klein gehucht van drie huizen geeft deze gîte uit op een terras en een groot grasveld waar kinderen veilig kunnen spelen. In de buurt: de meren van de Haute-Charente zijn ideaal om te zwemmen, zeilen, vissen en andere buitenactiviteiten. Een voetpad leidt in een kwartiertje naar het strand."
+    ],
+    "es": [
+      "En una pequeña aldea de tres casas, esta casa rural se abre a una terraza y a un gran césped donde los niños pueden jugar sin peligro. Cerca: los lagos de la Haute-Charente son ideales para nadar, navegar, pescar y realizar otras actividades al aire libre. Un sendero conduce a la playa en un cuarto de hora."
+    ]
+  },
+  "rdfs:label": {
+    "de": [
+      "MAZETTE"
+    ],
+    "en": [
+      "MAZETTE"
+    ],
+    "fr": [
+      "MAZETTE"
+    ],
+    "nl": [
+      "MAZETTE"
+    ],
+    "es": [
+      "MAZETTE"
+    ]
+  },
+  "allowedPersons": 6,
+  "availableLanguage": [
+    "fr"
+  ],
+  "creationDate": "2022-09-06",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/23/7fd1217b-cf8d-3624-9489-e3942363b344",
+    "dc:identifier": "de97b568-ba9a-467d-9661-b8b5c83d24be",
+    "schema:legalName": "OT Porte Océane du Limousin",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/05dc9cb8-2fa5-383d-b87b-497de06649a2",
+      "schema:email": [
+        "sirtaqui@na-tourisme.com"
+      ],
+      "schema:legalName": "SIRTAQUI Nouvelle-Aquitaine",
+      "schema:logo": "http://aquitaine.media.tourinsoft.eu/upload/Logo-Sirtaqui-1280x405.jpg",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "rdfs:comment": {
+        "de": [
+          "Collecter, mettre en commun et diffuser le plus largement possible une information complète et de qualité au service de nos habitants et de nos visiteurs : voici les objectifs du SIRTAQUI, Système d’Information Régional Touristique de Nouvelle-AQUItaine. Le dispositif est mis en œuvre conjointement par le Comité Régional de Tourisme de Nouvelle-Aquitaine, les services touristiques de la Corrèze, de la Creuse, de la Dordogne, de la Gironde, des Landes, du Lot-et-Garonne, des Pyrénées-Atlantiques, des Deux-Sèvres, de la Vienne et de la Haute-Vienne, en collaboration avec les Offices de Tourisme, et avec le soutien financier de l’Europe et du Conseil Régional."
+        ],
+        "en": [
+          "Collecter, mettre en commun et diffuser le plus largement possible une information complète et de qualité au service de nos habitants et de nos visiteurs : voici les objectifs du SIRTAQUI, Système d’Information Régional Touristique de Nouvelle-AQUItaine. Le dispositif est mis en œuvre conjointement par le Comité Régional de Tourisme de Nouvelle-Aquitaine, les services touristiques de la Corrèze, de la Creuse, de la Dordogne, de la Gironde, des Landes, du Lot-et-Garonne, des Pyrénées-Atlantiques, des Deux-Sèvres, de la Vienne et de la Haute-Vienne, en collaboration avec les Offices de Tourisme, et avec le soutien financier de l’Europe et du Conseil Régional."
+        ],
+        "it": [
+          "L'obiettivo di SIRTAQUI, il Sistema Regionale di Informazione Turistica della Nuova Aquitania, è quello di raccogliere, mettere in comune e diffondere il più possibile informazioni complete e di qualità a beneficio dei nostri residenti e visitatori. Il sistema è realizzato congiuntamente dal Comité Régional de Tourisme de Nouvelle-Aquitaine, dai servizi turistici di Corrèze, Creuse, Dordogne, Gironde, Landes, Lot-et-Garonne, Pyrénées-Atlantiques, Deux-Sèvres, Vienne e Haute-Vienne, in collaborazione con gli Uffici del Turismo e con il sostegno finanziario dell'Europa e del Conseil Régional."
+        ],
+        "fr": [
+          "Collecter, mettre en commun et diffuser le plus largement possible une information complète et de qualité au service de nos habitants et de nos visiteurs : voici les objectifs du SIRTAQUI, Système d’Information Régional Touristique de Nouvelle-AQUItaine. Le dispositif est mis en œuvre conjointement par le Comité Régional de Tourisme de Nouvelle-Aquitaine, les services touristiques de la Corrèze, de la Creuse, de la Dordogne, de la Gironde, des Landes, du Lot-et-Garonne, des Pyrénées-Atlantiques, des Deux-Sèvres, de la Vienne et de la Haute-Vienne, en collaboration avec les Offices de Tourisme, et avec le soutien financier de l’Europe et du Conseil Régional."
+        ],
+        "nl": [
+          "Collecter, mettre en commun et diffuser le plus largement possible une information complète et de qualité au service de nos habitants et de nos visiteurs : voici les objectifs du SIRTAQUI, Système d’Information Régional Touristique de Nouvelle-AQUItaine. Le dispositif est mis en œuvre conjointement par le Comité Régional de Tourisme de Nouvelle-Aquitaine, les services touristiques de la Corrèze, de la Creuse, de la Dordogne, de la Gironde, des Landes, du Lot-et-Garonne, des Pyrénées-Atlantiques, des Deux-Sèvres, de la Vienne et de la Haute-Vienne, en collaboration avec les Offices de Tourisme, et avec le soutien financier de l’Europe et du Conseil Régional."
+        ],
+        "es": [
+          "Collecter, mettre en commun et diffuser le plus largement possible une information complète et de qualité au service de nos habitants et de nos visiteurs : voici les objectifs du SIRTAQUI, Système d’Information Régional Touristique de Nouvelle-AQUItaine. Le dispositif est mis en œuvre conjointement par le Comité Régional de Tourisme de Nouvelle-Aquitaine, les services touristiques de la Corrèze, de la Creuse, de la Dordogne, de la Gironde, des Landes, du Lot-et-Garonne, des Pyrénées-Atlantiques, des Deux-Sèvres, de la Vienne et de la Haute-Vienne, en collaboration avec les Offices de Tourisme, et avec le soutien financier de l’Europe et du Conseil Régional."
+        ]
+      },
+      "foaf:homepage": [
+        "http://www.sirtaqui-aquitaine.com/"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/eef27e75-4a23-313e-a6ee-797e7b64a1cd",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "rdfs:comment"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/0aca25f0-60f6-32c4-bbd3-bfab941cbce6",
+      "schema:email": [
+        "reservation@gitesdefrance87.fr"
+      ],
+      "schema:legalName": "Gîtes de France Réservation Haute-Vienne",
+      "schema:telephone": [
+        "+33 5 55 79 72 63"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.gites-de-france-hautevienne.fr/cgi.php?&OPE=SIRTAQUI&ORI=SIRTAQUI&NUM=87G8476&ACC=G&FICHE=O&INSTANCE=gites87"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/0aca25f0-60f6-32c4-bbd3-bfab941cbce6",
+      "schema:email": [
+        "reservation@gitesdefrance87.fr"
+      ],
+      "schema:legalName": "Gîtes de France Réservation Haute-Vienne",
+      "schema:telephone": [
+        "+33 5 55 79 72 63"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.gites-de-france-hautevienne.fr/cgi.php?&OPE=SIRTAQUI&ORI=SIRTAQUI&NUM=87G8476&ACC=G&FICHE=O&INSTANCE=gites87"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/64010495-3cca-3691-b8cc-46b61d9b25cd",
+      "schema:email": [
+        "reservation@gitesdefrance87.fr"
+      ],
+      "schema:legalName": "MAZETTE",
+      "schema:telephone": [
+        "+33 5 55 79 72 63"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.gites-de-france-hautevienne.fr/cgi.php?&OPE=SIRTAQUI&ORI=SIRTAQUI&NUM=87G8476&ACC=G&FICHE=O&INSTANCE=gites87"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/3baca006-1b88-3ad7-b885-91a0b63b7d3d",
+      "dc:description": {
+        "de": [
+          "In einem kleinen Weiler mit drei Häusern öffnet sich dieses Ferienhaus auf eine Terrasse und ein großes Rasengrundstück, auf dem die Kinder sicher spielen können. In der Nähe: die Seen der Haute-Charente, die zum Baden, Segeln, Angeln und für andere Aktivitäten in der Natur eingerichtet wurden. Ein Fußweg führt in einer Viertelstunde zum Strand."
+        ],
+        "en": [
+          "In a small hamlet of three houses, this gîte opens onto a terrace and a large lawn where children can play safely. Nearby: the lakes of the Haute-Charente are suitable for swimming, sailing, fishing and other outdoor activities. A footpath leads to the beach in a quarter of an hour."
+        ],
+        "it": [
+          "In un piccolo borgo di tre case, questo gîte si apre su una terrazza e su un ampio prato dove i bambini possono giocare in tutta sicurezza. Nelle vicinanze: i laghi della Haute-Charente sono ideali per il nuoto, la vela, la pesca e altre attività all'aperto. Un sentiero pedonale conduce alla spiaggia in un quarto d'ora."
+        ],
+        "fr": [
+          "Dans un petit hameau de trois maisons, ce gîte ouvre sur une terrasse et un grand terrain en pelouse où les enfants peuvent jouer en toute sécurité. A proximité : les lacs de Haute-Charente aménagés pour la baignade, la voile, la pêche et autres activités de pleine nature. Un chemin pédestre mène à la plage en un quart d'heure."
+        ],
+        "nl": [
+          "In een klein gehucht van drie huizen geeft deze gîte uit op een terras en een groot grasveld waar kinderen veilig kunnen spelen. In de buurt: de meren van de Haute-Charente zijn ideaal om te zwemmen, zeilen, vissen en andere buitenactiviteiten. Een voetpad leidt in een kwartiertje naar het strand."
+        ],
+        "es": [
+          "En una pequeña aldea de tres casas, esta casa rural se abre a una terraza y a un gran césped donde los niños pueden jugar sin peligro. Cerca: los lagos de la Haute-Charente son ideales para nadar, navegar, pescar y realizar otras actividades al aire libre. Un sendero conduce a la playa en un cuarto de hora."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/2267b8ba-9009-3492-9892-eb62eb458e06",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/52c8afd0-cc04-347b-bf18-652389f96ca4",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7a1cce75-b10d-3c0d-8767-ec3e82671f3c",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7d7a8121-9ebb-3ace-8aa2-1c73f1e9b54d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/885bbb41-3677-3f16-b405-886c19db8e79",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a38a1d15-d694-34ec-ac28-35cd7a6a3410",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b562be1c-3d45-3070-a6fb-e86bb76fc742",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/bcc50a3b-ef37-3e2e-89ad-4fa1878bc062",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e3e8f44a-318b-3a9d-8e5a-3b3b925c3dd1",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f3c306cf-b69b-36c2-9b89-a20bf4f389df",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "In einem kleinen Weiler mit drei Häusern öffnet sich dieses Ferienhaus auf eine Terrasse und ein großes Rasengrundstück, auf dem die Kinder sicher spielen können. In der Nähe: die Seen der Haute-Charente, die zum Baden, Segeln, Angeln und für andere Aktivitäten in der Natur eingerichtet wurden. Ein Fußweg führt in einer Viertelstunde zum Strand."
+        ],
+        "en": [
+          "In a small hamlet of three houses, this gîte opens onto a terrace and a large lawn where children can play safely. Nearby: the lakes of the Haute-Charente are suitable for swimming, sailing, fishing and other outdoor activities. A footpath leads to the beach in a quarter of an hour."
+        ],
+        "it": [
+          "In un piccolo borgo di tre case, questo gîte si apre su una terrazza e su un ampio prato dove i bambini possono giocare in tutta sicurezza. Nelle vicinanze: i laghi della Haute-Charente sono ideali per il nuoto, la vela, la pesca e altre attività all'aperto. Un sentiero pedonale conduce alla spiaggia in un quarto d'ora."
+        ],
+        "fr": [
+          "Dans un petit hameau de trois maisons, ce gîte ouvre sur une terrasse et un grand terrain en pelouse où les enfants peuvent jouer en toute sécurité. A proximité : les lacs de Haute-Charente aménagés pour la baignade, la voile, la pêche et autres activités de pleine nature. Un chemin pédestre mène à la plage en un quart d'heure."
+        ],
+        "nl": [
+          "In een klein gehucht van drie huizen geeft deze gîte uit op een terras en een groot grasveld waar kinderen veilig kunnen spelen. In de buurt: de meren van de Haute-Charente zijn ideaal om te zwemmen, zeilen, vissen en andere buitenactiviteiten. Een voetpad leidt in een kwartiertje naar het strand."
+        ],
+        "es": [
+          "En una pequeña aldea de tres casas, esta casa rural se abre a una terraza y a un gran césped donde los niños pueden jugar sin peligro. Cerca: los lagos de la Haute-Charente son ideales para nadar, navegar, pescar y realizar otras actividades al aire libre. Un sendero conduce a la playa en un cuarto de hora."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/9a6a6c6e-1e6f-3c90-a9ae-6edd1ec63a63",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:BabyEquipment",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Baby-, Kindermaterial"
+            ],
+            "pt": [
+              "Material para bebés e crianças"
+            ],
+            "en": [
+              "Baby or child equipment"
+            ],
+            "it": [
+              "Dotazioni per neonati e bambini"
+            ],
+            "fr": [
+              "Matériel bébé, enfant"
+            ],
+            "es": [
+              "Material para bebés y niños pequeños"
+            ],
+            "nl": [
+              "Baby- en kinderuitrusting"
+            ]
+          }
+        },
+        {
+          "@id": "kb:BikeLoan",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Fahrradverleih"
+            ],
+            "pt": [
+              "Empréstimo de bicicletas"
+            ],
+            "en": [
+              "Bike loan"
+            ],
+            "it": [
+              "Prestito di biciclette"
+            ],
+            "fr": [
+              "Prêt de vélo"
+            ],
+            "es": [
+              "Préstamo de bicicletas"
+            ],
+            "nl": [
+              "Fietsenuitleen"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cot",
+          "@type": [
+            "AccommodationPricingOffer",
+            "TypeOfBed"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Babybett"
+            ],
+            "pt": [
+              "Berço"
+            ],
+            "en": [
+              "Cot"
+            ],
+            "it": [
+              "Lettino per bambini"
+            ],
+            "fr": [
+              "Lit bébé"
+            ],
+            "es": [
+              "Cuna"
+            ],
+            "nl": [
+              "Babybed"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Dishwasher",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Geschirrspülmaschine"
+            ],
+            "pt": [
+              "Máquina de lavar louça"
+            ],
+            "en": [
+              "Dishwasher"
+            ],
+            "it": [
+              "Lavastoviglie"
+            ],
+            "fr": [
+              "Lave vaisselle"
+            ],
+            "nl": [
+              "Vaatwasmachine"
+            ],
+            "es": [
+              "Lavaplatos"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Freezer",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Gefriergerät"
+            ],
+            "pt": [
+              "Congelador"
+            ],
+            "en": [
+              "Freezer"
+            ],
+            "it": [
+              "Congelatore"
+            ],
+            "fr": [
+              "Congélateur"
+            ],
+            "nl": [
+              "Diepvriezer"
+            ],
+            "es": [
+              "Congelador"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Microwave",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Mikrowellen"
+            ],
+            "pt": [
+              "Micro-ondas"
+            ],
+            "en": [
+              "Microwave"
+            ],
+            "it": [
+              "Microonde"
+            ],
+            "fr": [
+              "Micro-ondes"
+            ],
+            "es": [
+              "Microondas"
+            ],
+            "nl": [
+              "Magnetron"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Playground",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Spielplatz, Außenspielplatz"
+            ],
+            "pt": [
+              "Parque infantil, parque de jogos exterior"
+            ],
+            "en": [
+              "Playground"
+            ],
+            "it": [
+              "Parco giochi, parco giochi all'aperto"
+            ],
+            "fr": [
+              "Aire de jeux, terrain de jeux extérieurs"
+            ],
+            "nl": [
+              "Speelplaats, buitenspeelplaats"
+            ],
+            "es": [
+              "Parque infantil, zona de juegos al aire libre"
+            ]
+          }
+        },
+        {
+          "@id": "kb:PrivateWasher",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Privater Wäschetrockner"
+            ],
+            "pt": [
+              "Máquina de lavar roupa privativa"
+            ],
+            "en": [
+              "Private washer"
+            ],
+            "it": [
+              "Lavatrice privata"
+            ],
+            "fr": [
+              "Lave linge privatif"
+            ],
+            "nl": [
+              "Wasmachine voor privégebruik"
+            ],
+            "es": [
+              "Lavadora privada"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Television",
+          "@type": [
+            "AccommodationAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Fernsehen"
+            ],
+            "pt": [
+              "Televisão"
+            ],
+            "en": [
+              "Television"
+            ],
+            "it": [
+              "Televisione"
+            ],
+            "fr": [
+              "Télévision"
+            ],
+            "nl": [
+              "Televisie"
+            ],
+            "es": [
+              "Televisión"
+            ]
+          }
+        }
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/5fddf7c2-74f1-35f6-b54e-54259981f519",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/4d44f10b-e31b-3d21-9243-18270e165436",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_1"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/1c27a7cf-d99a-3a9d-bef5-1411c21ce6a7",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasNeighborhood": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Auf dem Land"
+        ],
+        "pt": [
+          "No campo"
+        ],
+        "en": [
+          "In the countryside"
+        ],
+        "it": [
+          "In campagna"
+        ],
+        "fr": [
+          "A la campagne"
+        ],
+        "nl": [
+          "Op het platteland"
+        ],
+        "es": [
+          "En el campo"
+        ]
+      }
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/04d8ac53-9f92-3d3b-bebb-64fa5262b673",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/454bd0c0-3bae-3e6c-8b1d-2665a9ae346f",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_19"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/76d6cdb4-42bd-3d0b-9044-17e7587e5427",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-a11aff828a2045248b8393ab0d04d81b.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/06866b5e-7e2c-3bba-80d9-28e82b410238",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/87b9f2f3-623a-3b9c-9b7a-67d7a85c83f6",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_26"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/c3ff21e9-53a0-352c-bcd2-a8d4378c9934",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-87ff429c786b40f0834756e5fdc96d29.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/151a7f54-6a25-3c5c-8383-ae30c59bdb75",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/f2a77e07-f174-3031-94f7-412e6e26a943",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_25"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/210b6edc-b7d8-378f-89f0-e6c4d9489870",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-1a613a90612d44ca9dbb3cd6de949030.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/1572eb00-dca2-3c5e-aad7-130d650a064c",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/ce6bd160-0b4a-33d7-b58d-9784e0f713e8",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_12"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/1761c182-8c94-3f8b-bbaf-269d2e3847e6",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-97a1670f646241a4918c8d232c10ba39.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/1c133f96-fc08-3f1c-92bd-ea04c062997e",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/2a146c13-c6ba-3200-9a37-9ce5c8cd933c",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_5"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/64854699-0945-38ce-a8d7-5c1949a3fa4b",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-e243b02f006d4e378f4422486861c104.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/35f31edc-9fce-3519-8005-e20cbf39e7f1",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/1e85d21c-eae8-38e6-8e0c-e8ca24fe1c15",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_14"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/528d28e0-5cbb-34b9-b0e4-b1f0defca511",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-04a366caffce48ff8aec4cc6e963f5cc.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/3bd5d1ea-1ec8-3c4b-bdba-928639f658d9",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/244e3a1f-d8ea-3089-9154-2bc12ed3a201",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_16"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/27959d25-d7d5-39f2-adef-abeff43b677e",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-843912bf8e494ffb8aac1026ef92c34b.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/3e438caf-96ac-3bc7-aab5-aa38d65d7523",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/a8e09f0b-ee5c-3c2e-8721-c6627ddcc53d",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_10"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/691558e3-5f33-3f5d-984a-2210e445cfbc",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-d86f22ac05d64e9c99431ddd042c7d6a.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/3e64f0c1-d7ed-31c1-bd19-63c6cb993784",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/9aa79b33-bd22-3d5b-bb4f-71131848bbcf",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_8"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/ad3d4bd7-8d27-39e1-aedb-a7086f51f046",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-ffc54543635b4a39a05f7ccbaeb1ffa0.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/42954989-9037-37f8-8e7c-15ec0651e89a",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/f07b0a6d-b7c8-38c3-bb40-fd5d453d8f0c",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_11"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/d50700b9-1dc9-3ac5-8098-6a8f01c5984c",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-872f6870467d4f1a8452b42f3dfc6d1b.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/48e24277-1ad3-3851-b825-d928b3f1ac7d",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/9515b248-165e-3237-b03b-70b4b4b5f212",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_2"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/1b4f97ce-302b-3808-93bb-575a4116c73f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-4b47cdb4fd44488d80da535fdbf25c89.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4e305393-4504-3013-976e-cc6ca97913b0",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/877cc225-0697-352b-9771-adbae344f15a",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_20"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/320fd653-44de-3a18-bfc0-0a8a2c33da56",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-9c35f6ae9ba640c88276125f36517f9d.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/58a0236d-8901-38cb-9da8-6cd910e3fad4",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/3d818b1e-2cf4-3d2c-becc-ae8f677001ef",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_23"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/a581f432-6a4c-31b9-b9e1-f86023a34e2c",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-e344ae54aca047e9b4e2e9eb949f14f0.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/5fddf7c2-74f1-35f6-b54e-54259981f519",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/4d44f10b-e31b-3d21-9243-18270e165436",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_1"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/1c27a7cf-d99a-3a9d-bef5-1411c21ce6a7",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/637c7399-79c2-3a69-8549-9b744c559f65",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/bf7b7ee0-5d42-33ab-bd16-c6b8f053baf8",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_21"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/23e95727-4390-3379-85bc-903b03d33d24",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-e860ca8a41ee4772864e0d574aacfd8b.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/637d7c18-9ce2-3442-b127-84c7d716f3b8",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/039b8ae7-bc6b-3b38-b2e0-f9aa1a1da30f",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_27"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/5272ba71-2f1b-392e-9ecc-a3de30760065",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-5e48ea7790be4bb3baf0731d85131076.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6854a7da-bf65-3f94-acc9-6b9499d36c1f",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/7b656f60-5881-3ffb-9d95-f66b91ba2531",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_3"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/1a3606fc-b4e9-372b-b89e-7b3f0cdc740f",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-0b82f58dede745c49ef51cc6b63f33bd.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7f7a830a-ef1e-3794-817a-5e1784db3e5f",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/522454cd-4e56-3c4e-99ad-344b48f4ccc8",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_7"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/eb7fbfd5-0ee9-316d-b59f-28a7f7390aa7",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-87baf54b0f5a4fdfbeb842900473ec46.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7fd1cbd7-81f9-3eac-bfad-e9a928fa7757",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/d16d4d3e-4a7e-34d8-8802-3adfe7b25913",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_24"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/d862ffcb-c6b9-35bb-8913-9282fa80455e",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-ad68eaf84931415ebfa8b3644c6a1840.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/861fdbf5-72d2-378b-ae71-f31741dcad38",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/dc68102e-b2ec-3802-b53c-b1f96f6d3c5e",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_13"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/63636c6a-8ec7-3198-8ccc-e0f70fc4af8b",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-348b1e2a71584d20b9f2b8644bdd4694.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/97e4b09c-3a2f-31bc-83be-50b69ab1f29a",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/3205a509-2696-3711-a097-2d0f9d9a31b7",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_17"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/d4d4d1f8-fb43-3581-a8d8-86fdd57368ff",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-c6a4ec78759742ba9cf3ccf42a8c55b8.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/a6d58c8d-144a-35d0-ba88-e43d60ea1ab2",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/ffaf09fc-4161-3c8b-90e3-b650f0dc9ed5",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_22"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/58cd8857-ceb9-3c1b-89b0-6ad60caa92b9",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-6c8fb73a565b4148b9762aa1cb78ca99.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/b51fddbf-dab3-372a-8ba1-78640c0ef6fb",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/a769fdab-d240-3569-bd48-d98e145d200d",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_15"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/c3543eec-25f5-3908-82f3-20513ff2c2bf",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-259254409ea4497d9f3035ed8f58d8a8.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/bcc11eab-0ab9-3160-8adc-ca332a75673a",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/81a096bb-4157-3fdc-a848-524f392eacfa",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_18"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/d43a748a-232a-3af8-ac28-0e3cd9265721",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-08a600ec16024d5cb0cd27a5e3ac9188.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/c657b65f-83ad-3ec1-bcf7-676f50e76bd6",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/27561fe0-6bed-3893-8937-746920b589f9",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_4"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/1d6f832f-7db8-332b-b1ab-bb7a5dac4dce",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-96647f8c989d4d2897d9c6343b8e4063.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e3ff7d9a-6fde-3aa2-b72f-2da75ebb18ff",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/1ba7fd6d-d885-3c4f-9f79-1e48514adfb3",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_6"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/edbddbe4-d752-3aa1-b296-ffbb9f1c32ff",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-52e74724ad304bad801e4272be1e80e6.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f44d1b73-5b36-3245-a8b7-085379aa615f",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/41678d5b-6b2c-38b9-915f-a53d161b9512",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Gîte du Mas Mazet à Videix en Haute-Vienne (Nouvelle Aquitaine)_9"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Gîtes de France® Haute-Vienne"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/8c9ca9a2-e947-3ca8-a7e3-5929136f331c",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/87G8476-567af90a554c4d7ba7e4be50db6db782.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/2be01c8a-de7b-393b-b059-2d32a7089289",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:ScaleRating_3epis",
+        "schema:ratingValue": "3.0",
+        "@type": [
+          "ScaleRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "3 Ähren/Komfort"
+          ],
+          "pt": [
+            "3 espigas / conforto"
+          ],
+          "en": [
+            "3 ears of corn / Confort level"
+          ],
+          "it": [
+            "3 spighe / Comfort"
+          ],
+          "fr": [
+            "3 épis / Confort"
+          ],
+          "es": [
+            "3 espigas/Confort"
+          ],
+          "nl": [
+            "3 aren / Comfort"
+          ]
+        },
+        "isCompliantWith": [
+          "Chalet",
+          "Guesthouse",
+          "SelfCateringAccommodation"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f8884d70-4a02-376b-a0b0-3171c508b279",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_GitesDeFrance",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "Gîtes de France"
+          ],
+          "pt": [
+            "Gîtes de France"
+          ],
+          "en": [
+            "Gîtes de France"
+          ],
+          "it": [
+            "Gîtes de France"
+          ],
+          "fr": [
+            "Gîtes de France"
+          ],
+          "nl": [
+            "Gîtes de France"
+          ],
+          "es": [
+            "Gîtes de France"
+          ]
+        },
+        "isCompliantWith": [
+          "Guesthouse",
+          "SelfCateringAccommodation"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:InTheCountryside",
+      "@type": [
+        "SpatialEnvironmentTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Auf dem Land"
+        ],
+        "pt": [
+          "No campo"
+        ],
+        "en": [
+          "In the countryside"
+        ],
+        "it": [
+          "In campagna"
+        ],
+        "fr": [
+          "A la campagne"
+        ],
+        "nl": [
+          "Op het platteland"
+        ],
+        "es": [
+          "En el campo"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/027f7075-f4ca-376e-9ba0-d46e2f7facdd",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/3f7590e1-aaf3-39cb-8a33-e42c662069f7",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/553fc794-2a37-3d10-9786-c92369825855",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/78fb1703-ab68-319f-bb24-94b9a79b4624",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/9a268df6-30b0-3668-b7e7-cec5699dec9b",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/eeece185-1dd7-371d-bda7-b59e3c96d1bb",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/2e3063cb-a939-3e00-ba98-ac9154c020b2",
+          "schema:addressLocality": "Videix",
+          "schema:postalCode": "87600",
+          "schema:streetAddress": [
+            "Le Mas Mazet"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:87204",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Videix"
+              ],
+              "pt": [
+                "Videix"
+              ],
+              "en": [
+                "Videix"
+              ],
+              "it": [
+                "Videix"
+              ],
+              "fr": [
+                "Videix"
+              ],
+              "nl": [
+                "Videix"
+              ],
+              "es": [
+                "Videix"
+              ]
+            },
+            "insee": "87204",
+            "isPartOfDepartment": {
+              "@id": "kb:France7587",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Haute-Vienne"
+                ],
+                "pt": [
+                  "Haute-Vienne"
+                ],
+                "en": [
+                  "Haute-Vienne"
+                ],
+                "it": [
+                  "Haute-Vienne"
+                ],
+                "fr": [
+                  "Haute-Vienne"
+                ],
+                "nl": [
+                  "Haute-Vienne"
+                ],
+                "es": [
+                  "Haute-Vienne"
+                ]
+              },
+              "insee": "87",
+              "isPartOfRegion": {
+                "@id": "kb:France75",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Nouvelle-Aquitaine"
+                  ],
+                  "pt": [
+                    "Nouvelle-Aquitaine"
+                  ],
+                  "en": [
+                    "Nouvelle-Aquitaine"
+                  ],
+                  "it": [
+                    "Nouvelle-Aquitaine"
+                  ],
+                  "fr": [
+                    "Nouvelle-Aquitaine"
+                  ],
+                  "nl": [
+                    "Nouvelle-Aquitaine"
+                  ],
+                  "es": [
+                    "Nouvelle-Aquitaine"
+                  ]
+                },
+                "insee": "75",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/65dc9dec-be8f-3ad2-a4f9-d6774f9324e8",
+        "schema:latitude": "45.802394",
+        "schema:longitude": "0.727444",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/0319dc70-2a02-3c93-ade2-4af923ad3317",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Montag"
+                ],
+                "pt": [
+                  "Segunda-feira"
+                ],
+                "en": [
+                  "Monday"
+                ],
+                "it": [
+                  "Lunedì"
+                ],
+                "fr": [
+                  "Lundi"
+                ],
+                "nl": [
+                  "Maandag"
+                ],
+                "es": [
+                  "Lunes"
+                ]
+              }
+            }
+          ],
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/24c09855-7b0a-3af6-a601-a522b05e5872",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/411d862c-c3cc-3448-9d01-b306fa2c0ac0",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/80d80986-1747-3261-8f10-257254ce6d0f",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/86b077df-5fab-3aab-ba14-b3f12daa6a0b",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            }
+          ],
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d0621d5c-bc9a-3ac4-9871-5c14392061d2",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/dba7ec79-51c8-32ee-9953-cb8c4307dd97",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:validFrom": "2023-01-01T00:00:00",
+          "schema:validThrough": "2023-12-31T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "petsAllowed": true
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/0aca25f0-60f6-32c4-bbd3-bfab941cbce6",
+      "schema:email": [
+        "reservation@gitesdefrance87.fr"
+      ],
+      "schema:legalName": "Gîtes de France Réservation Haute-Vienne",
+      "schema:telephone": [
+        "+33 5 55 79 72 63"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.gites-de-france-hautevienne.fr/cgi.php?&OPE=SIRTAQUI&ORI=SIRTAQUI&NUM=87G8476&ACC=G&FICHE=O&INSTANCE=gites87"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-11-06",
+  "lastUpdateDatatourisme": "2023-11-09T01:58:52.301Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/dc37d835-40a2-3639-a5c2-87bcd7ae53b1",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CreditCards",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bankkarten"
+            ],
+            "pt": [
+              "Cartões bancários"
+            ],
+            "en": [
+              "Credit Cards"
+            ],
+            "it": [
+              "Carte bancarie"
+            ],
+            "fr": [
+              "Cartes bancaires"
+            ],
+            "es": [
+              "Tarjetas bancarias"
+            ],
+            "nl": [
+              "Bankkaarten"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Eurocard – Mastercard"
+            ],
+            "pt": [
+              "Eurocard — Mastercard"
+            ],
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "it": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ],
+            "nl": [
+              "Eurocard - Mastercard"
+            ],
+            "es": [
+              "Eurocard - Mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Visa"
+            ],
+            "pt": [
+              "Visto"
+            ],
+            "en": [
+              "Visa"
+            ],
+            "it": [
+              "Visto"
+            ],
+            "fr": [
+              "Visa"
+            ],
+            "nl": [
+              "Visum"
+            ],
+            "es": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/548f5358-fb68-3348-b374-bf8886d9076d",
+          "schema:maxPrice": [
+            "349"
+          ],
+          "schema:minPrice": [
+            "349"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Vom 01/04/2023 bis zum 30/06/2023 - vom 02/09/2023 bis zum 17/11/2023"
+            ],
+            "en": [
+              "From 01/04/2023 to 30/06/2023 - From 02/09/2023 to 17/11/2023"
+            ],
+            "it": [
+              "Dal 01/04/2023 al 30/06/2023 - Dal 02/09/2023 al 17/11/2023"
+            ],
+            "fr": [
+              "Du 01/04/2023 au 30/06/2023 - Du 02/09/2023 au 17/11/2023"
+            ],
+            "nl": [
+              "Van 01/04/2023 tot 30/06/2023 - Van 02/09/2023 tot 17/11/2023"
+            ],
+            "es": [
+              "Del 01/04/2023 al 30/06/2023 - Del 02/09/2023 al 17/11/2023"
+            ]
+          },
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerUnit",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Einheit"
+                ],
+                "pt": [
+                  "Por unidade"
+                ],
+                "en": [
+                  "Per unit"
+                ],
+                "it": [
+                  "Per unità"
+                ],
+                "fr": [
+                  "A l'unité"
+                ],
+                "es": [
+                  "Por unidad"
+                ],
+                "nl": [
+                  "Per eenheid"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerWeek",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Woche"
+                ],
+                "pt": [
+                  "Por semana"
+                ],
+                "en": [
+                  "Per week"
+                ],
+                "it": [
+                  "Alla settimana"
+                ],
+                "fr": [
+                  "A la semaine"
+                ],
+                "es": [
+                  "Por semana"
+                ],
+                "nl": [
+                  "Per week"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:TouristFurnishedRental",
+              "@type": [
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Vermietung möblierter Touristenunterkünfte"
+                ],
+                "pt": [
+                  "Aluguer de alojamento turístico mobilado"
+                ],
+                "en": [
+                  "Tourist furnished rental"
+                ],
+                "it": [
+                  "Affitto turistico ammobiliato"
+                ],
+                "fr": [
+                  "Location meublé touristique"
+                ],
+                "nl": [
+                  "Gemeubileerde huuraccommodatie"
+                ],
+                "es": [
+                  "Alquiler de alojamiento turístico"
+                ]
+              }
+            }
+          ],
+          "hasPricingSeason": [
+            {
+              "@id": "kb:MidSeason",
+              "@type": [
+                "PricingSeason"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittlere Saison"
+                ],
+                "pt": [
+                  "Época média"
+                ],
+                "en": [
+                  "Mid Season"
+                ],
+                "it": [
+                  "Media stagione"
+                ],
+                "fr": [
+                  "Moyenne saison"
+                ],
+                "es": [
+                  "Temporada media"
+                ],
+                "nl": [
+                  "Middenseizoen"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/0d64ddc5-4617-3ed3-9c44-1960dad9b2f5",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/3a597a58-6840-3874-ab28-b7a2fa315427",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/3e0fe0e3-aa50-3eb5-b320-025f785e9514",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9cf59af0-7b5c-3a6b-864a-d12b30554f19",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d5c2f36c-77eb-3cc7-9edd-85eb65c5605c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Semaine moyenne saison"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/942b3458-5218-3776-8328-41c6f9030828",
+          "schema:maxPrice": [
+            "309"
+          ],
+          "schema:minPrice": [
+            "309"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Vom 07/01/2023 bis zum 31/03/2023 - vom 18/11/2023 bis zum 15/12/2023"
+            ],
+            "en": [
+              "From 07/01/2023 to 03/31/2023 - From 18/11/2023 to 15/12/2023"
+            ],
+            "it": [
+              "Dal 07/01/2023 al 31/03/2023 - Dal 18/11/2023 al 15/12/2023"
+            ],
+            "fr": [
+              "Du 07/01/2023 au 31/03/2023 - Du 18/11/2023 au 15/12/2023"
+            ],
+            "nl": [
+              "Van 07/01/2023 tot 31/03/2023 - Van 18/11/2023 tot 15/12/2023"
+            ],
+            "es": [
+              "Del 07/01/2023 al 31/03/2023 - Del 18/11/2023 al 15/12/2023"
+            ]
+          },
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerUnit",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Einheit"
+                ],
+                "pt": [
+                  "Por unidade"
+                ],
+                "en": [
+                  "Per unit"
+                ],
+                "it": [
+                  "Per unità"
+                ],
+                "fr": [
+                  "A l'unité"
+                ],
+                "es": [
+                  "Por unidad"
+                ],
+                "nl": [
+                  "Per eenheid"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerWeek",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Woche"
+                ],
+                "pt": [
+                  "Por semana"
+                ],
+                "en": [
+                  "Per week"
+                ],
+                "it": [
+                  "Alla settimana"
+                ],
+                "fr": [
+                  "A la semaine"
+                ],
+                "es": [
+                  "Por semana"
+                ],
+                "nl": [
+                  "Per week"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:TouristFurnishedRental",
+              "@type": [
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Vermietung möblierter Touristenunterkünfte"
+                ],
+                "pt": [
+                  "Aluguer de alojamento turístico mobilado"
+                ],
+                "en": [
+                  "Tourist furnished rental"
+                ],
+                "it": [
+                  "Affitto turistico ammobiliato"
+                ],
+                "fr": [
+                  "Location meublé touristique"
+                ],
+                "nl": [
+                  "Gemeubileerde huuraccommodatie"
+                ],
+                "es": [
+                  "Alquiler de alojamiento turístico"
+                ]
+              }
+            }
+          ],
+          "hasPricingSeason": [
+            {
+              "@id": "kb:LowSeason",
+              "@type": [
+                "PricingSeason"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Nebensaison"
+                ],
+                "pt": [
+                  "Época baixa"
+                ],
+                "en": [
+                  "Low Season"
+                ],
+                "it": [
+                  "Bassa stagione"
+                ],
+                "fr": [
+                  "Basse saison"
+                ],
+                "es": [
+                  "Temporada baja"
+                ],
+                "nl": [
+                  "Laagseizoen"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/5020fbe9-606b-34e1-9eb2-97c619fbc57f",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/7facfd13-d994-3325-988b-83bb1634cd71",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/89503257-21ff-3ab7-b9f8-619ba4e4ee70",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b5b25f6a-0414-3160-8384-ee32ecea34ca",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b62a8838-94fc-3427-93e1-3bdc8bd24b12",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Semaine basse saison"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a1482a63-0522-35b6-93f2-010ccdbc2872",
+          "schema:maxPrice": [
+            "205"
+          ],
+          "schema:minPrice": [
+            "205"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Vom 07/01/2023 bis zum 31/03/2023 - vom 18/11/2023 bis zum 15/12/2023"
+            ],
+            "en": [
+              "From 07/01/2023 to 03/31/2023 - From 18/11/2023 to 15/12/2023"
+            ],
+            "it": [
+              "Dal 07/01/2023 al 31/03/2023 - Dal 18/11/2023 al 15/12/2023"
+            ],
+            "fr": [
+              "Du 07/01/2023 au 31/03/2023 - Du 18/11/2023 au 15/12/2023"
+            ],
+            "nl": [
+              "Van 07/01/2023 tot 31/03/2023 - Van 18/11/2023 tot 15/12/2023"
+            ],
+            "es": [
+              "Del 07/01/2023 al 31/03/2023 - Del 18/11/2023 al 15/12/2023"
+            ]
+          },
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerUnit",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Einheit"
+                ],
+                "pt": [
+                  "Por unidade"
+                ],
+                "en": [
+                  "Per unit"
+                ],
+                "it": [
+                  "Per unità"
+                ],
+                "fr": [
+                  "A l'unité"
+                ],
+                "es": [
+                  "Por unidad"
+                ],
+                "nl": [
+                  "Per eenheid"
+                ]
+              }
+            },
+            {
+              "@id": "kb:Weekend",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Wochenende"
+                ],
+                "pt": [
+                  "Fim de semana"
+                ],
+                "en": [
+                  "Weekend"
+                ],
+                "it": [
+                  "Fine settimana"
+                ],
+                "fr": [
+                  "Week-end"
+                ],
+                "nl": [
+                  "Weekend"
+                ],
+                "es": [
+                  "Fin de semana"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:TouristFurnishedRental",
+              "@type": [
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Vermietung möblierter Touristenunterkünfte"
+                ],
+                "pt": [
+                  "Aluguer de alojamento turístico mobilado"
+                ],
+                "en": [
+                  "Tourist furnished rental"
+                ],
+                "it": [
+                  "Affitto turistico ammobiliato"
+                ],
+                "fr": [
+                  "Location meublé touristique"
+                ],
+                "nl": [
+                  "Gemeubileerde huuraccommodatie"
+                ],
+                "es": [
+                  "Alquiler de alojamiento turístico"
+                ]
+              }
+            }
+          ],
+          "hasPricingSeason": [
+            {
+              "@id": "kb:LowSeason",
+              "@type": [
+                "PricingSeason"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Nebensaison"
+                ],
+                "pt": [
+                  "Época baixa"
+                ],
+                "en": [
+                  "Low Season"
+                ],
+                "it": [
+                  "Bassa stagione"
+                ],
+                "fr": [
+                  "Basse saison"
+                ],
+                "es": [
+                  "Temporada baja"
+                ],
+                "nl": [
+                  "Laagseizoen"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/324193fa-347f-36d4-82c3-6ff7e9584c09",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/372e98cd-7142-3620-9834-de76a5056f94",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9e7ad457-45c6-326b-86ae-93454470daee",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/ba7b83e5-d40d-3c58-b52d-ee5598dd3e08",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c43b23b0-a16e-3940-996d-ff0b885382b4",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Week-end basse saison"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/be9024ae-bce7-38b5-b46d-3fc479699d07",
+          "schema:maxPrice": [
+            "420"
+          ],
+          "schema:minPrice": [
+            "420"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Vom 01/07/2023 bis zum 07/07/2023 - vom 26/08/2023 bis zum 01/09/2023"
+            ],
+            "en": [
+              "From 01/07/2023 to 07/07/2023 - From 26/08/2023 to 01/09/2023"
+            ],
+            "it": [
+              "Dal 01/07/2023 al 07/07/2023 - Dal 26/08/2023 al 01/09/2023"
+            ],
+            "fr": [
+              "Du 01/07/2023 au 07/07/2023 - Du 26/08/2023 au 01/09/2023"
+            ],
+            "nl": [
+              "Van 01/07/2023 tot 07/07/2023 - Van 26/08/2023 tot 01/09/2023"
+            ],
+            "es": [
+              "Del 01/07/2023 al 07/07/2023 - Del 26/08/2023 al 01/09/2023"
+            ]
+          },
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerUnit",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Einheit"
+                ],
+                "pt": [
+                  "Por unidade"
+                ],
+                "en": [
+                  "Per unit"
+                ],
+                "it": [
+                  "Per unità"
+                ],
+                "fr": [
+                  "A l'unité"
+                ],
+                "es": [
+                  "Por unidad"
+                ],
+                "nl": [
+                  "Per eenheid"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerWeek",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Woche"
+                ],
+                "pt": [
+                  "Por semana"
+                ],
+                "en": [
+                  "Per week"
+                ],
+                "it": [
+                  "Alla settimana"
+                ],
+                "fr": [
+                  "A la semaine"
+                ],
+                "es": [
+                  "Por semana"
+                ],
+                "nl": [
+                  "Per week"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:TouristFurnishedRental",
+              "@type": [
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Vermietung möblierter Touristenunterkünfte"
+                ],
+                "pt": [
+                  "Aluguer de alojamento turístico mobilado"
+                ],
+                "en": [
+                  "Tourist furnished rental"
+                ],
+                "it": [
+                  "Affitto turistico ammobiliato"
+                ],
+                "fr": [
+                  "Location meublé touristique"
+                ],
+                "nl": [
+                  "Gemeubileerde huuraccommodatie"
+                ],
+                "es": [
+                  "Alquiler de alojamiento turístico"
+                ]
+              }
+            }
+          ],
+          "hasPricingSeason": [
+            {
+              "@id": "kb:HighSeason",
+              "@type": [
+                "PricingSeason"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Hochsaison"
+                ],
+                "pt": [
+                  "Época alta"
+                ],
+                "en": [
+                  "High Season"
+                ],
+                "it": [
+                  "Alta stagione"
+                ],
+                "fr": [
+                  "Haute saison"
+                ],
+                "es": [
+                  "Temporada alta"
+                ],
+                "nl": [
+                  "Hoogseizoen"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/5eb6de99-1c6b-3b5d-8658-7f8a8df273b5",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/a693e4a5-2ea9-3b54-8c7f-bf3da93b1c24",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/ab51d85e-2c98-3ee3-a45a-bcfef5dd24cf",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/cc83a3e4-cde5-3573-ab9d-de8bde68b875",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/edc5cbfe-262f-3df1-b095-7292d30caf00",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Semaine haute saison"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e7767bad-1790-3bd7-8c7a-ffcb573056ea",
+          "schema:maxPrice": [
+            "205"
+          ],
+          "schema:minPrice": [
+            "205"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Vom 01/04/2023 bis zum 30/06/2023 - vom 02/09/2023 bis zum 17/11/2023"
+            ],
+            "en": [
+              "From 01/04/2023 to 30/06/2023 - From 02/09/2023 to 17/11/2023"
+            ],
+            "it": [
+              "Dal 01/04/2023 al 30/06/2023 - Dal 02/09/2023 al 17/11/2023"
+            ],
+            "fr": [
+              "Du 01/04/2023 au 30/06/2023 - Du 02/09/2023 au 17/11/2023"
+            ],
+            "nl": [
+              "Van 01/04/2023 tot 30/06/2023 - Van 02/09/2023 tot 17/11/2023"
+            ],
+            "es": [
+              "Del 01/04/2023 al 30/06/2023 - Del 02/09/2023 al 17/11/2023"
+            ]
+          },
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerUnit",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Einheit"
+                ],
+                "pt": [
+                  "Por unidade"
+                ],
+                "en": [
+                  "Per unit"
+                ],
+                "it": [
+                  "Per unità"
+                ],
+                "fr": [
+                  "A l'unité"
+                ],
+                "es": [
+                  "Por unidad"
+                ],
+                "nl": [
+                  "Per eenheid"
+                ]
+              }
+            },
+            {
+              "@id": "kb:Weekend",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Wochenende"
+                ],
+                "pt": [
+                  "Fim de semana"
+                ],
+                "en": [
+                  "Weekend"
+                ],
+                "it": [
+                  "Fine settimana"
+                ],
+                "fr": [
+                  "Week-end"
+                ],
+                "nl": [
+                  "Weekend"
+                ],
+                "es": [
+                  "Fin de semana"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:TouristFurnishedRental",
+              "@type": [
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Vermietung möblierter Touristenunterkünfte"
+                ],
+                "pt": [
+                  "Aluguer de alojamento turístico mobilado"
+                ],
+                "en": [
+                  "Tourist furnished rental"
+                ],
+                "it": [
+                  "Affitto turistico ammobiliato"
+                ],
+                "fr": [
+                  "Location meublé touristique"
+                ],
+                "nl": [
+                  "Gemeubileerde huuraccommodatie"
+                ],
+                "es": [
+                  "Alquiler de alojamiento turístico"
+                ]
+              }
+            }
+          ],
+          "hasPricingSeason": [
+            {
+              "@id": "kb:MidSeason",
+              "@type": [
+                "PricingSeason"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittlere Saison"
+                ],
+                "pt": [
+                  "Época média"
+                ],
+                "en": [
+                  "Mid Season"
+                ],
+                "it": [
+                  "Media stagione"
+                ],
+                "fr": [
+                  "Moyenne saison"
+                ],
+                "es": [
+                  "Temporada media"
+                ],
+                "nl": [
+                  "Middenseizoen"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/19a4b502-2391-3b22-8dc0-467cfa4bff9a",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9c829e72-dec5-3b78-9052-5bd9974d0498",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/a057dc4a-5c04-3bb7-8d23-23f6bd2aa829",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d4a82cdf-7cb4-3070-b6aa-93d508d6dc47",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d7c3a848-8afa-3a88-a680-1edf01f22c5c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Week-end moyenne saison"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f0bd8909-3dd3-356e-b717-4e07ebdc7bf4",
+          "schema:maxPrice": [
+            "509"
+          ],
+          "schema:minPrice": [
+            "509"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Vom 08/07/2023 bis 28/07/2023 - vom 12/08/2023 bis 25/08/2023"
+            ],
+            "en": [
+              "From 08/07/2023 to 28/07/2023 - From 12/08/2023 to 25/08/2023"
+            ],
+            "it": [
+              "Dal 08/07/2023 al 28/07/2023 - Dal 12/08/2023 al 25/08/2023"
+            ],
+            "fr": [
+              "Du 08/07/2023 au 28/07/2023 - Du 12/08/2023 au 25/08/2023"
+            ],
+            "nl": [
+              "Van 08/07/2023 tot 28/07/2023 - Van 12/08/2023 tot 25/08/2023"
+            ],
+            "es": [
+              "Del 08/07/2023 al 28/07/2023 - Del 12/08/2023 al 25/08/2023"
+            ]
+          },
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerUnit",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Einheit"
+                ],
+                "pt": [
+                  "Por unidade"
+                ],
+                "en": [
+                  "Per unit"
+                ],
+                "it": [
+                  "Per unità"
+                ],
+                "fr": [
+                  "A l'unité"
+                ],
+                "es": [
+                  "Por unidad"
+                ],
+                "nl": [
+                  "Per eenheid"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerWeek",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Woche"
+                ],
+                "pt": [
+                  "Por semana"
+                ],
+                "en": [
+                  "Per week"
+                ],
+                "it": [
+                  "Alla settimana"
+                ],
+                "fr": [
+                  "A la semaine"
+                ],
+                "es": [
+                  "Por semana"
+                ],
+                "nl": [
+                  "Per week"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:TouristFurnishedRental",
+              "@type": [
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Vermietung möblierter Touristenunterkünfte"
+                ],
+                "pt": [
+                  "Aluguer de alojamento turístico mobilado"
+                ],
+                "en": [
+                  "Tourist furnished rental"
+                ],
+                "it": [
+                  "Affitto turistico ammobiliato"
+                ],
+                "fr": [
+                  "Location meublé touristique"
+                ],
+                "nl": [
+                  "Gemeubileerde huuraccommodatie"
+                ],
+                "es": [
+                  "Alquiler de alojamiento turístico"
+                ]
+              }
+            }
+          ],
+          "hasPricingSeason": [
+            {
+              "@id": "kb:VeryHighSeason",
+              "@type": [
+                "PricingSeason"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Hauptsaison"
+                ],
+                "pt": [
+                  "Época muito alta"
+                ],
+                "en": [
+                  "Very High Season"
+                ],
+                "it": [
+                  "Altissima stagione"
+                ],
+                "fr": [
+                  "Très haute saison"
+                ],
+                "es": [
+                  "Temporada muy alta"
+                ],
+                "nl": [
+                  "Superhoogseizoen"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/4f68395a-0c70-3d15-8d99-a79da07c6777",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/72c3726b-13bf-33a0-91bf-29c0c5642907",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/92fb4ee4-c81d-3353-9953-009481cdd27c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9ceafe8f-e5de-3d79-a4dc-f6d481ffb9c7",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/cf4e4669-4fd6-3edd-bd96-d37b21691a7c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Semaine très haute saison"
+            ]
+          }
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f3c8ffde-76c2-3b8d-9001-142bea31eb64",
+          "schema:maxPrice": [
+            "225"
+          ],
+          "schema:minPrice": [
+            "225"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Vom 01/07/2023 bis zum 07/07/2023 - vom 26/08/2023 bis zum 01/09/2023"
+            ],
+            "en": [
+              "From 01/07/2023 to 07/07/2023 - From 26/08/2023 to 01/09/2023"
+            ],
+            "it": [
+              "Dal 01/07/2023 al 07/07/2023 - Dal 26/08/2023 al 01/09/2023"
+            ],
+            "fr": [
+              "Du 01/07/2023 au 07/07/2023 - Du 26/08/2023 au 01/09/2023"
+            ],
+            "nl": [
+              "Van 01/07/2023 tot 07/07/2023 - Van 26/08/2023 tot 01/09/2023"
+            ],
+            "es": [
+              "Del 01/07/2023 al 07/07/2023 - Del 26/08/2023 al 01/09/2023"
+            ]
+          },
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerUnit",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Einheit"
+                ],
+                "pt": [
+                  "Por unidade"
+                ],
+                "en": [
+                  "Per unit"
+                ],
+                "it": [
+                  "Per unità"
+                ],
+                "fr": [
+                  "A l'unité"
+                ],
+                "es": [
+                  "Por unidad"
+                ],
+                "nl": [
+                  "Per eenheid"
+                ]
+              }
+            },
+            {
+              "@id": "kb:Weekend",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Wochenende"
+                ],
+                "pt": [
+                  "Fim de semana"
+                ],
+                "en": [
+                  "Weekend"
+                ],
+                "it": [
+                  "Fine settimana"
+                ],
+                "fr": [
+                  "Week-end"
+                ],
+                "nl": [
+                  "Weekend"
+                ],
+                "es": [
+                  "Fin de semana"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:TouristFurnishedRental",
+              "@type": [
+                "AccommodationPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Vermietung möblierter Touristenunterkünfte"
+                ],
+                "pt": [
+                  "Aluguer de alojamento turístico mobilado"
+                ],
+                "en": [
+                  "Tourist furnished rental"
+                ],
+                "it": [
+                  "Affitto turistico ammobiliato"
+                ],
+                "fr": [
+                  "Location meublé touristique"
+                ],
+                "nl": [
+                  "Gemeubileerde huuraccommodatie"
+                ],
+                "es": [
+                  "Alquiler de alojamiento turístico"
+                ]
+              }
+            }
+          ],
+          "hasPricingSeason": [
+            {
+              "@id": "kb:HighSeason",
+              "@type": [
+                "PricingSeason"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Hochsaison"
+                ],
+                "pt": [
+                  "Época alta"
+                ],
+                "en": [
+                  "High Season"
+                ],
+                "it": [
+                  "Alta stagione"
+                ],
+                "fr": [
+                  "Haute saison"
+                ],
+                "es": [
+                  "Temporada alta"
+                ],
+                "nl": [
+                  "Hoogseizoen"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/1870d827-6992-3102-b687-059911f39001",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/21c9d106-eed2-3037-b670-9663d9b91666",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/aecbb185-54ae-371c-a349-2c0449ffe2b5",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b103bef5-7e6d-3cca-b359-7b9525aa09fd",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e56eac03-e2c4-3c6f-bb23-b65c2448c4c1",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ],
+          "name": {
+            "fr": [
+              "Week-end haute saison"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": false
+}

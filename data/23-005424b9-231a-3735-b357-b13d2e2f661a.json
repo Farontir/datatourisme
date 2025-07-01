@@ -1,0 +1,6333 @@
+{
+  "@id": "https://data.datatourisme.fr/23/005424b9-231a-3735-b357-b13d2e2f661a",
+  "dc:identifier": "ASCAQU019V5002SI",
+  "@type": [
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "SportsAndLeisurePlace"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Wir bieten Ihnen das ganze Jahr über verschiedene Sportaktivitäten in der freien Natur\" an:\n- Kanu-/Kajakverleih, 2 mögliche Strecken:\nArgentat?Monceaux 8 km\nArgentat?Beaulieu 25 km\n- Verleih von Klettersteigsets (Helm + Klettergurt + Longe)\n- Betreuung beim Klettern, Bogenschießen, Kanu, Stand Up Paddle, Via Ferrata, Canyoning, Escalad'arbre (Klettern in den Bäumen dank der am Stamm befestigten Griffe)\n- Verleih von Elektro-Mountainbikes\nMulti-Aktivitäten-Kurs, 5 Aktivitäten von 1,5 bis 2 Stunden über eine Woche (nur im Sommer).\nBetreuung von Schulgruppen und Freizeitzentren. Challenge und Aktivitäten für Gruppen, CE, Sportvereine.\nWir kommen auch zu Ihren Veranstaltungen!"
+    ],
+    "en": [
+      "We offer a range of outdoor sporting activities all year round:\n- Canoe/kayak rental, 2 possible routes :\nArgentat-Monceaux 8km\nArgentat-Beaulieu 25km\n- Via Ferrata kit rental (helmet + harness + lanyard)\n- Supervision of climbing, archery, canoeing, stand-up paddling, Via Ferrata, canyoning, Escalad'arbre (tree climbing with holds strapped to the trunk)\n- Electric mountain bike rental\nMulti-activity courses, 5 activities from 1h30 to 2h per week (summer only).\nSupervision of school groups and leisure centers. Challenges and activities for groups, works councils and sports clubs.\nWe can also come to your events!"
+    ],
+    "it": [
+      "Offriamo una serie di attività sportive all'aperto durante tutto l'anno:\n- Noleggio canoa/kayak, 2 percorsi disponibili:\nArgentat-Monceaux 8 km\nArgentat-Beaulieu 25 km\n- Noleggio kit Via Ferrata (casco + imbracatura + cordino)\n- Arrampicata supervisionata, tiro con l'arco, canoa, stand-up paddling, Via Ferrata, canyoning, Escalad'arbre (arrampicata sugli alberi con prese legate al tronco)\n- Noleggio di mountain bike elettriche\nCorsi multiattività, 5 attività da 1h30 a 2h su una settimana (solo in estate).\nSupervisione di gruppi scolastici e centri ricreativi. Sfide e attività per gruppi, consigli di fabbrica e club sportivi.\nPossiamo anche venire ai vostri eventi!"
+    ],
+    "fr": [
+      "Nous vous proposons toute l'année diverses activités sportives de \"pleine nature\" :\n- Location de canoë/kayak, 2 parcours possibles :\nArgentat–Monceaux 8km\nArgentat–Beaulieu 25 km\n- Location de kit de Via Ferrata (casque + baudrier + longe)\n- Encadrement en Escalade, Tir à l'arc, Canoë, Stand Up Paddle, Via Ferrata, Canyoning, Escalad'arbre (escalade dans les arbres grâce à des prises sanglées sur le tronc)\n- Location de VTT Electrique\nStage multi-activités, 5 activités d’1h30 à 2h sur une semaine (l'été uniquement). \nEncadrement des groupes scolaires et centres de loisirs. Challenge et activités pour les groupes, CE, clubs sportifs. \nNous nous déplaçons également sur vos évènements !"
+    ],
+    "nl": [
+      "We bieden het hele jaar door diverse buitensportactiviteiten:\n- Kano- en kajakverhuur, 2 routes beschikbaar:\nArgentat-Monceaux 8 km\nArgentat-Beaulieu 25 km\n- Verhuur van Via Ferrata-kit (helm + harnas + koord)\n- Klimmen onder begeleiding, boogschieten, kanoën, stand-up paddling, Via Ferrata, canyoning, Escalad'arbre (boomklimmen met riemen aan de stam)\n- Verhuur van elektrische mountainbikes\nMulti-activiteitencursussen, 5 activiteiten van 1u30 tot 2u gedurende een week (alleen in de zomer).\nBegeleiding van schoolgroepen en vrijetijdscentra. Uitdagingen en activiteiten voor groepen, ondernemingsraden en sportclubs.\nWe kunnen ook naar uw evenementen komen!"
+    ],
+    "es": [
+      "Ofrecemos diversas actividades deportivas al aire libre durante todo el año:\n- Alquiler de canoas/kayaks, 2 recorridos disponibles:\nArgentat-Monceaux 8 km\nArgentat-Beaulieu 25 km\n- Alquiler de material de vía ferrata (casco + arnés + cuerda)\n- Escalada supervisada, tiro con arco, piragüismo, stand-up paddle, Via Ferrata, barranquismo, Escalad'arbre (escalada de árboles con agarres atados al tronco)\n- Alquiler de bicicletas eléctricas de montaña\nCursos multiactividades, 5 actividades de 1h30 a 2h durante una semana (sólo en verano).\nSupervisión de grupos escolares y centros de ocio Retos y actividades para grupos, comités de empresa y clubes deportivos.\nTambién nos desplazamos a sus eventos"
+    ]
+  },
+  "rdfs:label": {
+    "de": [
+      "Escapade Nature Pays d'Argentat"
+    ],
+    "en": [
+      "Escapade Nature Pays d'Argentat"
+    ],
+    "fr": [
+      "Escapade Nature Pays d'Argentat"
+    ],
+    "nl": [
+      "Escapade Nature Pays d'Argentat"
+    ],
+    "es": [
+      "Escapade Nature Pays d'Argentat"
+    ]
+  },
+  "availableLanguage": [
+    "en",
+    "sp"
+  ],
+  "creationDate": "2022-10-18",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/23/de9d4266-dc0c-34d6-bf60-b54518285dd9",
+    "dc:identifier": "c909a439-4542-4b59-8721-04db2898d980",
+    "schema:legalName": "Corrèze Tourisme",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/05dc9cb8-2fa5-383d-b87b-497de06649a2",
+      "schema:email": [
+        "sirtaqui@na-tourisme.com"
+      ],
+      "schema:legalName": "SIRTAQUI Nouvelle-Aquitaine",
+      "schema:logo": "http://aquitaine.media.tourinsoft.eu/upload/Logo-Sirtaqui-1280x405.jpg",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "rdfs:comment": {
+        "de": [
+          "Collecter, mettre en commun et diffuser le plus largement possible une information complète et de qualité au service de nos habitants et de nos visiteurs : voici les objectifs du SIRTAQUI, Système d’Information Régional Touristique de Nouvelle-AQUItaine. Le dispositif est mis en œuvre conjointement par le Comité Régional de Tourisme de Nouvelle-Aquitaine, les services touristiques de la Corrèze, de la Creuse, de la Dordogne, de la Gironde, des Landes, du Lot-et-Garonne, des Pyrénées-Atlantiques, des Deux-Sèvres, de la Vienne et de la Haute-Vienne, en collaboration avec les Offices de Tourisme, et avec le soutien financier de l’Europe et du Conseil Régional."
+        ],
+        "en": [
+          "Collecter, mettre en commun et diffuser le plus largement possible une information complète et de qualité au service de nos habitants et de nos visiteurs : voici les objectifs du SIRTAQUI, Système d’Information Régional Touristique de Nouvelle-AQUItaine. Le dispositif est mis en œuvre conjointement par le Comité Régional de Tourisme de Nouvelle-Aquitaine, les services touristiques de la Corrèze, de la Creuse, de la Dordogne, de la Gironde, des Landes, du Lot-et-Garonne, des Pyrénées-Atlantiques, des Deux-Sèvres, de la Vienne et de la Haute-Vienne, en collaboration avec les Offices de Tourisme, et avec le soutien financier de l’Europe et du Conseil Régional."
+        ],
+        "it": [
+          "L'obiettivo di SIRTAQUI, il Sistema Regionale di Informazione Turistica della Nuova Aquitania, è quello di raccogliere, mettere in comune e diffondere il più possibile informazioni complete e di qualità a beneficio dei nostri residenti e visitatori. Il sistema è realizzato congiuntamente dal Comité Régional de Tourisme de Nouvelle-Aquitaine, dai servizi turistici di Corrèze, Creuse, Dordogne, Gironde, Landes, Lot-et-Garonne, Pyrénées-Atlantiques, Deux-Sèvres, Vienne e Haute-Vienne, in collaborazione con gli Uffici del Turismo e con il sostegno finanziario dell'Europa e del Conseil Régional."
+        ],
+        "fr": [
+          "Collecter, mettre en commun et diffuser le plus largement possible une information complète et de qualité au service de nos habitants et de nos visiteurs : voici les objectifs du SIRTAQUI, Système d’Information Régional Touristique de Nouvelle-AQUItaine. Le dispositif est mis en œuvre conjointement par le Comité Régional de Tourisme de Nouvelle-Aquitaine, les services touristiques de la Corrèze, de la Creuse, de la Dordogne, de la Gironde, des Landes, du Lot-et-Garonne, des Pyrénées-Atlantiques, des Deux-Sèvres, de la Vienne et de la Haute-Vienne, en collaboration avec les Offices de Tourisme, et avec le soutien financier de l’Europe et du Conseil Régional."
+        ],
+        "nl": [
+          "Collecter, mettre en commun et diffuser le plus largement possible une information complète et de qualité au service de nos habitants et de nos visiteurs : voici les objectifs du SIRTAQUI, Système d’Information Régional Touristique de Nouvelle-AQUItaine. Le dispositif est mis en œuvre conjointement par le Comité Régional de Tourisme de Nouvelle-Aquitaine, les services touristiques de la Corrèze, de la Creuse, de la Dordogne, de la Gironde, des Landes, du Lot-et-Garonne, des Pyrénées-Atlantiques, des Deux-Sèvres, de la Vienne et de la Haute-Vienne, en collaboration avec les Offices de Tourisme, et avec le soutien financier de l’Europe et du Conseil Régional."
+        ],
+        "es": [
+          "Collecter, mettre en commun et diffuser le plus largement possible une information complète et de qualité au service de nos habitants et de nos visiteurs : voici les objectifs du SIRTAQUI, Système d’Information Régional Touristique de Nouvelle-AQUItaine. Le dispositif est mis en œuvre conjointement par le Comité Régional de Tourisme de Nouvelle-Aquitaine, les services touristiques de la Corrèze, de la Creuse, de la Dordogne, de la Gironde, des Landes, du Lot-et-Garonne, des Pyrénées-Atlantiques, des Deux-Sèvres, de la Vienne et de la Haute-Vienne, en collaboration avec les Offices de Tourisme, et avec le soutien financier de l’Europe et du Conseil Régional."
+        ]
+      },
+      "foaf:homepage": [
+        "http://www.sirtaqui-aquitaine.com/"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/eef27e75-4a23-313e-a6ee-797e7b64a1cd",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "rdfs:comment"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/e5f2f68b-f470-31b6-88f5-31bab1435219",
+      "schema:email": [
+        "contact@escapadenatureargentat.com"
+      ],
+      "schema:legalName": "Escapade Nature Pays d'Argentat",
+      "schema:telephone": [
+        "+33 5 55 28 66 31",
+        "+33 9 74 98 35 98"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.escapadenatureargentat.com/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/e5f2f68b-f470-31b6-88f5-31bab1435219",
+      "schema:email": [
+        "contact@escapadenatureargentat.com"
+      ],
+      "schema:legalName": "Escapade Nature Pays d'Argentat",
+      "schema:telephone": [
+        "+33 5 55 28 66 31",
+        "+33 9 74 98 35 98"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.escapadenatureargentat.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/7460832f-51fc-374d-88e2-8ad600770e33",
+      "dc:description": {
+        "de": [
+          "Wir bieten Ihnen das ganze Jahr über verschiedene Sportaktivitäten in der freien Natur\" an:\n- Kanu-/Kajakverleih, 2 mögliche Strecken:\nArgentat?Monceaux 8 km\nArgentat?Beaulieu 25 km\n- Verleih von Klettersteigsets (Helm + Klettergurt + Longe)\n- Betreuung beim Klettern, Bogenschießen, Kanu, Stand Up Paddle, Via Ferrata, Canyoning, Escalad'arbre (Klettern in den Bäumen dank der am Stamm befestigten Griffe)\n- Verleih von Elektro-Mountainbikes\nMulti-Aktivitäten-Kurs, 5 Aktivitäten von 1,5 bis 2 Stunden über eine Woche (nur im Sommer).\nBetreuung von Schulgruppen und Freizeitzentren. Challenge und Aktivitäten für Gruppen, CE, Sportvereine.\nWir kommen auch zu Ihren Veranstaltungen!"
+        ],
+        "en": [
+          "We offer a range of outdoor sporting activities all year round:\n- Canoe/kayak rental, 2 possible routes :\nArgentat-Monceaux 8km\nArgentat-Beaulieu 25km\n- Via Ferrata kit rental (helmet + harness + lanyard)\n- Supervision of climbing, archery, canoeing, stand-up paddling, Via Ferrata, canyoning, Escalad'arbre (tree climbing with holds strapped to the trunk)\n- Electric mountain bike rental\nMulti-activity courses, 5 activities from 1h30 to 2h per week (summer only).\nSupervision of school groups and leisure centers. Challenges and activities for groups, works councils and sports clubs.\nWe can also come to your events!"
+        ],
+        "it": [
+          "Offriamo una serie di attività sportive all'aperto durante tutto l'anno:\n- Noleggio canoa/kayak, 2 percorsi disponibili:\nArgentat-Monceaux 8 km\nArgentat-Beaulieu 25 km\n- Noleggio kit Via Ferrata (casco + imbracatura + cordino)\n- Arrampicata supervisionata, tiro con l'arco, canoa, stand-up paddling, Via Ferrata, canyoning, Escalad'arbre (arrampicata sugli alberi con prese legate al tronco)\n- Noleggio di mountain bike elettriche\nCorsi multiattività, 5 attività da 1h30 a 2h su una settimana (solo in estate).\nSupervisione di gruppi scolastici e centri ricreativi. Sfide e attività per gruppi, consigli di fabbrica e club sportivi.\nPossiamo anche venire ai vostri eventi!"
+        ],
+        "fr": [
+          "Nous vous proposons toute l'année diverses activités sportives de \"pleine nature\" :\n- Location de canoë/kayak, 2 parcours possibles :\nArgentat–Monceaux 8km\nArgentat–Beaulieu 25 km\n- Location de kit de Via Ferrata (casque + baudrier + longe)\n- Encadrement en Escalade, Tir à l'arc, Canoë, Stand Up Paddle, Via Ferrata, Canyoning, Escalad'arbre (escalade dans les arbres grâce à des prises sanglées sur le tronc)\n- Location de VTT Electrique\nStage multi-activités, 5 activités d’1h30 à 2h sur une semaine (l'été uniquement). \nEncadrement des groupes scolaires et centres de loisirs. Challenge et activités pour les groupes, CE, clubs sportifs. \nNous nous déplaçons également sur vos évènements !"
+        ],
+        "nl": [
+          "We bieden het hele jaar door diverse buitensportactiviteiten:\n- Kano- en kajakverhuur, 2 routes beschikbaar:\nArgentat-Monceaux 8 km\nArgentat-Beaulieu 25 km\n- Verhuur van Via Ferrata-kit (helm + harnas + koord)\n- Klimmen onder begeleiding, boogschieten, kanoën, stand-up paddling, Via Ferrata, canyoning, Escalad'arbre (boomklimmen met riemen aan de stam)\n- Verhuur van elektrische mountainbikes\nMulti-activiteitencursussen, 5 activiteiten van 1u30 tot 2u gedurende een week (alleen in de zomer).\nBegeleiding van schoolgroepen en vrijetijdscentra. Uitdagingen en activiteiten voor groepen, ondernemingsraden en sportclubs.\nWe kunnen ook naar uw evenementen komen!"
+        ],
+        "es": [
+          "Ofrecemos diversas actividades deportivas al aire libre durante todo el año:\n- Alquiler de canoas/kayaks, 2 recorridos disponibles:\nArgentat-Monceaux 8 km\nArgentat-Beaulieu 25 km\n- Alquiler de material de vía ferrata (casco + arnés + cuerda)\n- Escalada supervisada, tiro con arco, piragüismo, stand-up paddle, Via Ferrata, barranquismo, Escalad'arbre (escalada de árboles con agarres atados al tronco)\n- Alquiler de bicicletas eléctricas de montaña\nCursos multiactividades, 5 actividades de 1h30 a 2h durante una semana (sólo en verano).\nSupervisión de grupos escolares y centros de ocio Retos y actividades para grupos, comités de empresa y clubes deportivos.\nTambién nos desplazamos a sus eventos"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/15a47965-e73d-346b-8d75-c7dfe76f5aa8",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3adda21b-419d-3a9c-b4e6-161d4ec1a426",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/528a1aec-1d31-317f-adb6-d72aa834a19c",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6f77eead-c8f7-37ac-9111-963133e463cb",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7a0cfeba-50b2-3e80-bc63-939119c18b3a",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/803a08d8-d198-36f5-a9d0-0fcfd5ecbae8",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8b2759eb-4f9b-3eb8-9d5a-db61d65928e8",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/cb07731d-8099-36a1-ab92-17802ad7285e",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/cd23ba5d-8acf-3810-ba34-314ea5f1733d",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d42c84a6-afe3-363d-b6f7-93b6c9af606f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "isDedicatedTo": [
+        {
+          "@id": "kb:BetweenFriends",
+          "@type": [
+            "PeopleAudience"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Unter Freunden"
+            ],
+            "pt": [
+              "Entre amigos"
+            ],
+            "en": [
+              "Between friends"
+            ],
+            "it": [
+              "Tra amici"
+            ],
+            "fr": [
+              "Entre amis"
+            ],
+            "nl": [
+              "Met vrienden"
+            ],
+            "es": [
+              "Entre amigos"
+            ]
+          }
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Wir bieten Ihnen das ganze Jahr über verschiedene Sportaktivitäten in der freien Natur\" an:\n- Kanu-/Kajakverleih, 2 mögliche Strecken:\nArgentat?Monceaux 8 km\nArgentat?Beaulieu 25 km\n- Verleih von Klettersteigsets (Helm + Klettergurt + Longe)\n- Betreuung beim Klettern, Bogenschießen, Kanu, Stand Up Paddle, Via Ferrata, Canyoning, Escalad'arbre (Klettern in den Bäumen dank der am Stamm befestigten Griffe)\n- Verleih von Elektro-Mountainbikes\nMulti-Aktivitäten-Kurs, 5 Aktivitäten von 1,5 bis 2 Stunden über eine Woche (nur im Sommer).\nBetreuung von Schulgruppen und Freizeitzentren. Challenge und Aktivitäten für Gruppen, CE, Sportvereine.\nWir kommen auch zu Ihren Veranstaltungen!"
+        ],
+        "en": [
+          "We offer a range of outdoor sporting activities all year round:\n- Canoe/kayak rental, 2 possible routes :\nArgentat-Monceaux 8km\nArgentat-Beaulieu 25km\n- Via Ferrata kit rental (helmet + harness + lanyard)\n- Supervision of climbing, archery, canoeing, stand-up paddling, Via Ferrata, canyoning, Escalad'arbre (tree climbing with holds strapped to the trunk)\n- Electric mountain bike rental\nMulti-activity courses, 5 activities from 1h30 to 2h per week (summer only).\nSupervision of school groups and leisure centers. Challenges and activities for groups, works councils and sports clubs.\nWe can also come to your events!"
+        ],
+        "it": [
+          "Offriamo una serie di attività sportive all'aperto durante tutto l'anno:\n- Noleggio canoa/kayak, 2 percorsi disponibili:\nArgentat-Monceaux 8 km\nArgentat-Beaulieu 25 km\n- Noleggio kit Via Ferrata (casco + imbracatura + cordino)\n- Arrampicata supervisionata, tiro con l'arco, canoa, stand-up paddling, Via Ferrata, canyoning, Escalad'arbre (arrampicata sugli alberi con prese legate al tronco)\n- Noleggio di mountain bike elettriche\nCorsi multiattività, 5 attività da 1h30 a 2h su una settimana (solo in estate).\nSupervisione di gruppi scolastici e centri ricreativi. Sfide e attività per gruppi, consigli di fabbrica e club sportivi.\nPossiamo anche venire ai vostri eventi!"
+        ],
+        "fr": [
+          "Nous vous proposons toute l'année diverses activités sportives de \"pleine nature\" :\n- Location de canoë/kayak, 2 parcours possibles :\nArgentat–Monceaux 8km\nArgentat–Beaulieu 25 km\n- Location de kit de Via Ferrata (casque + baudrier + longe)\n- Encadrement en Escalade, Tir à l'arc, Canoë, Stand Up Paddle, Via Ferrata, Canyoning, Escalad'arbre (escalade dans les arbres grâce à des prises sanglées sur le tronc)\n- Location de VTT Electrique\nStage multi-activités, 5 activités d’1h30 à 2h sur une semaine (l'été uniquement). \nEncadrement des groupes scolaires et centres de loisirs. Challenge et activités pour les groupes, CE, clubs sportifs. \nNous nous déplaçons également sur vos évènements !"
+        ],
+        "nl": [
+          "We bieden het hele jaar door diverse buitensportactiviteiten:\n- Kano- en kajakverhuur, 2 routes beschikbaar:\nArgentat-Monceaux 8 km\nArgentat-Beaulieu 25 km\n- Verhuur van Via Ferrata-kit (helm + harnas + koord)\n- Klimmen onder begeleiding, boogschieten, kanoën, stand-up paddling, Via Ferrata, canyoning, Escalad'arbre (boomklimmen met riemen aan de stam)\n- Verhuur van elektrische mountainbikes\nMulti-activiteitencursussen, 5 activiteiten van 1u30 tot 2u gedurende een week (alleen in de zomer).\nBegeleiding van schoolgroepen en vrijetijdscentra. Uitdagingen en activiteiten voor groepen, ondernemingsraden en sportclubs.\nWe kunnen ook naar uw evenementen komen!"
+        ],
+        "es": [
+          "Ofrecemos diversas actividades deportivas al aire libre durante todo el año:\n- Alquiler de canoas/kayaks, 2 recorridos disponibles:\nArgentat-Monceaux 8 km\nArgentat-Beaulieu 25 km\n- Alquiler de material de vía ferrata (casco + arnés + cuerda)\n- Escalada supervisada, tiro con arco, piragüismo, stand-up paddle, Via Ferrata, barranquismo, Escalad'arbre (escalada de árboles con agarres atados al tronco)\n- Alquiler de bicicletas eléctricas de montaña\nCursos multiactividades, 5 actividades de 1h30 a 2h durante una semana (sólo en verano).\nSupervisión de grupos escolares y centros de ocio Retos y actividades para grupos, comités de empresa y clubes deportivos.\nTambién nos desplazamos a sus eventos"
+        ]
+      }
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/d99739eb-7da4-3618-8674-75bbc618a5ee",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/39ffb108-f11e-3558-823c-77922e1149cb",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Activités sports nature-Escapade Nature-Argentat  (6)_1"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "EScapade Nature"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/f862f2b8-e923-3dd1-b54c-ac03eff40d98",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/Activites-sports-nature-Escapade-Nature-Argentat---6-.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/0b692c92-bd8a-308a-89e5-fc93c8a4bade",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/28bc3248-5347-33bd-8057-d6e371336f9c",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Activités sports nature-Escapade Nature-Argentat  (3)_3"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "EScapade Nature"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/62af7295-ac15-3b48-9291-e00e75cf6ebc",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/Activites-sports-nature-Escapade-Nature-Argentat---3-.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/102695d7-45e9-354e-865b-ebd27d461b7a",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/22bd1190-0420-3686-af67-d0655f9f28d3",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Activités sports nature-Escapade Nature-Argentat  (2)_2"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "EScapade Nature"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/3d7929d8-876a-3acd-8de3-9c156eba5d6a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/Activites-sports-nature-Escapade-Nature-Argentat---2-.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4250c938-0066-35b0-bf12-b2d25e1c13ef",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/ef49c089-738f-353e-a528-31ab07b8a590",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Activités sports nature-Escapade Nature-Argentat  (9)_8"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "EScapade Nature"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/862db6ae-cec2-3fee-bebf-8ea6e768bfd3",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/Activites-sports-nature-Escapade-Nature-Argentat---9-.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/7e5b7341-65c6-34cf-8103-9f789c68c2c9",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/1803f235-9be3-3e7f-a542-8f2a19b3671f",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Via ferrata 2 (1)_9"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "EScapade Nature"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/ad1c7d37-3a41-3287-8e3a-34654b1f418a",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/Via-ferrata-2--1-.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/97a9e198-454d-3f74-a8db-96202b9ada4b",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/5880c924-f36b-3c66-a8e2-3b73229a971a",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Activités sports nature-Escapade Nature-Argentat  (4)_4"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "EScapade Nature"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/643e99ab-c5ed-328f-844f-313da7e8f807",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/Activites-sports-nature-Escapade-Nature-Argentat---4-.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/afdcfa3e-d849-3474-9b68-10de2a0dd3a9",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/36184c4b-8269-3199-8d9b-08df8d617e5d",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Activités sports nature-Escapade Nature-Argentat  (5)_6"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "EScapade Nature"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/fd05f796-d5e8-3236-9af5-1424c18eaa0d",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/Activites-sports-nature-Escapade-Nature-Argentat---5-.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/bc4ff966-86a2-3a3e-b92b-c1f4113b07bc",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/2392f398-e592-38d1-ab5c-133fd2b1f85f",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Activités sports nature-Escapade Nature-Argentat  (7)_5"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "EScapade Nature"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/65714f3c-f3d1-38f2-a7a3-0551ffe33779",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/Activites-sports-nature-Escapade-Nature-Argentat---7-.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d99739eb-7da4-3618-8674-75bbc618a5ee",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/39ffb108-f11e-3558-823c-77922e1149cb",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Activités sports nature-Escapade Nature-Argentat  (6)_1"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "EScapade Nature"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/f862f2b8-e923-3dd1-b54c-ac03eff40d98",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/Activites-sports-nature-Escapade-Nature-Argentat---6-.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/e6fba4d4-8159-3fd3-bc25-520b32f5651b",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/69989979-3159-3886-ae74-b908e60b048c",
+          "ebucore:isCoveredBy": "By-NC-ND 4.0",
+          "ebucore:title": {
+            "fr": [
+              "Activités sports nature-Escapade Nature-Argentat  (8)_7"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "EScapade Nature"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/7dbf3254-86e6-3a93-ae7a-bf10c38828ae",
+          "ebucore:hasMimeType": [
+            {
+              "@id": "kb:JPEG",
+              "@type": [
+                "ebucore:MimeType"
+              ],
+              "rdfs:comment": {
+                "de": [
+                  "JPEG-Bild"
+                ],
+                "pt": [
+                  "Imagem JPEG"
+                ],
+                "en": [
+                  "JPEG image file"
+                ],
+                "it": [
+                  "Immagine JPEG"
+                ],
+                "fr": [
+                  "Image JPEG"
+                ],
+                "nl": [
+                  "JPEG-afbeelding"
+                ],
+                "es": [
+                  "Imagen JPEG"
+                ]
+              },
+              "rdfs:label": {
+                "de": [
+                  "image/jpeg"
+                ],
+                "pt": [
+                  "image/jpeg"
+                ],
+                "en": [
+                  "image/jpeg"
+                ],
+                "it": [
+                  "image/jpeg"
+                ],
+                "fr": [
+                  "image/jpeg"
+                ],
+                "nl": [
+                  "image/jpeg"
+                ],
+                "es": [
+                  "image/jpeg"
+                ]
+              }
+            }
+          ],
+          "ebucore:locator": [
+            "http://aquitaine.media.tourinsoft.eu/Upload/Activites-sports-nature-Escapade-Nature-Argentat---8-.JPG"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/25a8a3a3-a796-32ea-8654-e6c3d7b77704",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_QualiteTourisme",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "Qualité Tourisme"
+          ],
+          "pt": [
+            "Qualité Tourisme"
+          ],
+          "en": [
+            "Qualité Tourisme"
+          ],
+          "it": [
+            "Qualité Tourisme"
+          ],
+          "fr": [
+            "Qualité Tourisme"
+          ],
+          "nl": [
+            "Qualité Tourisme"
+          ],
+          "es": [
+            "Qualité Tourisme"
+          ]
+        },
+        "isCompliantWith": [
+          "Arena",
+          "BarOrPub",
+          "CafeOrTearoom",
+          "CampingAndCaravanning",
+          "CollectiveAccommodation",
+          "CulturalSite",
+          "Guesthouse",
+          "HolidayCentre",
+          "Hotel",
+          "LeisurePlace",
+          "LocalTouristOffice",
+          "Marina",
+          "Practice",
+          "RealEstateAgent",
+          "Restaurant",
+          "Store",
+          "Visit"
+        ]
+      }
+    }
+  ],
+  "hasTheme": [
+    {
+      "@id": "kb:ATV",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "MTB"
+        ],
+        "pt": [
+          "Bicicleta-todo-o-terreno (BTT)"
+        ],
+        "en": [
+          "Atv"
+        ],
+        "it": [
+          "Mountain bike"
+        ],
+        "fr": [
+          "Vtt"
+        ],
+        "nl": [
+          "Mountainbike"
+        ],
+        "es": [
+          "BTT"
+        ]
+      }
+    },
+    {
+      "@id": "kb:CanoeingKayaking",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Kanu-Kajakfahren"
+        ],
+        "pt": [
+          "Canoa caiaque"
+        ],
+        "en": [
+          "Canoeing-kayaking"
+        ],
+        "it": [
+          "Canoismo"
+        ],
+        "fr": [
+          "Canoé kayak"
+        ],
+        "es": [
+          "Piraguas y kayak"
+        ],
+        "nl": [
+          "Kano/kajak"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Canyoning",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Canyoning"
+        ],
+        "pt": [
+          "Canoagem"
+        ],
+        "en": [
+          "Canyoning"
+        ],
+        "it": [
+          "Canyoning"
+        ],
+        "fr": [
+          "Canyoning"
+        ],
+        "es": [
+          "Piragüismo"
+        ],
+        "nl": [
+          "Canyoning"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Climbing",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Klettern"
+        ],
+        "pt": [
+          "Escalada"
+        ],
+        "en": [
+          "Climbing"
+        ],
+        "it": [
+          "Arrampicata"
+        ],
+        "fr": [
+          "Escalade"
+        ],
+        "nl": [
+          "Klimmen"
+        ],
+        "es": [
+          "Escalada"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Multisport",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Multisport"
+        ],
+        "pt": [
+          "Multidesporto"
+        ],
+        "en": [
+          "Multisport"
+        ],
+        "it": [
+          "Multisport"
+        ],
+        "fr": [
+          "Multisport"
+        ],
+        "nl": [
+          "Verschillende sporten"
+        ],
+        "es": [
+          "Multideporte"
+        ]
+      }
+    },
+    {
+      "@id": "kb:Nautisme",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Wassersport"
+        ],
+        "pt": [
+          "Nautismo (atividades náuticas)"
+        ],
+        "en": [
+          "Nautisme"
+        ],
+        "it": [
+          "Sport nautici"
+        ],
+        "fr": [
+          "Nautisme"
+        ],
+        "nl": [
+          "Watersport"
+        ],
+        "es": [
+          "Náutica"
+        ]
+      }
+    },
+    {
+      "@id": "kb:StandupPaddleboarding",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Stand-up Paddle (SUP)"
+        ],
+        "pt": [
+          "Paddle de pé (SUP)"
+        ],
+        "en": [
+          "Standup paddleboarding"
+        ],
+        "it": [
+          "Stand up paddle (SUP)"
+        ],
+        "fr": [
+          "Stand up paddle sup"
+        ],
+        "es": [
+          "Tabla de pádel surf"
+        ],
+        "nl": [
+          "Suppen"
+        ]
+      }
+    },
+    {
+      "@id": "kb:ViaFerrata",
+      "@type": [
+        "SportsTheme"
+      ],
+      "rdfs:label": {
+        "de": [
+          "Klettersteig"
+        ],
+        "pt": [
+          "Via ferrata"
+        ],
+        "en": [
+          "Via ferrata"
+        ],
+        "it": [
+          "Via ferrata"
+        ],
+        "fr": [
+          "Via ferrata"
+        ],
+        "nl": [
+          "Via ferrata"
+        ],
+        "es": [
+          "Vía ferrata"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/16462b60-0c6b-3560-8daa-f98d72661a35",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4b5ab814-022e-39b2-a711-af9c29faf59e",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/67dc1ba5-2cc0-33b6-a2f5-5fd49fbd9764",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/acaf27c4-b8fe-3bf1-9cfa-b89cc00659db",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/cebb73b0-9f70-30ec-ad9e-2739e57a82bd",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/34eef282-54e4-334a-8db6-86e6743e4298",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/2ac3b47d-26e3-3737-b7a1-170543da2133",
+          "schema:addressLocality": "Argentat-sur-Dordogne",
+          "schema:postalCode": "19400",
+          "schema:streetAddress": [
+            "21, avenue Foch"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:19010",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Argentat-sur-Dordogne"
+              ],
+              "pt": [
+                "Argentat-sur-Dordogne"
+              ],
+              "en": [
+                "Argentat-sur-Dordogne"
+              ],
+              "it": [
+                "Argentat-sur-Dordogne"
+              ],
+              "fr": [
+                "Argentat-sur-Dordogne"
+              ],
+              "nl": [
+                "Argentat-sur-Dordogne"
+              ],
+              "es": [
+                "Argentat-sur-Dordogne"
+              ]
+            },
+            "insee": "19010",
+            "isPartOfDepartment": {
+              "@id": "kb:France7519",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Corrèze"
+                ],
+                "pt": [
+                  "Corrèze"
+                ],
+                "en": [
+                  "Corrèze"
+                ],
+                "it": [
+                  "Corrèze"
+                ],
+                "fr": [
+                  "Corrèze"
+                ],
+                "nl": [
+                  "Corrèze"
+                ],
+                "es": [
+                  "Corrèze"
+                ]
+              },
+              "insee": "19",
+              "isPartOfRegion": {
+                "@id": "kb:France75",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Nouvelle-Aquitaine"
+                  ],
+                  "pt": [
+                    "Nouvelle-Aquitaine"
+                  ],
+                  "en": [
+                    "Nouvelle-Aquitaine"
+                  ],
+                  "it": [
+                    "Nouvelle-Aquitaine"
+                  ],
+                  "fr": [
+                    "Nouvelle-Aquitaine"
+                  ],
+                  "nl": [
+                    "Nouvelle-Aquitaine"
+                  ],
+                  "es": [
+                    "Nouvelle-Aquitaine"
+                  ]
+                },
+                "insee": "75",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/8b9a0530-da8a-3593-a741-2ead2577c6d6",
+        "schema:latitude": "45.0937363",
+        "schema:longitude": "1.9324802",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/00281819-e7d4-394d-9bc9-560570bf1bca",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "16:30:00",
+          "schema:validFrom": "2024-07-01T16:30:00",
+          "schema:validThrough": "2024-08-31T18:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/08c89dab-db7f-3e69-93e0-1ecd2d6c67c0",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:30:00",
+          "schema:validFrom": "2023-09-01T09:30:00",
+          "schema:validThrough": "2023-12-16T12:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/13fbac04-8807-3617-9f30-55ab1a481a13",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:30:00",
+          "schema:validFrom": "2024-09-01T09:30:00",
+          "schema:validThrough": "2024-12-15T12:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/1405d7e9-cd3a-318f-9e9d-c0f5bd5346e5",
+          "schema:closes": "16:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "13:30:00",
+          "schema:validFrom": "2023-09-01T13:30:00",
+          "schema:validThrough": "2023-12-16T16:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/16dac29b-2022-3727-b4a5-c4c06ad58c67",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:30:00",
+          "schema:validFrom": "2024-09-01T09:30:00",
+          "schema:validThrough": "2024-12-15T12:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/17765d3a-4922-3a38-a192-64c6b1df702c",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "16:30:00",
+          "schema:validFrom": "2024-07-01T16:30:00",
+          "schema:validThrough": "2024-08-31T18:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/20d4bc94-cb11-3914-a27a-d4ebb2d9a28e",
+          "schema:closes": "14:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "08:30:00",
+          "schema:validFrom": "2024-07-01T08:30:00",
+          "schema:validThrough": "2024-08-31T14:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/24f13d8b-437b-3775-b92e-00f4917425f7",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:30:00",
+          "schema:validFrom": "2023-09-01T09:30:00",
+          "schema:validThrough": "2023-12-16T12:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2e03cee0-a669-3fce-b701-8de6d7560748",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Montag"
+                ],
+                "pt": [
+                  "Segunda-feira"
+                ],
+                "en": [
+                  "Monday"
+                ],
+                "it": [
+                  "Lunedì"
+                ],
+                "fr": [
+                  "Lundi"
+                ],
+                "nl": [
+                  "Maandag"
+                ],
+                "es": [
+                  "Lunes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "16:30:00",
+          "schema:validFrom": "2024-07-01T16:30:00",
+          "schema:validThrough": "2024-08-31T18:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3af5037b-331a-3ee5-a1e7-fd4d9551f51b",
+          "schema:closes": "14:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "08:30:00",
+          "schema:validFrom": "2024-07-01T08:30:00",
+          "schema:validThrough": "2024-08-31T14:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3f7d24ff-1b8b-31da-a991-e58bd1fc04bc",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "16:30:00",
+          "schema:validFrom": "2024-07-01T16:30:00",
+          "schema:validThrough": "2024-08-31T18:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/401698d8-e31a-38cf-9165-c3d909bbfac4",
+          "schema:closes": "16:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "13:30:00",
+          "schema:validFrom": "2024-09-01T13:30:00",
+          "schema:validThrough": "2024-12-15T16:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/46dfae2f-f96c-391b-880d-9d6c66a57204",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:30:00",
+          "schema:validFrom": "2023-09-01T09:30:00",
+          "schema:validThrough": "2023-12-16T12:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/517ad5ae-30cb-35a0-a6ab-a8bfcbe44986",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:30:00",
+          "schema:validFrom": "2024-01-15T09:30:00",
+          "schema:validThrough": "2024-06-30T12:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/51ca9e54-e44b-3cc9-a0b7-cd7d18d906cc",
+          "schema:closes": "16:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "13:30:00",
+          "schema:validFrom": "2024-09-01T13:30:00",
+          "schema:validThrough": "2024-12-15T16:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/58b3936f-3196-376b-823e-3d8a597c67a1",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "16:30:00",
+          "schema:validFrom": "2024-07-01T16:30:00",
+          "schema:validThrough": "2024-08-31T18:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/59a16b0c-7831-3d28-b4f3-e2d12f447685",
+          "schema:closes": "16:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "13:30:00",
+          "schema:validFrom": "2024-09-01T13:30:00",
+          "schema:validThrough": "2024-12-15T16:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/61241ae0-d3f7-3323-9e5b-f8f7064986ce",
+          "schema:closes": "16:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "13:30:00",
+          "schema:validFrom": "2023-09-01T13:30:00",
+          "schema:validThrough": "2023-12-16T16:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/63c39edc-3b8f-3095-8781-728f4e7d4868",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:30:00",
+          "schema:validFrom": "2024-01-15T09:30:00",
+          "schema:validThrough": "2024-06-30T12:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6ed33b4a-e1bf-3b86-9f8c-3f393f1f3597",
+          "schema:closes": "16:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "13:30:00",
+          "schema:validFrom": "2024-01-15T13:30:00",
+          "schema:validThrough": "2024-06-30T16:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6ff3bbed-2a12-3992-b3eb-493cb385f9b2",
+          "schema:closes": "16:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "13:30:00",
+          "schema:validFrom": "2023-09-01T13:30:00",
+          "schema:validThrough": "2023-12-16T16:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/73031a56-8db7-39eb-a6b6-8dae2ef619e5",
+          "schema:closes": "16:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "13:30:00",
+          "schema:validFrom": "2024-09-01T13:30:00",
+          "schema:validThrough": "2024-12-15T16:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/77a01e6e-9a2f-36d0-8536-28e6cc910d2c",
+          "schema:closes": "14:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "08:30:00",
+          "schema:validFrom": "2024-07-01T08:30:00",
+          "schema:validThrough": "2024-08-31T14:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7dd25a73-0546-3cea-923b-5050440a944a",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:30:00",
+          "schema:validFrom": "2024-09-01T09:30:00",
+          "schema:validThrough": "2024-12-15T12:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7f66477b-bc0b-3ad7-b586-3ed2bba99b3b",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:30:00",
+          "schema:validFrom": "2024-09-01T09:30:00",
+          "schema:validThrough": "2024-12-15T12:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/81be8949-f06c-3a88-bce5-42c27eec3e9b",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Montag"
+                ],
+                "pt": [
+                  "Segunda-feira"
+                ],
+                "en": [
+                  "Monday"
+                ],
+                "it": [
+                  "Lunedì"
+                ],
+                "fr": [
+                  "Lundi"
+                ],
+                "nl": [
+                  "Maandag"
+                ],
+                "es": [
+                  "Lunes"
+                ]
+              }
+            }
+          ],
+          "schema:validFrom": "2023-09-01T00:00:00",
+          "schema:validThrough": "2023-12-16T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/851e93cd-3d10-3254-9b6e-9cb97b9b71ba",
+          "schema:closes": "16:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "13:30:00",
+          "schema:validFrom": "2023-09-01T13:30:00",
+          "schema:validThrough": "2023-12-16T16:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/87507a12-d57e-3ff5-b6ee-602513504e50",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:30:00",
+          "schema:validFrom": "2024-09-01T09:30:00",
+          "schema:validThrough": "2024-12-15T12:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8ea0803a-c5ca-384e-88f8-b1ce9de52956",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:30:00",
+          "schema:validFrom": "2024-01-15T09:30:00",
+          "schema:validThrough": "2024-06-30T12:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8ea88d07-3d1f-3289-bbd5-de5b8c5e3d9d",
+          "schema:closes": "16:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "13:30:00",
+          "schema:validFrom": "2024-01-15T13:30:00",
+          "schema:validThrough": "2024-06-30T16:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9dfee844-1f0d-3f29-8117-49443b188329",
+          "schema:closes": "14:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "08:30:00",
+          "schema:validFrom": "2024-07-01T08:30:00",
+          "schema:validThrough": "2024-08-31T14:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a03c1fa3-83dc-3356-8baa-58598c628ed1",
+          "schema:closes": "16:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "13:30:00",
+          "schema:validFrom": "2024-01-15T13:30:00",
+          "schema:validThrough": "2024-06-30T16:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a0589f8d-6500-3b44-96cc-9cf47ab1ef25",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Montag"
+                ],
+                "pt": [
+                  "Segunda-feira"
+                ],
+                "en": [
+                  "Monday"
+                ],
+                "it": [
+                  "Lunedì"
+                ],
+                "fr": [
+                  "Lundi"
+                ],
+                "nl": [
+                  "Maandag"
+                ],
+                "es": [
+                  "Lunes"
+                ]
+              }
+            }
+          ],
+          "schema:validFrom": "2024-09-01T00:00:00",
+          "schema:validThrough": "2024-12-15T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a7029b08-cdc4-3b19-ac89-6f41f0a79618",
+          "schema:closes": "16:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "13:30:00",
+          "schema:validFrom": "2024-01-15T13:30:00",
+          "schema:validThrough": "2024-06-30T16:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a844bbba-6363-32c6-9c47-9d118d917a05",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "16:30:00",
+          "schema:validFrom": "2024-07-01T16:30:00",
+          "schema:validThrough": "2024-08-31T18:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c8487d21-f489-35fd-85b5-0e481e2b54c4",
+          "schema:closes": "14:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "08:30:00",
+          "schema:validFrom": "2024-07-01T08:30:00",
+          "schema:validThrough": "2024-08-31T14:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/cd5d72d6-b235-3e5a-9920-81bd77b5ff8a",
+          "schema:closes": "14:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "08:30:00",
+          "schema:validFrom": "2024-07-01T08:30:00",
+          "schema:validThrough": "2024-08-31T14:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ce45c61b-5326-3e05-a19d-34d3a2340199",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "16:30:00",
+          "schema:validFrom": "2024-07-01T16:30:00",
+          "schema:validThrough": "2024-08-31T18:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d04f772b-b37e-32de-8357-49615ae13008",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:30:00",
+          "schema:validFrom": "2024-09-01T09:30:00",
+          "schema:validThrough": "2024-12-15T12:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d212cf50-7a77-3cb7-9ac5-f8aeba0fe415",
+          "schema:closes": "16:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "13:30:00",
+          "schema:validFrom": "2024-09-01T13:30:00",
+          "schema:validThrough": "2024-12-15T16:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d295dcd6-a8d6-3844-a029-caf6c8dcc562",
+          "schema:closes": "16:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "13:30:00",
+          "schema:validFrom": "2024-01-15T13:30:00",
+          "schema:validThrough": "2024-06-30T16:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d429d02d-a244-33c9-a50e-f4dd5c462beb",
+          "schema:closes": "16:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "13:30:00",
+          "schema:validFrom": "2024-01-15T13:30:00",
+          "schema:validThrough": "2024-06-30T16:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d507d4a2-e168-37c3-90be-bd5bf73c6a02",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:30:00",
+          "schema:validFrom": "2023-09-01T09:30:00",
+          "schema:validThrough": "2023-12-16T12:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d73e3400-dd94-3934-ae9f-48fb29391700",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:30:00",
+          "schema:validFrom": "2023-09-01T09:30:00",
+          "schema:validThrough": "2023-12-16T12:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d7c04e2d-0463-34d6-ae31-cf507132de6b",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:30:00",
+          "schema:validFrom": "2024-01-15T09:30:00",
+          "schema:validThrough": "2024-06-30T12:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d85f97f4-bcbe-371c-9684-c4255b0975e1",
+          "schema:closes": "16:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "13:30:00",
+          "schema:validFrom": "2023-09-01T13:30:00",
+          "schema:validThrough": "2023-12-16T16:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/dd266499-4d54-3fb7-8c46-d9a738cdd327",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:30:00",
+          "schema:validFrom": "2023-09-01T09:30:00",
+          "schema:validThrough": "2023-12-16T12:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e003b149-259b-37e6-bed1-9a1471b5b398",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:30:00",
+          "schema:validFrom": "2024-01-15T09:30:00",
+          "schema:validThrough": "2024-06-30T12:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e1d84909-cfb1-35bd-ba09-847d54135a71",
+          "schema:closes": "16:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "13:30:00",
+          "schema:validFrom": "2024-09-01T13:30:00",
+          "schema:validThrough": "2024-12-15T16:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e1f088c4-52b4-3204-8d52-78bb4ca94d5d",
+          "schema:closes": "16:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "13:30:00",
+          "schema:validFrom": "2023-09-01T13:30:00",
+          "schema:validThrough": "2023-12-16T16:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ebbf390f-8ad3-382f-bb86-f7112ad36e53",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Montag"
+                ],
+                "pt": [
+                  "Segunda-feira"
+                ],
+                "en": [
+                  "Monday"
+                ],
+                "it": [
+                  "Lunedì"
+                ],
+                "fr": [
+                  "Lundi"
+                ],
+                "nl": [
+                  "Maandag"
+                ],
+                "es": [
+                  "Lunes"
+                ]
+              }
+            }
+          ],
+          "schema:validFrom": "2024-01-15T00:00:00",
+          "schema:validThrough": "2024-06-30T23:59:59",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/edea5d78-acb0-3858-a430-d0c7ae1ca2f1",
+          "schema:closes": "12:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "09:30:00",
+          "schema:validFrom": "2024-01-15T09:30:00",
+          "schema:validThrough": "2024-06-30T12:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ef1c057b-f61f-3bf0-9dc2-bc863758b3cf",
+          "schema:closes": "14:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Montag"
+                ],
+                "pt": [
+                  "Segunda-feira"
+                ],
+                "en": [
+                  "Monday"
+                ],
+                "it": [
+                  "Lunedì"
+                ],
+                "fr": [
+                  "Lundi"
+                ],
+                "nl": [
+                  "Maandag"
+                ],
+                "es": [
+                  "Lunes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "08:30:00",
+          "schema:validFrom": "2024-07-01T08:30:00",
+          "schema:validThrough": "2024-08-31T14:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "isOwnedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/e5f2f68b-f470-31b6-88f5-31bab1435219",
+      "schema:email": [
+        "contact@escapadenatureargentat.com"
+      ],
+      "schema:legalName": "Escapade Nature Pays d'Argentat",
+      "schema:telephone": [
+        "+33 5 55 28 66 31",
+        "+33 9 74 98 35 98"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.escapadenatureargentat.com/"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-10-19",
+  "lastUpdateDatatourisme": "2023-11-09T01:22:56.558Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/52dc0c68-23a2-3ffe-b344-5533f91f0def",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CreditCards",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bankkarten"
+            ],
+            "pt": [
+              "Cartões bancários"
+            ],
+            "en": [
+              "Credit Cards"
+            ],
+            "it": [
+              "Carte bancarie"
+            ],
+            "fr": [
+              "Cartes bancaires"
+            ],
+            "es": [
+              "Tarjetas bancarias"
+            ],
+            "nl": [
+              "Bankkaarten"
+            ]
+          }
+        },
+        {
+          "@id": "kb:EurocardMastercard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Eurocard – Mastercard"
+            ],
+            "pt": [
+              "Eurocard — Mastercard"
+            ],
+            "en": [
+              "Eurocard - mastercard"
+            ],
+            "it": [
+              "Eurocard - mastercard"
+            ],
+            "fr": [
+              "Eurocard - mastercard"
+            ],
+            "nl": [
+              "Eurocard - Mastercard"
+            ],
+            "es": [
+              "Eurocard - Mastercard"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Visa",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Visa"
+            ],
+            "pt": [
+              "Visto"
+            ],
+            "en": [
+              "Visa"
+            ],
+            "it": [
+              "Visto"
+            ],
+            "fr": [
+              "Visa"
+            ],
+            "nl": [
+              "Visum"
+            ],
+            "es": [
+              "Visa"
+            ]
+          }
+        }
+      ],
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/184c9268-fcd7-3265-8664-eb4dc94e7d77",
+          "schema:minPrice": [
+            "20"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Einführung Klettern - 2 Std. Aktivität"
+            ],
+            "en": [
+              "Introduction to rock climbing - 2h activity"
+            ],
+            "it": [
+              "Introduzione all'arrampicata su roccia - attività di 2 ore"
+            ],
+            "fr": [
+              "Initiation Escalade - 2h d'activité"
+            ],
+            "nl": [
+              "Inleiding tot rotsklimmen - 2u activiteit"
+            ],
+            "es": [
+              "Iniciación a la escalada en roca - actividad de 2h"
+            ]
+          },
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:BaseRateFullRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Basistarif – voller Tarif"
+                ],
+                "pt": [
+                  "Preço de base — preço total"
+                ],
+                "en": [
+                  "Base rate - full rate"
+                ],
+                "it": [
+                  "Tariffa di base — tariffa intera"
+                ],
+                "fr": [
+                  "Tarif de base - plein tarif"
+                ],
+                "es": [
+                  "Tarifa básica - tarifa completa"
+                ],
+                "nl": [
+                  "Basistarief - vol tarief"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerUnit",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Einheit"
+                ],
+                "pt": [
+                  "Por unidade"
+                ],
+                "en": [
+                  "Per unit"
+                ],
+                "it": [
+                  "Per unità"
+                ],
+                "fr": [
+                  "A l'unité"
+                ],
+                "es": [
+                  "Por unidad"
+                ],
+                "nl": [
+                  "Per eenheid"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Ticket",
+              "@type": [
+                "ActivityPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Eintrittskarte, Eintrittsgeld, Pauschale"
+                ],
+                "pt": [
+                  "Bilhete, Direito de entrada, Preço fixo"
+                ],
+                "en": [
+                  "Ticket, Entry fee, Pass"
+                ],
+                "it": [
+                  "Biglietto, diritto d'ingresso, forfait"
+                ],
+                "fr": [
+                  "Ticket, Droit d'entrée, Forfait"
+                ],
+                "nl": [
+                  "Ticket, toegangsbewijs, pas"
+                ],
+                "es": [
+                  "Billete, entrada, forfait"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/110d0658-8bc3-3041-8d8e-2939c1587773",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/57114d39-7fbe-3008-9382-999e7db50e70",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/8ce488db-15ca-362e-9e98-9a36796ca971",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/95044956-d33a-3acf-8cb5-30744293129e",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/cc3de0dd-cc91-30b9-8380-38e9a1ed2d8c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6e4cac47-b403-3c66-b4e8-4988b25226fa",
+          "schema:minPrice": [
+            "20"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Mountainbike-Verleih 1/2 Tag"
+            ],
+            "en": [
+              "Mountain bike rental 1/2 day"
+            ],
+            "it": [
+              "Noleggio mountain bike 1/2 giornata"
+            ],
+            "fr": [
+              "Location VTT 1/2 journée"
+            ],
+            "nl": [
+              "Verhuur van mountainbikes 1/2 dag"
+            ],
+            "es": [
+              "Alquiler de bicicletas de montaña 1/2 día"
+            ]
+          },
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:BaseRateFullRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Basistarif – voller Tarif"
+                ],
+                "pt": [
+                  "Preço de base — preço total"
+                ],
+                "en": [
+                  "Base rate - full rate"
+                ],
+                "it": [
+                  "Tariffa di base — tariffa intera"
+                ],
+                "fr": [
+                  "Tarif de base - plein tarif"
+                ],
+                "es": [
+                  "Tarifa básica - tarifa completa"
+                ],
+                "nl": [
+                  "Basistarief - vol tarief"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerUnit",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Einheit"
+                ],
+                "pt": [
+                  "Por unidade"
+                ],
+                "en": [
+                  "Per unit"
+                ],
+                "it": [
+                  "Per unità"
+                ],
+                "fr": [
+                  "A l'unité"
+                ],
+                "es": [
+                  "Por unidad"
+                ],
+                "nl": [
+                  "Per eenheid"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Ticket",
+              "@type": [
+                "ActivityPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Eintrittskarte, Eintrittsgeld, Pauschale"
+                ],
+                "pt": [
+                  "Bilhete, Direito de entrada, Preço fixo"
+                ],
+                "en": [
+                  "Ticket, Entry fee, Pass"
+                ],
+                "it": [
+                  "Biglietto, diritto d'ingresso, forfait"
+                ],
+                "fr": [
+                  "Ticket, Droit d'entrée, Forfait"
+                ],
+                "nl": [
+                  "Ticket, toegangsbewijs, pas"
+                ],
+                "es": [
+                  "Billete, entrada, forfait"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/0bcafa88-5dc2-3e4b-8b67-68042ab1427f",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/61a1f5b0-d7d6-3d4a-9c0e-a4314e1172af",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b8de6ca1-71c0-3f3d-8111-152ca1b9f1dc",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/dc7c97bb-50b3-3186-8283-1c160018ceac",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/ddbd6ff3-e6aa-367c-9283-1c055fa78243",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/78570a51-1471-33a9-9d64-6acf08363768",
+          "schema:minPrice": [
+            "20"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Einführung Escalad'arbre - 2h Aktivität"
+            ],
+            "en": [
+              "Introduction to Escalad'arbre - 2h of activity"
+            ],
+            "it": [
+              "Iniziazione all'arrampicata sugli alberi - 2 ore di attività"
+            ],
+            "fr": [
+              "Initiation Escalad'arbre - 2h d'activité"
+            ],
+            "nl": [
+              "Initiatie boomklimmen - 2u activiteit"
+            ],
+            "es": [
+              "Iniciación a la escalada de árboles - actividad de 2h"
+            ]
+          },
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:BaseRateFullRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Basistarif – voller Tarif"
+                ],
+                "pt": [
+                  "Preço de base — preço total"
+                ],
+                "en": [
+                  "Base rate - full rate"
+                ],
+                "it": [
+                  "Tariffa di base — tariffa intera"
+                ],
+                "fr": [
+                  "Tarif de base - plein tarif"
+                ],
+                "es": [
+                  "Tarifa básica - tarifa completa"
+                ],
+                "nl": [
+                  "Basistarief - vol tarief"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerUnit",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Einheit"
+                ],
+                "pt": [
+                  "Por unidade"
+                ],
+                "en": [
+                  "Per unit"
+                ],
+                "it": [
+                  "Per unità"
+                ],
+                "fr": [
+                  "A l'unité"
+                ],
+                "es": [
+                  "Por unidad"
+                ],
+                "nl": [
+                  "Per eenheid"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Ticket",
+              "@type": [
+                "ActivityPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Eintrittskarte, Eintrittsgeld, Pauschale"
+                ],
+                "pt": [
+                  "Bilhete, Direito de entrada, Preço fixo"
+                ],
+                "en": [
+                  "Ticket, Entry fee, Pass"
+                ],
+                "it": [
+                  "Biglietto, diritto d'ingresso, forfait"
+                ],
+                "fr": [
+                  "Ticket, Droit d'entrée, Forfait"
+                ],
+                "nl": [
+                  "Ticket, toegangsbewijs, pas"
+                ],
+                "es": [
+                  "Billete, entrada, forfait"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/2e0000e0-c32f-3068-bb6c-f9cfba7caec8",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/6507e90b-f3fd-363e-8042-223c8c299fd2",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9d2cae3a-511b-328d-9088-8dfcb7311e9d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/a0a92c91-fcd7-3a4c-89af-37ae9e0fcb70",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/cc1a8a44-db75-3d9a-a7bc-f099b15812b7",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8b2af870-2dab-33d0-a34f-ec892045be9d",
+          "schema:minPrice": [
+            "20"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Einführung Kanu"
+            ],
+            "en": [
+              "Canoe initiation"
+            ],
+            "it": [
+              "Introduzione alla canoa"
+            ],
+            "fr": [
+              "Initiation Canoë"
+            ],
+            "nl": [
+              "Kennismaking met kanoën"
+            ],
+            "es": [
+              "Introducción al piragüismo"
+            ]
+          },
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:BaseRateFullRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Basistarif – voller Tarif"
+                ],
+                "pt": [
+                  "Preço de base — preço total"
+                ],
+                "en": [
+                  "Base rate - full rate"
+                ],
+                "it": [
+                  "Tariffa di base — tariffa intera"
+                ],
+                "fr": [
+                  "Tarif de base - plein tarif"
+                ],
+                "es": [
+                  "Tarifa básica - tarifa completa"
+                ],
+                "nl": [
+                  "Basistarief - vol tarief"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerUnit",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Einheit"
+                ],
+                "pt": [
+                  "Por unidade"
+                ],
+                "en": [
+                  "Per unit"
+                ],
+                "it": [
+                  "Per unità"
+                ],
+                "fr": [
+                  "A l'unité"
+                ],
+                "es": [
+                  "Por unidad"
+                ],
+                "nl": [
+                  "Per eenheid"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Ticket",
+              "@type": [
+                "ActivityPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Eintrittskarte, Eintrittsgeld, Pauschale"
+                ],
+                "pt": [
+                  "Bilhete, Direito de entrada, Preço fixo"
+                ],
+                "en": [
+                  "Ticket, Entry fee, Pass"
+                ],
+                "it": [
+                  "Biglietto, diritto d'ingresso, forfait"
+                ],
+                "fr": [
+                  "Ticket, Droit d'entrée, Forfait"
+                ],
+                "nl": [
+                  "Ticket, toegangsbewijs, pas"
+                ],
+                "es": [
+                  "Billete, entrada, forfait"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/44aeb109-2259-3530-85ce-9c5975a9e28a",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/66b55362-6a8d-3944-8e6a-611ce9fbd200",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/8afc5397-186d-3a05-87de-af175514cc76",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/a931f6dd-e569-3482-b013-ffd219f3a97d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/adc2310d-6261-3838-ac3c-941a30e0aa22",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9ebf88dc-f77a-3586-b84b-47015868a84b",
+          "schema:minPrice": [
+            "18"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Einführung in das Bogenschießen - 2 Std. Aktivität"
+            ],
+            "en": [
+              "Introduction to archery - 2h of activity"
+            ],
+            "it": [
+              "Introduzione al tiro con l'arco - 2 ore di attività"
+            ],
+            "fr": [
+              "Initiation tir à l'arc - 2h d'activité"
+            ],
+            "nl": [
+              "Kennismaking met boogschieten - 2 uur activiteit"
+            ],
+            "es": [
+              "Iniciación al tiro con arco - 2 horas de actividad"
+            ]
+          },
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:BaseRateFullRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Basistarif – voller Tarif"
+                ],
+                "pt": [
+                  "Preço de base — preço total"
+                ],
+                "en": [
+                  "Base rate - full rate"
+                ],
+                "it": [
+                  "Tariffa di base — tariffa intera"
+                ],
+                "fr": [
+                  "Tarif de base - plein tarif"
+                ],
+                "es": [
+                  "Tarifa básica - tarifa completa"
+                ],
+                "nl": [
+                  "Basistarief - vol tarief"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerUnit",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Einheit"
+                ],
+                "pt": [
+                  "Por unidade"
+                ],
+                "en": [
+                  "Per unit"
+                ],
+                "it": [
+                  "Per unità"
+                ],
+                "fr": [
+                  "A l'unité"
+                ],
+                "es": [
+                  "Por unidad"
+                ],
+                "nl": [
+                  "Per eenheid"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Ticket",
+              "@type": [
+                "ActivityPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Eintrittskarte, Eintrittsgeld, Pauschale"
+                ],
+                "pt": [
+                  "Bilhete, Direito de entrada, Preço fixo"
+                ],
+                "en": [
+                  "Ticket, Entry fee, Pass"
+                ],
+                "it": [
+                  "Biglietto, diritto d'ingresso, forfait"
+                ],
+                "fr": [
+                  "Ticket, Droit d'entrée, Forfait"
+                ],
+                "nl": [
+                  "Ticket, toegangsbewijs, pas"
+                ],
+                "es": [
+                  "Billete, entrada, forfait"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/0d18394e-7394-3409-9306-4e61d8cbb518",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/22461e19-055a-3296-af36-489fc9fea0c7",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/253c3a3a-cf40-3e4a-91b8-91f5d00d2c25",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/a73bd32c-723c-38e3-b6dd-acecfa8c707b",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b733e8ce-4908-3eb6-bea0-72c5b36f2256",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9f54e14c-ba61-3420-a837-4ef5e31e6122",
+          "schema:minPrice": [
+            "15"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Verleih von Klettersteigsets (Helm, Klettergurt und Schlingen)"
+            ],
+            "en": [
+              "Via Ferrata kit rental (helmet, harness and lanyards)"
+            ],
+            "it": [
+              "Noleggio kit Via Ferrata (casco, imbracatura e cordini)"
+            ],
+            "fr": [
+              "Location Kit de Via Ferrata (casque, baudrier et longes)"
+            ],
+            "nl": [
+              "Via Ferrata kit huren (helm, harnas en lanyards)"
+            ],
+            "es": [
+              "Alquiler de equipo de Via Ferrata (casco, arnés y cuerdas)"
+            ]
+          },
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:BaseRateFullRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Basistarif – voller Tarif"
+                ],
+                "pt": [
+                  "Preço de base — preço total"
+                ],
+                "en": [
+                  "Base rate - full rate"
+                ],
+                "it": [
+                  "Tariffa di base — tariffa intera"
+                ],
+                "fr": [
+                  "Tarif de base - plein tarif"
+                ],
+                "es": [
+                  "Tarifa básica - tarifa completa"
+                ],
+                "nl": [
+                  "Basistarief - vol tarief"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerUnit",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Einheit"
+                ],
+                "pt": [
+                  "Por unidade"
+                ],
+                "en": [
+                  "Per unit"
+                ],
+                "it": [
+                  "Per unità"
+                ],
+                "fr": [
+                  "A l'unité"
+                ],
+                "es": [
+                  "Por unidad"
+                ],
+                "nl": [
+                  "Per eenheid"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Ticket",
+              "@type": [
+                "ActivityPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Eintrittskarte, Eintrittsgeld, Pauschale"
+                ],
+                "pt": [
+                  "Bilhete, Direito de entrada, Preço fixo"
+                ],
+                "en": [
+                  "Ticket, Entry fee, Pass"
+                ],
+                "it": [
+                  "Biglietto, diritto d'ingresso, forfait"
+                ],
+                "fr": [
+                  "Ticket, Droit d'entrée, Forfait"
+                ],
+                "nl": [
+                  "Ticket, toegangsbewijs, pas"
+                ],
+                "es": [
+                  "Billete, entrada, forfait"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/2cdd0819-3c77-376c-bc2a-33188ba6f9ec",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/5e9f1b7e-9564-3ee7-8c4b-5ec175f6a353",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/639f4101-2e72-3b97-9d91-c485e8fb70f6",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/aa0bc1b1-1cb1-312c-92f2-cea16c6f5e92",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/f613de57-26a1-3310-8b2b-c93d13085fd3",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a2cb89e0-7f06-3144-abdc-baaae67efbdd",
+          "schema:maxPrice": [
+            "55"
+          ],
+          "schema:minPrice": [
+            "45"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Betreuung Canyoning"
+            ],
+            "en": [
+              "Supervision Canyoning"
+            ],
+            "it": [
+              "Supervisione del canyoning"
+            ],
+            "fr": [
+              "Encadrement Canyoning"
+            ],
+            "nl": [
+              "Toezicht op canyoning"
+            ],
+            "es": [
+              "Supervisión de barrancos"
+            ]
+          },
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:BaseRateFullRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Basistarif – voller Tarif"
+                ],
+                "pt": [
+                  "Preço de base — preço total"
+                ],
+                "en": [
+                  "Base rate - full rate"
+                ],
+                "it": [
+                  "Tariffa di base — tariffa intera"
+                ],
+                "fr": [
+                  "Tarif de base - plein tarif"
+                ],
+                "es": [
+                  "Tarifa básica - tarifa completa"
+                ],
+                "nl": [
+                  "Basistarief - vol tarief"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerUnit",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Einheit"
+                ],
+                "pt": [
+                  "Por unidade"
+                ],
+                "en": [
+                  "Per unit"
+                ],
+                "it": [
+                  "Per unità"
+                ],
+                "fr": [
+                  "A l'unité"
+                ],
+                "es": [
+                  "Por unidad"
+                ],
+                "nl": [
+                  "Per eenheid"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Ticket",
+              "@type": [
+                "ActivityPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Eintrittskarte, Eintrittsgeld, Pauschale"
+                ],
+                "pt": [
+                  "Bilhete, Direito de entrada, Preço fixo"
+                ],
+                "en": [
+                  "Ticket, Entry fee, Pass"
+                ],
+                "it": [
+                  "Biglietto, diritto d'ingresso, forfait"
+                ],
+                "fr": [
+                  "Ticket, Droit d'entrée, Forfait"
+                ],
+                "nl": [
+                  "Ticket, toegangsbewijs, pas"
+                ],
+                "es": [
+                  "Billete, entrada, forfait"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/01643cd2-bf84-31e4-a5fc-1d45d7f25705",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/027392e6-806d-3c4c-a13b-a68b671be3f7",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/10c6342d-c3ac-3e7e-b2cf-2cadfdb03c55",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/23c79103-7c55-36a3-91a2-ee3351cd3011",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/74bb1a01-efa5-3a90-8cc5-1ff22b405b73",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/cff9e39a-6180-3aef-80ce-b4d7ea6be3f0",
+          "schema:maxPrice": [
+            "25"
+          ],
+          "schema:minPrice": [
+            "13"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Kanuverleih zwischen Argentat und Beaulieu (je nach Strecke)"
+            ],
+            "en": [
+              "Canoe hire between Argentat and Beaulieu (depending on route)"
+            ],
+            "it": [
+              "Noleggio di canoe tra Argentat e Beaulieu (a seconda dell'itinerario)"
+            ],
+            "fr": [
+              "Location canoë entre Argentat et Beaulieu (selon parcours)"
+            ],
+            "nl": [
+              "Kanoverhuur tussen Argentat en Beaulieu (afhankelijk van route)"
+            ],
+            "es": [
+              "Alquiler de canoas entre Argentat y Beaulieu (según ruta)"
+            ]
+          },
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:BaseRateFullRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Basistarif – voller Tarif"
+                ],
+                "pt": [
+                  "Preço de base — preço total"
+                ],
+                "en": [
+                  "Base rate - full rate"
+                ],
+                "it": [
+                  "Tariffa di base — tariffa intera"
+                ],
+                "fr": [
+                  "Tarif de base - plein tarif"
+                ],
+                "es": [
+                  "Tarifa básica - tarifa completa"
+                ],
+                "nl": [
+                  "Basistarief - vol tarief"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerUnit",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Einheit"
+                ],
+                "pt": [
+                  "Por unidade"
+                ],
+                "en": [
+                  "Per unit"
+                ],
+                "it": [
+                  "Per unità"
+                ],
+                "fr": [
+                  "A l'unité"
+                ],
+                "es": [
+                  "Por unidad"
+                ],
+                "nl": [
+                  "Per eenheid"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Ticket",
+              "@type": [
+                "ActivityPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Eintrittskarte, Eintrittsgeld, Pauschale"
+                ],
+                "pt": [
+                  "Bilhete, Direito de entrada, Preço fixo"
+                ],
+                "en": [
+                  "Ticket, Entry fee, Pass"
+                ],
+                "it": [
+                  "Biglietto, diritto d'ingresso, forfait"
+                ],
+                "fr": [
+                  "Ticket, Droit d'entrée, Forfait"
+                ],
+                "nl": [
+                  "Ticket, toegangsbewijs, pas"
+                ],
+                "es": [
+                  "Billete, entrada, forfait"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/00231b5e-4bbe-3cd3-917a-bc5a9da15cdc",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/1ca08b47-1ff2-3b7c-8aa0-8cdb7b47a29f",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/29d4c0de-98fc-3f24-a5d5-cb06cfc0860c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/4f9c3e97-a15b-36f9-9a7f-79eb31f56677",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/fd09507e-16be-308f-a019-d2f405343e19",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f1fea12b-e836-32ee-b0e7-8b0b3230fc53",
+          "schema:minPrice": [
+            "40"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Mountainbike-Verleih Tag"
+            ],
+            "en": [
+              "Day mountain bike hire"
+            ],
+            "it": [
+              "Noleggio giornaliero di mountain bike"
+            ],
+            "fr": [
+              "Location VTT Journée"
+            ],
+            "nl": [
+              "Dag mountainbike huren"
+            ],
+            "es": [
+              "Alquiler de bicicletas de montaña por un día"
+            ]
+          },
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:BaseRateFullRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Basistarif – voller Tarif"
+                ],
+                "pt": [
+                  "Preço de base — preço total"
+                ],
+                "en": [
+                  "Base rate - full rate"
+                ],
+                "it": [
+                  "Tariffa di base — tariffa intera"
+                ],
+                "fr": [
+                  "Tarif de base - plein tarif"
+                ],
+                "es": [
+                  "Tarifa básica - tarifa completa"
+                ],
+                "nl": [
+                  "Basistarief - vol tarief"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerUnit",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Einheit"
+                ],
+                "pt": [
+                  "Por unidade"
+                ],
+                "en": [
+                  "Per unit"
+                ],
+                "it": [
+                  "Per unità"
+                ],
+                "fr": [
+                  "A l'unité"
+                ],
+                "es": [
+                  "Por unidad"
+                ],
+                "nl": [
+                  "Per eenheid"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Ticket",
+              "@type": [
+                "ActivityPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Eintrittskarte, Eintrittsgeld, Pauschale"
+                ],
+                "pt": [
+                  "Bilhete, Direito de entrada, Preço fixo"
+                ],
+                "en": [
+                  "Ticket, Entry fee, Pass"
+                ],
+                "it": [
+                  "Biglietto, diritto d'ingresso, forfait"
+                ],
+                "fr": [
+                  "Ticket, Droit d'entrée, Forfait"
+                ],
+                "nl": [
+                  "Ticket, toegangsbewijs, pas"
+                ],
+                "es": [
+                  "Billete, entrada, forfait"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/038f1b52-4e5f-3b78-b9bd-773911f3a2b9",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/35d04c82-b13c-3b87-81c7-9cce64a84ceb",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/7d3089b7-2ac0-359f-b102-9312f048066f",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c6145639-5574-3706-b18b-8d5e42cffec7",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d8147677-4ca0-3dfa-b5b4-b6cba71ec085",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f610baa9-dddb-392f-8988-33e345f83986",
+          "schema:minPrice": [
+            "20"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Einführung in das Stand Up Paddle - 2 Std. Aktivität"
+            ],
+            "en": [
+              "Stand Up Paddle initiation - 2h of activity"
+            ],
+            "it": [
+              "Introduzione allo Stand Up Paddle - 2 ore di attività"
+            ],
+            "fr": [
+              "Initiation Stand Up Paddle - 2h d'activité"
+            ],
+            "nl": [
+              "Inleiding tot Stand Up Paddle - 2 uur durende activiteit"
+            ],
+            "es": [
+              "Iniciación al Stand Up Paddle - actividad de 2h"
+            ]
+          },
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:BaseRateFullRate",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Basistarif – voller Tarif"
+                ],
+                "pt": [
+                  "Preço de base — preço total"
+                ],
+                "en": [
+                  "Base rate - full rate"
+                ],
+                "it": [
+                  "Tariffa di base — tariffa intera"
+                ],
+                "fr": [
+                  "Tarif de base - plein tarif"
+                ],
+                "es": [
+                  "Tarifa básica - tarifa completa"
+                ],
+                "nl": [
+                  "Basistarief - vol tarief"
+                ]
+              }
+            }
+          ],
+          "hasPricingMode": [
+            {
+              "@id": "kb:PerPerson",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Person"
+                ],
+                "pt": [
+                  "Por pessoa"
+                ],
+                "en": [
+                  "Per person"
+                ],
+                "it": [
+                  "Per persona"
+                ],
+                "fr": [
+                  "Par personne"
+                ],
+                "es": [
+                  "Por persona"
+                ],
+                "nl": [
+                  "Per persoon"
+                ]
+              }
+            },
+            {
+              "@id": "kb:PerUnit",
+              "@type": [
+                "PricingMode"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Pro Einheit"
+                ],
+                "pt": [
+                  "Por unidade"
+                ],
+                "en": [
+                  "Per unit"
+                ],
+                "it": [
+                  "Per unità"
+                ],
+                "fr": [
+                  "A l'unité"
+                ],
+                "es": [
+                  "Por unidad"
+                ],
+                "nl": [
+                  "Per eenheid"
+                ]
+              }
+            }
+          ],
+          "hasPricingOffer": [
+            {
+              "@id": "kb:Ticket",
+              "@type": [
+                "ActivityPricingOffer"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Eintrittskarte, Eintrittsgeld, Pauschale"
+                ],
+                "pt": [
+                  "Bilhete, Direito de entrada, Preço fixo"
+                ],
+                "en": [
+                  "Ticket, Entry fee, Pass"
+                ],
+                "it": [
+                  "Biglietto, diritto d'ingresso, forfait"
+                ],
+                "fr": [
+                  "Ticket, Droit d'entrée, Forfait"
+                ],
+                "nl": [
+                  "Ticket, toegangsbewijs, pas"
+                ],
+                "es": [
+                  "Billete, entrada, forfait"
+                ]
+              }
+            }
+          ],
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/50cba8e4-3eed-33c2-bc57-a5a99a391d58",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/76825443-6e1b-37d3-91b6-adfbbf0e7060",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/a4aeab11-392d-3459-8acd-2156e84a51d3",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d877df68-a84e-3087-a092-a42519e96fa4",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/daf9c9e8-cc9e-3fea-a93a-0ca8994af1f0",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5099 @@
+{
+  "@id": "https://data.datatourisme.fr/32/00638229-3cba-3311-ba75-b75077e31212",
+  "dc:identifier": "DEGLAR034V51N5DK",
+  "@type": [
+    "schema:LocalBusiness",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "TastingProvider",
+    "WineCellar"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Die Domaine de Soustres liegt auf dem Hügel des berühmten Oppidums von Ensérune, das von mehreren Historikern als die Wiege des Weins in Frankreich angesehen wird. Hier begannen die Etrusker und später die Griechen mit dem Weinhandel in Gallien und führten den Anbau von Weinreben ein. Entdecken Sie einen historischen Weinberg, der seit der Antike in einer bemerkenswerten Landschaft bewirtschaftet"
+    ],
+    "en": [
+      "The Domaine de Soustres is located on the hill of the famous Oppidum d'Ensérune, considered by many historians as the cradle of wine in France. It is here that the Etruscans and then the Greeks began the wine trade in Gaul and introduced the cultivation of the vine. Discover a historical vineyard cultivated since the Antiquity in a remarkable landscape."
+    ],
+    "it": [
+      "Il Domaine de Soustres si trova sulla collina del famoso Oppidum d'Ensérune, considerato da molti storici come la culla del vino in Francia. È qui che gli Etruschi e poi i Greci iniziarono il commercio del vino in Gallia e introdussero la coltivazione della vite. Scoprite un vigneto storico coltivato fin dall'antichità in un paesaggio straordinario."
+    ],
+    "fr": [
+      "Le Domaine de Soustres est situé sur la colline du célèbre Oppidum d'Ensérune, considérée par plusieurs historiens comme le berceau du vin en France. C’est ici que les Etrusques puis les Grecs débutèrent le commerce du vin en Gaule et introduisirent la culture de la vigne. Découvrez un vignoble historique cultivé depuis l’Antiquité dans un paysage remarquable."
+    ],
+    "nl": [
+      "Het Domaine de Soustres ligt op de heuvel van het beroemde Oppidum d'Ensérune, door veel historici beschouwd als de bakermat van de wijn in Frankrijk. Het was hier dat de Etrusken en vervolgens de Grieken de wijnhandel in Gallië begonnen en de wijnbouw introduceerden. Ontdek een historische wijngaard die sinds de oudheid wordt gecultiveerd in een opmerkelijk landschap."
+    ],
+    "es": [
+      "El Domaine de Soustres está situado en la colina del famoso Oppidum d'Ensérune, considerado por muchos historiadores como la cuna del vino en Francia. Fue aquí donde los etruscos y luego los griegos iniciaron el comercio del vino en la Galia e introdujeron el cultivo de la vid. Descubra un viñedo histórico cultivado desde la antigüedad en un paisaje extraordinario."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "DOMAINE DE SOUSTRES"
+    ],
+    "fr": [
+      "DOMAINE DE SOUSTRES"
+    ],
+    "es": [
+      "DOMAINE DE SOUSTRES"
+    ]
+  },
+  "COVID19SpecialMeasures": {
+    "de": [
+      "Anwendung des Gesundheitsprotokolls der Vignerons Indépendants fiche technique 66 - COVID 10 - Verkauf und Verkostung auf dem Weingut vom 18/05/2020;\nReservierung per Telefon und auf der Website#Ausnahmebestimmungen für den Empfang der Öffentlichkeit Covid-19"
+    ],
+    "en": [
+      "Application of the sanitary protocol of the Independent Winegrowers technical sheet 66 - COVID 10 - sale and tasting at the domain on 18/05/2020;\nReservation by phone and on the website#Exceptional arrangements for the public Covid-19"
+    ],
+    "it": [
+      "Applicazione del protocollo sanitario dei Vignaioli Indipendenti scheda tecnica 66 - COVID 10 - vendita e degustazione presso la tenuta il 18/05/2020;\nPrenotazione telefonica e sul sito web#Accordi eccezionali per il pubblico Covid-19"
+    ],
+    "fr": [
+      "Application du protocole sanitaire des Vignerons Indépendants fiche technique 66 - COVID 10 - vente et dégustation au domaine du 18/05/2020;\nRéservation par téléphone et sur le site web#Dispositions exceptionnelles d’accueil du public  Covid-19"
+    ],
+    "nl": [
+      "Toepassing van het gezondheidsprotocol van de Onafhankelijke Wijnbouwers technische fiche 66 - COVID 10 - verkoop en proeverij op het domein op 18/05/2020;\nReservering per telefoon en via de website#Uitzonderlijke regelingen voor het publiek Covid-19"
+    ],
+    "es": [
+      "Aplicación del protocolo sanitario de la ficha técnica 66 de Viticultores Independientes - COVID 10 - venta y degustación en la finca el 18/05/2020;\nReserva por teléfono y en la página web#Disposiciones excepcionales para el público Covid-19"
+    ]
+  },
+  "availableLanguage": [
+    "en",
+    "es",
+    "fr"
+  ],
+  "creationDate": "2019-06-23",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/96a2ccb3-553e-341a-9560-0996b6d0e069",
+    "schema:legalName": "OT LA DOMITIENNE",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/febedded-d61e-398a-afe4-6ddebe34211c",
+      "schema:email": [
+        "contact@herault-tourisme.com"
+      ],
+      "schema:legalName": "Hérault Tourisme",
+      "schema:telephone": [
+        "+33 4 67 67 71 71"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.herault-tourisme.com/"
+      ]
+    }
+  ],
+  "hasBookingContact": [
+    {
+      "@id": "https://data.datatourisme.fr/68e8013e-b20b-330d-aa4d-1c3f5713823d",
+      "schema:email": [
+        "contact@domaine-de-soustres.fr"
+      ],
+      "schema:telephone": [
+        "+33 4 67 93 43 75",
+        "+33 6 08 18 73 04"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.domaine-de-soustres.fr/activites/nos-activites/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/42a834b8-49bc-32f2-a14b-56ccb93adbde",
+      "schema:email": [
+        "contact@domaine-de-soustres.fr"
+      ],
+      "schema:legalName": "DOMAINE DE SOUSTRES",
+      "schema:telephone": [
+        "+33 4 67 93 43 75"
+      ],
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.domaine-de-soustres.fr/"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/68e8013e-b20b-330d-aa4d-1c3f5713823d",
+      "schema:email": [
+        "contact@domaine-de-soustres.fr"
+      ],
+      "schema:telephone": [
+        "+33 4 67 93 43 75",
+        "+33 6 08 18 73 04"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.domaine-de-soustres.fr/activites/nos-activites/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/94b36653-0b1a-3296-b775-593b6eb62e2c",
+      "dc:description": {
+        "de": [
+          "Die Domaine de Soustres liegt auf dem Hügel des berühmten Oppidums von Ensérune, das von mehreren Historikern als die Wiege des Weins in Frankreich angesehen wird. Hier begannen die Etrusker und später die Griechen mit dem Weinhandel in Gallien und führten den Anbau von Weinreben ein. Entdecken Sie einen historischen Weinberg, der seit der Antike in einer bemerkenswerten Landschaft bewirtschaftet wird. Besuchen Sie einen jahrhundertealten Weinkeller mit beeindruckenden Fässern. Probieren Sie aromatische und frische, elegante und köstliche Weine, die in kleinen Cuvées vinifiziert werden und den Rebsorten des Mittelmeers den Vorzug geben\n- Kostenlose kommentierte Besichtigung des Weinkellers: \"Der Weg der Traube von der Lese bis zur Flasche\" mit Besichtigung des Kelterraums und des Fässerraums, Geschichte des Weinguts\n- Freier Spaziergang durch die Weinberge entlang des PR-Wegs \"circuit: autour d'Ensérune\" - Dokument zur Entdeckung, das im Weinkeller zu den Öffnungszeiten ausgehändigt wird (\"A la découverte des cépages du domaine\")\n- Weinprobe"
+        ],
+        "en": [
+          "The Domaine de Soustres is located on the hill of the famous Oppidum d'Ensérune, considered by many historians as the cradle of wine in France. It is here that the Etruscans and then the Greeks began the wine trade in Gaul and introduced the cultivation of the vine. Discover a historic vineyard cultivated since antiquity in a remarkable landscape. Visit a century-old winery with impressive tuns. Taste aromatic and fresh wines, elegant and greedy, vinified in small vintages and giving pride of place to Mediterranean grape varieties\n- Free guided tour of the winery: \"the path of the grape from harvest to bottle\" with a visit to the press room and the tuns room, history of the estate\n- Free walk in the vineyard following the PR path \"circuit: around Ensérune\" - discovery document given at the cellar during opening hours (\"A la découverte des cépages du domaine\")\n- Wine tasting"
+        ],
+        "it": [
+          "Il Domaine de Soustres si trova sulla collina del famoso Oppidum d'Ensérune, considerato da molti storici come la culla del vino in Francia. È qui che gli Etruschi e poi i Greci iniziarono il commercio del vino in Gallia e introdussero la coltivazione della vite. Scoprite un vigneto storico coltivato fin dall'antichità in un paesaggio straordinario. Visitate un'azienda vinicola centenaria con imponenti tonneau. Assaggiate vini aromatici e freschi, eleganti e gustosi, vinificati in piccole annate e con una particolare attenzione ai vitigni mediterranei\nvisita guidata gratuita della cantina: \"il percorso dell'uva dalla vendemmia alla bottiglia\" con visita alla sala stampa e alla sala dei tini, storia della tenuta\npasseggiata gratuita nel vigneto seguendo il percorso PR \"circuito: intorno a Ensérune\" - documento di scoperta disponibile in cantina durante gli orari di apertura (\"Alla scoperta dei vitigni della tenuta\")\ndegustazione di vini"
+        ],
+        "fr": [
+          "Le Domaine de Soustres est situé sur la colline du célèbre Oppidum d'Ensérune, considérée par plusieurs historiens comme le berceau du vin en France. C’est ici que les Etrusques puis les Grecs débutèrent le commerce du vin en Gaule et introduisirent la culture de la vigne. Découvrez un vignoble historique cultivé depuis l’Antiquité dans un paysage remarquable. Visitez un chai centenaire aux foudres impressionnants. Dégustez des vins aromatiques et frais, élégants et gourmands, vinifiés en petites cuvées et faisant la part belle aux cépages de Méditerranée. \n•\tVisite commentée du Chai gratuite : « le parcours du raisin de la vendange à la bouteille » avec visite de la salle des pressoirs et de la salle de foudres, histoire du domaine\n•\tBalade libre dans le vignoble en suivant le chemin de PR « circuit : autour d’Ensérune » - document de découverte remis au caveau aux heures d’ouverture («A la découverte des cépages du domaine »)\n•\tDégustation des vins"
+        ],
+        "nl": [
+          "Het Domaine de Soustres ligt op de heuvel van het beroemde Oppidum d'Ensérune, door veel historici beschouwd als de bakermat van de wijn in Frankrijk. Het was hier dat de Etrusken en vervolgens de Grieken de wijnhandel in Gallië begonnen en de wijnbouw introduceerden. Ontdek een historische wijngaard die sinds de oudheid wordt gecultiveerd in een opmerkelijk landschap. Bezoek een eeuwenoude wijnmakerij met indrukwekkende kuipen. Proef aromatische en frisse wijnen, elegant en smaakvol, gevinifieerd in kleine jaargangen en met een speciale nadruk op mediterrane druivenrassen\n- Gratis rondleiding door de wijnmakerij: \"de weg van de druif van oogst tot fles\" met een bezoek aan de perszaal en de kuiperij, geschiedenis van het domein\n- Gratis wandeling in de wijngaard volgens het PR-parcours \"circuit : autour d'Ensérune\" - ontdekkingsdocument beschikbaar in de kelder tijdens de openingsuren (\"A la découverte des cépages du domaine\")\n- Wijnproeverij"
+        ],
+        "es": [
+          "El Domaine de Soustres está situado en la colina del famoso Oppidum d'Ensérune, considerado por muchos historiadores como la cuna del vino en Francia. Fue aquí donde los etruscos y luego los griegos iniciaron el comercio del vino en la Galia e introdujeron el cultivo de la vid. Descubra un viñedo histórico cultivado desde la antigüedad en un paisaje extraordinario. Visite una bodega centenaria con impresionantes túneles. Pruebe vinos aromáticos y frescos, elegantes y sabrosos, vinificados en pequeñas añadas y con especial énfasis en las variedades de uva mediterráneas\nvisita guiada gratuita a la bodega: \"el camino de la uva desde la vendimia hasta la botella\" con visita a la sala de prensado y a la sala de barricas, historia de la finca\n? paseo gratuito por el viñedo siguiendo el sendero PR \"circuito: alrededor de Ensérune\" - documento de descubrimiento disponible en la bodega durante las horas de apertura (\"Descubrir las variedades de uva de la finca\")\ncata de vinos"
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/713acfe1-b9df-3663-9a2f-bfc9ae55ec0f",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e433ca29-025d-34b0-8387-9bbc4f316fe5",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Die Domaine de Soustres liegt auf dem Hügel des berühmten Oppidums von Ensérune, das von mehreren Historikern als die Wiege des Weins in Frankreich angesehen wird. Hier begannen die Etrusker und später die Griechen mit dem Weinhandel in Gallien und führten den Anbau von Weinreben ein. Entdecken Sie einen historischen Weinberg, der seit der Antike in einer bemerkenswerten Landschaft bewirtschaftet"
+        ],
+        "en": [
+          "The Domaine de Soustres is located on the hill of the famous Oppidum d'Ensérune, considered by many historians as the cradle of wine in France. It is here that the Etruscans and then the Greeks began the wine trade in Gaul and introduced the cultivation of the vine. Discover a historical vineyard cultivated since the Antiquity in a remarkable landscape."
+        ],
+        "it": [
+          "Il Domaine de Soustres si trova sulla collina del famoso Oppidum d'Ensérune, considerato da molti storici come la culla del vino in Francia. È qui che gli Etruschi e poi i Greci iniziarono il commercio del vino in Gallia e introdussero la coltivazione della vite. Scoprite un vigneto storico coltivato fin dall'antichità in un paesaggio straordinario."
+        ],
+        "fr": [
+          "Le Domaine de Soustres est situé sur la colline du célèbre Oppidum d'Ensérune, considérée par plusieurs historiens comme le berceau du vin en France. C’est ici que les Etrusques puis les Grecs débutèrent le commerce du vin en Gaule et introduisirent la culture de la vigne. Découvrez un vignoble historique cultivé depuis l’Antiquité dans un paysage remarquable."
+        ],
+        "nl": [
+          "Het Domaine de Soustres ligt op de heuvel van het beroemde Oppidum d'Ensérune, door veel historici beschouwd als de bakermat van de wijn in Frankrijk. Het was hier dat de Etrusken en vervolgens de Grieken de wijnhandel in Gallië begonnen en de wijnbouw introduceerden. Ontdek een historische wijngaard die sinds de oudheid wordt gecultiveerd in een opmerkelijk landschap."
+        ],
+        "es": [
+          "El Domaine de Soustres está situado en la colina del famoso Oppidum d'Ensérune, considerado por muchos historiadores como la cuna del vino en Francia. Fue aquí donde los etruscos y luego los griegos iniciaron el comercio del vino en la Galia e introdujeron el cultivo de la vid. Descubra un viñedo histórico cultivado desde la antigüedad en un paisaje extraordinario."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/da8e562a-613e-3420-9739-d03470e3a4b2",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:CarPark",
+          "@type": [
+            "CommonAmenity",
+            "GeneralPricingOffer"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Parkplatz"
+            ],
+            "pt": [
+              "Estacionamento"
+            ],
+            "en": [
+              "Car park"
+            ],
+            "it": [
+              "Parcheggio"
+            ],
+            "fr": [
+              "Parking"
+            ],
+            "nl": [
+              "Parkeerplaats"
+            ],
+            "es": [
+              "Aparcamiento"
+            ]
+          }
+        },
+        {
+          "@id": "kb:PublicToilets",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Öffentliche Toiletten"
+            ],
+            "pt": [
+              "Sanitários públicos"
+            ],
+            "en": [
+              "Public toilets"
+            ],
+            "it": [
+              "Servizi igienici pubblici"
+            ],
+            "fr": [
+              "Toilettes publiques"
+            ],
+            "nl": [
+              "Openbare toiletten"
+            ],
+            "es": [
+              "Baños públicos"
+            ]
+          }
+        },
+        {
+          "@id": "kb:TastingArea",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Verkostungsraum"
+            ],
+            "pt": [
+              "Zona de degustação"
+            ],
+            "en": [
+              "Tasting area"
+            ],
+            "it": [
+              "Area di degustazione"
+            ],
+            "fr": [
+              "Espace dégustation"
+            ],
+            "es": [
+              "Zona de degustación"
+            ],
+            "nl": [
+              "Proeflokaal"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasMainRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/1c0e0f53-2cb3-3fb3-bb0a-749a2ff6ba01",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/f1a0ced6-ac5f-31ec-8fbf-ec09591b98ec",
+          "ebucore:title": {
+            "fr": [
+              "Domaine de Soustres - Etang de Montady et colline d'Ensérune"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Domaine de Soustres@Hervé Leclerc"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/3bfcec90-d051-3c5c-831b-67ced2d60b2d",
+          "ebucore:locator": [
+            "https://cdt34.tourinsoft.com/upload/DJI-0075-2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasRepresentation": [
+    {
+      "@id": "https://data.datatourisme.fr/06b31696-522a-3138-9213-250092e640a3",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/3f8a1672-41c4-3a5d-b05a-02387e3488e1",
+          "ebucore:title": {
+            "fr": [
+              "Domaine de Soustres - visite de la salle des cuves de pierre"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Domaine de Soustres@Hervé Leclerc"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/fff800a1-a821-3c56-b38b-46855781b3b3",
+          "ebucore:locator": [
+            "https://cdt34.tourinsoft.com/upload/0434-DOMAINE-DE-SOUSTRES---MONTADY--Herault--photo-aspheries.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/09bc2836-9897-3b83-b285-551e0fd46715",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/adcea8fc-4a73-3121-839e-3244b91911ca",
+          "ebucore:title": {
+            "fr": [
+              "Domaine de Soustres - Intérieur de la cave lors d'une visite - salle des foudres"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Domaine de Soustres@Hervé Leclerc"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/a878175a-2abc-3d1d-bdfb-82fc9a8c1a4c",
+          "ebucore:locator": [
+            "https://cdt34.tourinsoft.com/upload/0465-DOMAINE-DE-SOUSTRES---MONTADY--Herault--photo-aspheries.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/12166be4-ed28-37c9-bd65-f220325fb4bf",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/adf28655-14b1-3a5a-a009-5cb50eadf99e",
+          "ebucore:title": {
+            "fr": [
+              "Domaine de Soustres - Dégustation - rosé gris de gris"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Domaine de Soustres@Hervé Leclerc"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/bb71c40f-68f8-3fca-a157-f08fe884bdf6",
+          "ebucore:locator": [
+            "https://cdt34.tourinsoft.com/upload/0417-DOMAINE-DE-SOUSTRES---MONTADY--Herault--photo-aspheries.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/1c0e0f53-2cb3-3fb3-bb0a-749a2ff6ba01",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/f1a0ced6-ac5f-31ec-8fbf-ec09591b98ec",
+          "ebucore:title": {
+            "fr": [
+              "Domaine de Soustres - Etang de Montady et colline d'Ensérune"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Domaine de Soustres@Hervé Leclerc"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/3bfcec90-d051-3c5c-831b-67ced2d60b2d",
+          "ebucore:locator": [
+            "https://cdt34.tourinsoft.com/upload/DJI-0075-2.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/3adae98b-80af-3333-b33d-95f8e8b8beff",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/fe0d85b3-5c85-33b2-a1ed-a94d88631208",
+          "ebucore:title": {
+            "fr": [
+              "Domaine de Soustres - vue des parcelles de vigne"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Domaine de Soustres@Hervé Leclerc"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/06ce2c3f-0efb-3671-bb98-c33c9b3d0b98",
+          "ebucore:locator": [
+            "https://cdt34.tourinsoft.com/upload/DJI-0053.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/428a4662-c515-3539-ba03-30f0f9081494",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/7f1fd141-680f-3e04-a64a-964fb79cd1ec",
+          "ebucore:title": {
+            "fr": [
+              "Domaine de Soustres - Dégustation Blanc de Gris"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Domaine de Soustres@Hervé Leclerc"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/19a85e5c-b241-33dc-9af7-453d0f9e9073",
+          "ebucore:locator": [
+            "https://cdt34.tourinsoft.com/upload/0376--photo-aspheries.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4dedef35-181d-3d90-b1ca-7b192be0b2d5",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/76ebc168-29db-33aa-a7a0-58b56676172d",
+          "ebucore:title": {
+            "fr": [
+              "Domaine de Soustres - Vue des bâtiments de la cave"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Domaine de Soustres@Hervé Leclerc"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/5727abee-72db-3a0e-a4f8-6f116d04dc63",
+          "ebucore:locator": [
+            "https://cdt34.tourinsoft.com/upload/DJI-0059.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/51be58f9-1dbe-3f5a-a046-cd14af2185f6",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/b8fd39bd-d9bc-3da0-8c8b-8e11befb5ded",
+          "ebucore:title": {
+            "fr": [
+              "Domaine de Soustres - Les vins du domaine"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Domaine de Soustres@Hervé Leclerc"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/ebe7d112-f764-3de8-8004-caeb66a47bfe",
+          "ebucore:locator": [
+            "https://cdt34.tourinsoft.com/upload/0355-DOMAINE-DE-SOUSTRES---MONTADY--Herault--photo-aspheries.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/929bd1c2-2e9b-3455-8cfc-d9037e81a205",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/f105d22f-2e67-33b0-9510-1a14cf201307",
+          "ebucore:title": {
+            "fr": [
+              "Domaine de Soustres - Bienvenue - salle des cuves en pierre"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Domaine de Soustres@Hervé Leclerc"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/b5cc9197-9975-3ef3-a6a1-df96aee681e2",
+          "ebucore:locator": [
+            "https://cdt34.tourinsoft.com/upload/0446-DOMAINE-DE-SOUSTRES---MONTADY--Herault--photo-aspheries.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d1ad28e3-b2b8-3c82-91f8-9827c1a0079f",
+      "ebucore:hasAnnotation": [
+        {
+          "@id": "https://data.datatourisme.fr/6ba02407-586f-3051-9c4c-1d453b35e242",
+          "ebucore:title": {
+            "fr": [
+              "Domaine de Soustres - Dégustation Caveau"
+            ]
+          },
+          "@type": [
+            "ebucore:Annotation"
+          ],
+          "credits": [
+            "Domaine de Soustres@Hervé Leclerc"
+          ]
+        }
+      ],
+      "ebucore:hasRelatedResource": [
+        {
+          "@id": "https://data.datatourisme.fr/302c6e23-2967-3dc7-80d2-85b4e229bb52",
+          "ebucore:locator": [
+            "https://cdt34.tourinsoft.com/upload/0404-DOMAINE-DE-SOUSTRES---MONTADY--Herault--photo-aspheries.jpg"
+          ],
+          "@type": [
+            "ebucore:Resource"
+          ]
+        }
+      ],
+      "@type": [
+        "ebucore:EditorialObject"
+      ]
+    }
+  ],
+  "hasReview": [
+    {
+      "@id": "https://data.datatourisme.fr/25a8a3a3-a796-32ea-8654-e6c3d7b77704",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_QualiteTourisme",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "Qualité Tourisme"
+          ],
+          "pt": [
+            "Qualité Tourisme"
+          ],
+          "en": [
+            "Qualité Tourisme"
+          ],
+          "it": [
+            "Qualité Tourisme"
+          ],
+          "fr": [
+            "Qualité Tourisme"
+          ],
+          "nl": [
+            "Qualité Tourisme"
+          ],
+          "es": [
+            "Qualité Tourisme"
+          ]
+        },
+        "isCompliantWith": [
+          "Arena",
+          "BarOrPub",
+          "CafeOrTearoom",
+          "CampingAndCaravanning",
+          "CollectiveAccommodation",
+          "CulturalSite",
+          "Guesthouse",
+          "HolidayCentre",
+          "Hotel",
+          "LeisurePlace",
+          "LocalTouristOffice",
+          "Marina",
+          "Practice",
+          "RealEstateAgent",
+          "Restaurant",
+          "Store",
+          "Visit"
+        ]
+      }
+    },
+    {
+      "@id": "https://data.datatourisme.fr/bfc0a916-b8e5-308b-89c6-48d14ba204ba",
+      "@type": [
+        "Review"
+      ],
+      "hasReviewValue": {
+        "@id": "kb:LabelRating_VignoblesDecouvertes",
+        "@type": [
+          "LabelRating"
+        ],
+        "rdfs:label": {
+          "de": [
+            "Vignobles & Découvertes"
+          ],
+          "pt": [
+            "Vignobles & Découvertes"
+          ],
+          "en": [
+            "Vignobles & Découvertes"
+          ],
+          "it": [
+            "Vignobles & Découvertes"
+          ],
+          "fr": [
+            "Vignobles & Découvertes"
+          ],
+          "nl": [
+            "Vignobles & Découvertes"
+          ],
+          "es": [
+            "Vignobles & Découvertes"
+          ]
+        },
+        "isCompliantWith": [
+          "Accommodation",
+          "BistroOrWineBar",
+          "Cellar",
+          "CulturalSite",
+          "EntertainmentAndEvent",
+          "LocalTouristOffice",
+          "NaturalHeritage",
+          "Practice",
+          "Restaurant",
+          "Visit"
+        ]
+      }
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/1d3a6341-117a-39ed-a033-ef8110691ca7",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/4bbaeecf-5324-3ab3-880d-de0439b9a7ad",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/6547ebde-0fc2-3bf0-92d0-7a4cff65cc3a",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/69d90a86-0bb3-3dce-ac22-c82aafa4ce46",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/83330f29-4754-354e-9d99-be47fb893585",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/85539f36-ff81-398e-8930-c655acacd062",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        "COVID19SpecialMeasures"
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/e922cf9d-3825-3a7b-8b41-c476e3fe7e75",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/0a26a059-5c56-3f09-8739-d1c4e233e41c",
+          "schema:addressLocality": "Montady",
+          "schema:postalCode": "34310",
+          "schema:streetAddress": [
+            "Chemin de Soustres"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:34161",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Montady"
+              ],
+              "pt": [
+                "Montady"
+              ],
+              "en": [
+                "Montady"
+              ],
+              "it": [
+                "Montady"
+              ],
+              "fr": [
+                "Montady"
+              ],
+              "nl": [
+                "Montady"
+              ],
+              "es": [
+                "Montady"
+              ]
+            },
+            "insee": "34161",
+            "isPartOfDepartment": {
+              "@id": "kb:France7634",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Hérault"
+                ],
+                "pt": [
+                  "Hérault"
+                ],
+                "en": [
+                  "Hérault"
+                ],
+                "it": [
+                  "Hérault"
+                ],
+                "fr": [
+                  "Hérault"
+                ],
+                "nl": [
+                  "Hérault"
+                ],
+                "es": [
+                  "Hérault"
+                ]
+              },
+              "insee": "34",
+              "isPartOfRegion": {
+                "@id": "kb:France76",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Occitanie"
+                  ],
+                  "pt": [
+                    "Occitanie"
+                  ],
+                  "en": [
+                    "Occitanie"
+                  ],
+                  "it": [
+                    "Occitanie"
+                  ],
+                  "fr": [
+                    "Occitanie"
+                  ],
+                  "nl": [
+                    "Occitanie"
+                  ],
+                  "es": [
+                    "Occitanie"
+                  ]
+                },
+                "insee": "76",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/90d3a4f5-774e-3a38-87ff-9251ebd6722f",
+        "schema:latitude": "43.317706",
+        "schema:longitude": "3.102811",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/037eec65-63fa-3aab-9109-6c17ff844b34",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2023-04-08T10:00:00",
+          "schema:validThrough": "2023-04-21T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Dienstag-Montag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Tuesday-Thursday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: martedì-giovedì-domenica."
+            ],
+            "fr": [
+              "Visites + dégustations   (durée 1h) : 11h00 / 14h00 / 16h00 /17h30\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Mardi-Jeudi-Dimanche."
+            ],
+            "es": [
+              "Fermeture: Martes-Jueves-Domingo."
+            ],
+            "nl": [
+              "Fermeture: Dinsdag-Donderdag-Zondag."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/a1a938bc-94ea-3b89-b380-f82239cccdb5",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/07e5baf2-91e6-33f1-ba4a-68b64be06f59",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2023-04-22T10:00:00",
+          "schema:validThrough": "2023-05-05T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Dienstag-Montag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Tuesday-Thursday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 18h30\n\nChiusura: 1 maggio\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì."
+            ],
+            "fr": [
+              "Visites + dégustations (durée 1h) : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 18h30\n\nFermeture : 1er mai\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi."
+            ],
+            "es": [
+              "Fermeture: Martes-Jueves-Domingo."
+            ],
+            "nl": [
+              "Fermeture: Dinsdag-Donderdag-Zondag."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/f034f07b-8aa5-388b-8db0-c21650982acd",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/08b31259-2ee9-38ef-b342-3b046ce4f086",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-05-06T14:00:00",
+          "schema:validThrough": "2023-06-02T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag."
+            ],
+            "en": [
+              "Fermeture: Monday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 18h30\n\nChiusura: 8 maggio\n\nApertura: giovedì dell'Ascensione, lunedì di Pentecoste\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì-martedì-giovedì."
+            ],
+            "fr": [
+              "Visites + dégustations  (durée 1h)  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 18h30\n\nFermeture : 8 mai\n\nOuverture : Jeudi de l'Ascension, Lundi de Pentecôte\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi-Mardi-Jeudi."
+            ],
+            "nl": [
+              "Fermeture: Maandag."
+            ],
+            "es": [
+              "Fermeture: Lunes."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/55388772-020c-36a4-873c-1076ed6d2bc2",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/0ab072fa-3b47-3091-8669-3f3282efe2b0",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2023-06-03T10:00:00",
+          "schema:validThrough": "2023-07-07T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag-Dienstag-Montag."
+            ],
+            "en": [
+              "Fermeture: Monday-Tuesday-Thursday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 19h00\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì-martedì-domenica."
+            ],
+            "fr": [
+              "Visites + dégustations  (durée 1h)  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 19h00\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi-Mardi-Dimanche."
+            ],
+            "nl": [
+              "Fermeture: Maandag-Dinsdag-Donderdag."
+            ],
+            "es": [
+              "Fermeture: Lunes-Martes-Jueves."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/a7f2c552-b219-366c-a897-63502509f023",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/13c88365-1e13-32bd-a2f8-79ac163e1223",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-07-08T14:00:00",
+          "schema:validThrough": "2023-09-03T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag-Dienstag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Monday-Tuesday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni: 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 19h30\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "fr": [
+              "Visites + dégustations  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 19h30\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "nl": [
+              "Fermeture: Maandag-Dinsdag-Zondag."
+            ],
+            "es": [
+              "Fermeture: Lunes-Martes-Domingo."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/d73bd68b-ed07-3806-ba35-993f58ed0b60",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/20a4bc8c-1bc0-3c92-b929-bd092e1e9da4",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-04-22T14:00:00",
+          "schema:validThrough": "2023-05-05T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Dienstag-Montag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Tuesday-Thursday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 18h30\n\nChiusura: 1 maggio\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì."
+            ],
+            "fr": [
+              "Visites + dégustations (durée 1h) : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 18h30\n\nFermeture : 1er mai\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi."
+            ],
+            "es": [
+              "Fermeture: Martes-Jueves-Domingo."
+            ],
+            "nl": [
+              "Fermeture: Dinsdag-Donderdag-Zondag."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/ed219272-91ad-3174-8c7c-d7230836414d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/23e4e57a-fe4e-37cf-8617-e46d77d34314",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:30:00",
+          "schema:validFrom": "2023-05-06T10:30:00",
+          "schema:validThrough": "2023-06-02T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag."
+            ],
+            "en": [
+              "Fermeture: Monday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 18h30\n\nChiusura: 8 maggio\n\nApertura: giovedì dell'Ascensione, lunedì di Pentecoste\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì-martedì-giovedì."
+            ],
+            "fr": [
+              "Visites + dégustations  (durée 1h)  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 18h30\n\nFermeture : 8 mai\n\nOuverture : Jeudi de l'Ascension, Lundi de Pentecôte\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi-Mardi-Jeudi."
+            ],
+            "nl": [
+              "Fermeture: Maandag."
+            ],
+            "es": [
+              "Fermeture: Lunes."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/af4c718a-ef39-3ed2-a5cd-f5e26f5b2bb4",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/246ec726-6d1a-3bc5-a311-0f9820e96a35",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2023-04-22T10:00:00",
+          "schema:validThrough": "2023-05-05T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag."
+            ],
+            "en": [
+              "Fermeture: Monday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 18h30\n\nChiusura: 1 maggio\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì."
+            ],
+            "fr": [
+              "Visites + dégustations (durée 1h) : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 18h30\n\nFermeture : 1er mai\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi."
+            ],
+            "nl": [
+              "Fermeture: Maandag."
+            ],
+            "es": [
+              "Fermeture: Lunes."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/1c7317f8-79aa-377c-924e-3ef095bf9e16",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/334d58a4-c3f3-3d30-bb2c-20ffd2a62662",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Montag"
+                ],
+                "pt": [
+                  "Segunda-feira"
+                ],
+                "en": [
+                  "Monday"
+                ],
+                "it": [
+                  "Lunedì"
+                ],
+                "fr": [
+                  "Lundi"
+                ],
+                "nl": [
+                  "Maandag"
+                ],
+                "es": [
+                  "Lunes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2023-07-08T10:00:00",
+          "schema:validThrough": "2023-09-03T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag-Dienstag-Montag."
+            ],
+            "en": [
+              "Fermeture: Monday-Tuesday-Thursday."
+            ],
+            "it": [
+              "Visite + degustazioni: 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 19h30\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "fr": [
+              "Visites + dégustations  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 19h30\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "nl": [
+              "Fermeture: Maandag-Dinsdag-Donderdag."
+            ],
+            "es": [
+              "Fermeture: Lunes-Martes-Jueves."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/cf9bd791-8d9a-31a0-a8ad-6b728f75c0be",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4139f197-b179-3f75-a5c9-087538e8dcf8",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-07-08T14:00:00",
+          "schema:validThrough": "2023-09-03T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag-Dienstag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Monday-Tuesday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni: 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 19h30\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "fr": [
+              "Visites + dégustations  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 19h30\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "nl": [
+              "Fermeture: Maandag-Dinsdag-Zondag."
+            ],
+            "es": [
+              "Fermeture: Lunes-Martes-Domingo."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/eed75804-35e6-3284-8601-13de02c9c897",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/44049f6e-4750-37bd-bf91-e4e9477b724e",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Montag"
+                ],
+                "pt": [
+                  "Segunda-feira"
+                ],
+                "en": [
+                  "Monday"
+                ],
+                "it": [
+                  "Lunedì"
+                ],
+                "fr": [
+                  "Lundi"
+                ],
+                "nl": [
+                  "Maandag"
+                ],
+                "es": [
+                  "Lunes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-07-08T14:00:00",
+          "schema:validThrough": "2023-09-03T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag-Dienstag-Montag."
+            ],
+            "en": [
+              "Fermeture: Monday-Tuesday-Thursday."
+            ],
+            "it": [
+              "Visite + degustazioni: 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 19h30\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "fr": [
+              "Visites + dégustations  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 19h30\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "nl": [
+              "Fermeture: Maandag-Dinsdag-Donderdag."
+            ],
+            "es": [
+              "Fermeture: Lunes-Martes-Jueves."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/a0334795-bf0e-3dc2-a310-84453f314840",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4622e98c-ad9b-3b80-b785-17548046a6c1",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Montag"
+                ],
+                "pt": [
+                  "Segunda-feira"
+                ],
+                "en": [
+                  "Monday"
+                ],
+                "it": [
+                  "Lunedì"
+                ],
+                "fr": [
+                  "Lundi"
+                ],
+                "nl": [
+                  "Maandag"
+                ],
+                "es": [
+                  "Lunes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-04-08T14:00:00",
+          "schema:validThrough": "2023-04-21T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Dienstag-Montag-Samstag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Tuesday-Thursday-Saturday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: martedì-giovedì-domenica."
+            ],
+            "fr": [
+              "Visites + dégustations   (durée 1h) : 11h00 / 14h00 / 16h00 /17h30\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Mardi-Jeudi-Dimanche."
+            ],
+            "es": [
+              "Fermeture: Martes-Jueves-Sábado-Domingo."
+            ],
+            "nl": [
+              "Fermeture: Dinsdag-Donderdag-Zaterdag-Zondag."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/9cbb3b68-722e-3695-95a1-644380854c40",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/478ac322-bddd-3b61-b35b-212174a003ca",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2023-06-03T10:00:00",
+          "schema:validThrough": "2023-07-07T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag-Dienstag-Montag."
+            ],
+            "en": [
+              "Fermeture: Monday-Tuesday-Thursday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 19h00\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì-martedì-domenica."
+            ],
+            "fr": [
+              "Visites + dégustations  (durée 1h)  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 19h00\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi-Mardi-Dimanche."
+            ],
+            "nl": [
+              "Fermeture: Maandag-Dinsdag-Donderdag."
+            ],
+            "es": [
+              "Fermeture: Lunes-Martes-Jueves."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/e0dc1000-000c-3c28-8a9f-40fa9092d8ca",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/504338ce-17f2-3de9-80f1-3518ee99bc07",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2023-07-08T10:00:00",
+          "schema:validThrough": "2023-09-03T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag-Dienstag-Montag."
+            ],
+            "en": [
+              "Fermeture: Monday-Tuesday-Thursday."
+            ],
+            "it": [
+              "Visite + degustazioni: 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 19h30\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "fr": [
+              "Visites + dégustations  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 19h30\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "nl": [
+              "Fermeture: Maandag-Dinsdag-Donderdag."
+            ],
+            "es": [
+              "Fermeture: Lunes-Martes-Jueves."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/dbaac83f-7924-3e03-bd15-b9fbe3953564",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/50c1513f-d026-3d74-b715-396acc6b6cee",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2023-07-08T10:00:00",
+          "schema:validThrough": "2023-09-03T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag-Dienstag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Monday-Tuesday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni: 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 19h30\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "fr": [
+              "Visites + dégustations  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 19h30\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "nl": [
+              "Fermeture: Maandag-Dinsdag-Zondag."
+            ],
+            "es": [
+              "Fermeture: Lunes-Martes-Domingo."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/9bc2ff25-c44e-3615-b544-8d7c1a07da39",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5e80c16e-8d3b-32af-94a7-1ed8d3bf459b",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-06-03T14:00:00",
+          "schema:validThrough": "2023-07-07T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag-Dienstag-Montag."
+            ],
+            "en": [
+              "Fermeture: Monday-Tuesday-Thursday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 19h00\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì-martedì-domenica."
+            ],
+            "fr": [
+              "Visites + dégustations  (durée 1h)  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 19h00\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi-Mardi-Dimanche."
+            ],
+            "nl": [
+              "Fermeture: Maandag-Dinsdag-Donderdag."
+            ],
+            "es": [
+              "Fermeture: Lunes-Martes-Jueves."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/545ac318-4090-32de-97bf-f7ec3190332c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/61dbefad-7a11-3af4-902c-e4db72ba4e45",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-05-06T14:00:00",
+          "schema:validThrough": "2023-06-02T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag."
+            ],
+            "en": [
+              "Fermeture: Monday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 18h30\n\nChiusura: 8 maggio\n\nApertura: giovedì dell'Ascensione, lunedì di Pentecoste\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì-martedì-giovedì."
+            ],
+            "fr": [
+              "Visites + dégustations  (durée 1h)  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 18h30\n\nFermeture : 8 mai\n\nOuverture : Jeudi de l'Ascension, Lundi de Pentecôte\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi-Mardi-Jeudi."
+            ],
+            "nl": [
+              "Fermeture: Maandag."
+            ],
+            "es": [
+              "Fermeture: Lunes."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/137331ee-2952-3a2b-be5d-74139b82f7a3",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6435f03f-6152-3525-a5d3-e37f8752c3d0",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:30:00",
+          "schema:validFrom": "2023-05-06T10:30:00",
+          "schema:validThrough": "2023-06-02T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag."
+            ],
+            "en": [
+              "Fermeture: Monday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 18h30\n\nChiusura: 8 maggio\n\nApertura: giovedì dell'Ascensione, lunedì di Pentecoste\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì-martedì-giovedì."
+            ],
+            "fr": [
+              "Visites + dégustations  (durée 1h)  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 18h30\n\nFermeture : 8 mai\n\nOuverture : Jeudi de l'Ascension, Lundi de Pentecôte\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi-Mardi-Jeudi."
+            ],
+            "nl": [
+              "Fermeture: Maandag."
+            ],
+            "es": [
+              "Fermeture: Lunes."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/e73efcf9-1f9e-3e39-825b-5805278e73e5",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6467ff57-6c1c-339a-a0ba-d20bd1cb8ff3",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-04-08T14:00:00",
+          "schema:validThrough": "2023-04-21T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Dienstag-Montag-Samstag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Tuesday-Thursday-Saturday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: martedì-giovedì-domenica."
+            ],
+            "fr": [
+              "Visites + dégustations   (durée 1h) : 11h00 / 14h00 / 16h00 /17h30\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Mardi-Jeudi-Dimanche."
+            ],
+            "es": [
+              "Fermeture: Martes-Jueves-Sábado-Domingo."
+            ],
+            "nl": [
+              "Fermeture: Dinsdag-Donderdag-Zaterdag-Zondag."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/d7fff82a-03a7-3299-af70-5c9140d98f17",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/66ba9b9f-8f45-3d82-a050-87fdd8ff6cd3",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-05-06T14:00:00",
+          "schema:validThrough": "2023-06-02T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag."
+            ],
+            "en": [
+              "Fermeture: Monday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 18h30\n\nChiusura: 8 maggio\n\nApertura: giovedì dell'Ascensione, lunedì di Pentecoste\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì-martedì-giovedì."
+            ],
+            "fr": [
+              "Visites + dégustations  (durée 1h)  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 18h30\n\nFermeture : 8 mai\n\nOuverture : Jeudi de l'Ascension, Lundi de Pentecôte\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi-Mardi-Jeudi."
+            ],
+            "nl": [
+              "Fermeture: Maandag."
+            ],
+            "es": [
+              "Fermeture: Lunes."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/3d7a1231-5ed4-3bae-8f5b-ebe6c961987c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6be0ab21-ceca-3542-9c27-94198e225f26",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2023-06-03T10:00:00",
+          "schema:validThrough": "2023-07-07T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag-Dienstag-Montag."
+            ],
+            "en": [
+              "Fermeture: Monday-Tuesday-Thursday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 19h00\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì-martedì-domenica."
+            ],
+            "fr": [
+              "Visites + dégustations  (durée 1h)  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 19h00\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi-Mardi-Dimanche."
+            ],
+            "nl": [
+              "Fermeture: Maandag-Dinsdag-Donderdag."
+            ],
+            "es": [
+              "Fermeture: Lunes-Martes-Jueves."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/b577eb78-50c7-3e39-b801-aa25da71ca50",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6c2d500d-9c4a-3823-97e3-f522d916c5a1",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Montag"
+                ],
+                "pt": [
+                  "Segunda-feira"
+                ],
+                "en": [
+                  "Monday"
+                ],
+                "it": [
+                  "Lunedì"
+                ],
+                "fr": [
+                  "Lundi"
+                ],
+                "nl": [
+                  "Maandag"
+                ],
+                "es": [
+                  "Lunes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2023-04-08T10:00:00",
+          "schema:validThrough": "2023-04-21T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Dienstag-Montag-Samstag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Tuesday-Thursday-Saturday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: martedì-giovedì-domenica."
+            ],
+            "fr": [
+              "Visites + dégustations   (durée 1h) : 11h00 / 14h00 / 16h00 /17h30\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Mardi-Jeudi-Dimanche."
+            ],
+            "es": [
+              "Fermeture: Martes-Jueves-Sábado-Domingo."
+            ],
+            "nl": [
+              "Fermeture: Dinsdag-Donderdag-Zaterdag-Zondag."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/7cc9450a-6ce7-37d6-bef3-4b738e962922",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6d793101-4fb9-3b44-bffa-3f7bedef8c07",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2023-06-03T10:00:00",
+          "schema:validThrough": "2023-07-07T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag-Dienstag-Montag."
+            ],
+            "en": [
+              "Fermeture: Monday-Tuesday-Thursday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 19h00\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì-martedì-domenica."
+            ],
+            "fr": [
+              "Visites + dégustations  (durée 1h)  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 19h00\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi-Mardi-Dimanche."
+            ],
+            "nl": [
+              "Fermeture: Maandag-Dinsdag-Donderdag."
+            ],
+            "es": [
+              "Fermeture: Lunes-Martes-Jueves."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/2aa77db7-0f3c-3c72-8d7a-223441298db5",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/714bc3cd-3502-3f46-94af-3c8018cfdbd5",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2023-07-08T10:00:00",
+          "schema:validThrough": "2023-09-03T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag-Dienstag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Monday-Tuesday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni: 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 19h30\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "fr": [
+              "Visites + dégustations  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 19h30\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "nl": [
+              "Fermeture: Maandag-Dinsdag-Zondag."
+            ],
+            "es": [
+              "Fermeture: Lunes-Martes-Domingo."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/d7ee7845-bce7-3d12-8c2b-312ecd1711b6",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/72ebbbf2-266d-3838-82a2-3d60058ae0e5",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-06-03T14:00:00",
+          "schema:validThrough": "2023-07-07T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag-Dienstag-Montag."
+            ],
+            "en": [
+              "Fermeture: Monday-Tuesday-Thursday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 19h00\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì-martedì-domenica."
+            ],
+            "fr": [
+              "Visites + dégustations  (durée 1h)  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 19h00\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi-Mardi-Dimanche."
+            ],
+            "nl": [
+              "Fermeture: Maandag-Dinsdag-Donderdag."
+            ],
+            "es": [
+              "Fermeture: Lunes-Martes-Jueves."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/f34f8395-4495-3973-8391-ab5ae114fb78",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/74935807-034e-3c06-ade1-1fbf0f5769e8",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-04-22T14:00:00",
+          "schema:validThrough": "2023-05-05T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag."
+            ],
+            "en": [
+              "Fermeture: Monday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 18h30\n\nChiusura: 1 maggio\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì."
+            ],
+            "fr": [
+              "Visites + dégustations (durée 1h) : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 18h30\n\nFermeture : 1er mai\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi."
+            ],
+            "nl": [
+              "Fermeture: Maandag."
+            ],
+            "es": [
+              "Fermeture: Lunes."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/f66f0779-1bce-37e3-b9e4-319bcb8a8801",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/77511a1d-1269-3ab5-87e7-8dbacd2af05e",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-04-22T14:00:00",
+          "schema:validThrough": "2023-05-05T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag."
+            ],
+            "en": [
+              "Fermeture: Monday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 18h30\n\nChiusura: 1 maggio\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì."
+            ],
+            "fr": [
+              "Visites + dégustations (durée 1h) : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 18h30\n\nFermeture : 1er mai\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi."
+            ],
+            "nl": [
+              "Fermeture: Maandag."
+            ],
+            "es": [
+              "Fermeture: Lunes."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/7aa6890e-7a8b-3d87-ab13-698cd005fa8e",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/79567594-7f78-3a7d-986a-02ff02c10591",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2023-07-08T10:00:00",
+          "schema:validThrough": "2023-09-03T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag-Dienstag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Monday-Tuesday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni: 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 19h30\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "fr": [
+              "Visites + dégustations  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 19h30\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "nl": [
+              "Fermeture: Maandag-Dinsdag-Zondag."
+            ],
+            "es": [
+              "Fermeture: Lunes-Martes-Domingo."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/b13a3ae6-0c0b-326e-b2b2-eef09bc7589e",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7e43d758-d90a-3efb-a0ef-152e31c2eccc",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-07-08T14:00:00",
+          "schema:validThrough": "2023-09-03T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag-Dienstag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Monday-Tuesday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni: 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 19h30\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "fr": [
+              "Visites + dégustations  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 19h30\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "nl": [
+              "Fermeture: Maandag-Dinsdag-Zondag."
+            ],
+            "es": [
+              "Fermeture: Lunes-Martes-Domingo."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/f8398b00-a5be-3b6e-a004-5ae14c9992dd",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/81a521f6-74de-3800-b1ba-690d2eef0d1c",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-06-03T14:00:00",
+          "schema:validThrough": "2023-07-07T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag-Dienstag-Montag."
+            ],
+            "en": [
+              "Fermeture: Monday-Tuesday-Thursday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 19h00\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì-martedì-domenica."
+            ],
+            "fr": [
+              "Visites + dégustations  (durée 1h)  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 19h00\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi-Mardi-Dimanche."
+            ],
+            "nl": [
+              "Fermeture: Maandag-Dinsdag-Donderdag."
+            ],
+            "es": [
+              "Fermeture: Lunes-Martes-Jueves."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/deacecfa-3290-351e-a7a8-394ce6a7688d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/85b3678f-c7f5-34f9-b4fd-75ddd4391643",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-04-22T14:00:00",
+          "schema:validThrough": "2023-05-05T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag."
+            ],
+            "en": [
+              "Fermeture: Monday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 18h30\n\nChiusura: 1 maggio\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì."
+            ],
+            "fr": [
+              "Visites + dégustations (durée 1h) : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 18h30\n\nFermeture : 1er mai\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi."
+            ],
+            "nl": [
+              "Fermeture: Maandag."
+            ],
+            "es": [
+              "Fermeture: Lunes."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/bed071c1-526b-3d5c-ba1b-980952610314",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/89c9b4de-b7ac-3b2e-af5e-8b179671e9f4",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-07-08T14:00:00",
+          "schema:validThrough": "2023-09-03T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag-Dienstag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Monday-Tuesday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni: 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 19h30\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "fr": [
+              "Visites + dégustations  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 19h30\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "nl": [
+              "Fermeture: Maandag-Dinsdag-Zondag."
+            ],
+            "es": [
+              "Fermeture: Lunes-Martes-Domingo."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/1d3ca55c-b525-3864-88b3-afb9c19652a4",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8c69c434-8ca6-3c50-ba32-04d430973033",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2023-04-22T10:00:00",
+          "schema:validThrough": "2023-05-05T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag."
+            ],
+            "en": [
+              "Fermeture: Monday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 18h30\n\nChiusura: 1 maggio\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì."
+            ],
+            "fr": [
+              "Visites + dégustations (durée 1h) : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 18h30\n\nFermeture : 1er mai\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi."
+            ],
+            "nl": [
+              "Fermeture: Maandag."
+            ],
+            "es": [
+              "Fermeture: Lunes."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/402c9555-5cb4-39cd-8c6e-a1044f3641bd",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/92355544-0d87-3f59-b1cd-d9816386d9d5",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-04-08T14:00:00",
+          "schema:validThrough": "2023-04-21T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Dienstag-Montag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Tuesday-Thursday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: martedì-giovedì-domenica."
+            ],
+            "fr": [
+              "Visites + dégustations   (durée 1h) : 11h00 / 14h00 / 16h00 /17h30\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Mardi-Jeudi-Dimanche."
+            ],
+            "es": [
+              "Fermeture: Martes-Jueves-Domingo."
+            ],
+            "nl": [
+              "Fermeture: Dinsdag-Donderdag-Zondag."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/dccbca86-24a1-39f1-91e4-30b2234ec4e8",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/93118d2b-5a36-39eb-a398-75e74a6941f8",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2023-04-08T10:00:00",
+          "schema:validThrough": "2023-04-21T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Dienstag-Montag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Tuesday-Thursday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: martedì-giovedì-domenica."
+            ],
+            "fr": [
+              "Visites + dégustations   (durée 1h) : 11h00 / 14h00 / 16h00 /17h30\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Mardi-Jeudi-Dimanche."
+            ],
+            "es": [
+              "Fermeture: Martes-Jueves-Domingo."
+            ],
+            "nl": [
+              "Fermeture: Dinsdag-Donderdag-Zondag."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/a5512151-67d4-33b8-804e-aaec8d580c11",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/96bcd97b-cbfd-3a8e-b4ad-72d7d79ec850",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-06-03T14:00:00",
+          "schema:validThrough": "2023-07-07T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag-Dienstag-Montag."
+            ],
+            "en": [
+              "Fermeture: Monday-Tuesday-Thursday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 19h00\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì-martedì-domenica."
+            ],
+            "fr": [
+              "Visites + dégustations  (durée 1h)  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 19h00\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi-Mardi-Dimanche."
+            ],
+            "nl": [
+              "Fermeture: Maandag-Dinsdag-Donderdag."
+            ],
+            "es": [
+              "Fermeture: Lunes-Martes-Jueves."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/15c6f5e1-18fd-3b2e-8baf-664d71a6df32",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9c67dba0-1783-3dbb-9477-03421631369f",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:30:00",
+          "schema:validFrom": "2023-05-06T10:30:00",
+          "schema:validThrough": "2023-06-02T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag."
+            ],
+            "en": [
+              "Fermeture: Monday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 18h30\n\nChiusura: 8 maggio\n\nApertura: giovedì dell'Ascensione, lunedì di Pentecoste\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì-martedì-giovedì."
+            ],
+            "fr": [
+              "Visites + dégustations  (durée 1h)  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 18h30\n\nFermeture : 8 mai\n\nOuverture : Jeudi de l'Ascension, Lundi de Pentecôte\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi-Mardi-Jeudi."
+            ],
+            "nl": [
+              "Fermeture: Maandag."
+            ],
+            "es": [
+              "Fermeture: Lunes."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/0c6f71b6-feb9-3782-a8c6-48c0eb616e09",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9f3918ab-48c5-30f4-9e46-c792734ad02b",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-07-08T14:00:00",
+          "schema:validThrough": "2023-09-03T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag-Dienstag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Monday-Tuesday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni: 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 19h30\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "fr": [
+              "Visites + dégustations  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 19h30\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "nl": [
+              "Fermeture: Maandag-Dinsdag-Zondag."
+            ],
+            "es": [
+              "Fermeture: Lunes-Martes-Domingo."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/c881fcc7-12c2-325a-b7e6-e8a46885b0a3",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/aa0381c9-9535-3b0b-82d7-d41e5ea4d5a1",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:30:00",
+          "schema:validFrom": "2023-05-06T10:30:00",
+          "schema:validThrough": "2023-06-02T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag."
+            ],
+            "en": [
+              "Fermeture: Monday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 18h30\n\nChiusura: 8 maggio\n\nApertura: giovedì dell'Ascensione, lunedì di Pentecoste\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì-martedì-giovedì."
+            ],
+            "fr": [
+              "Visites + dégustations  (durée 1h)  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 18h30\n\nFermeture : 8 mai\n\nOuverture : Jeudi de l'Ascension, Lundi de Pentecôte\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi-Mardi-Jeudi."
+            ],
+            "nl": [
+              "Fermeture: Maandag."
+            ],
+            "es": [
+              "Fermeture: Lunes."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/fc86840f-337f-3f59-b03e-505e030911cb",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b14b0619-5ded-337b-be18-df540d586edc",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2023-07-08T10:00:00",
+          "schema:validThrough": "2023-09-03T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag-Dienstag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Monday-Tuesday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni: 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 19h30\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "fr": [
+              "Visites + dégustations  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 19h30\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "nl": [
+              "Fermeture: Maandag-Dinsdag-Zondag."
+            ],
+            "es": [
+              "Fermeture: Lunes-Martes-Domingo."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/937a89de-e049-3170-8d4e-fac8b5825239",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b3111ad1-c2cd-3076-9e7e-b936e5feba0e",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-04-08T14:00:00",
+          "schema:validThrough": "2023-04-21T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Dienstag-Montag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Tuesday-Thursday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: martedì-giovedì-domenica."
+            ],
+            "fr": [
+              "Visites + dégustations   (durée 1h) : 11h00 / 14h00 / 16h00 /17h30\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Mardi-Jeudi-Dimanche."
+            ],
+            "es": [
+              "Fermeture: Martes-Jueves-Domingo."
+            ],
+            "nl": [
+              "Fermeture: Dinsdag-Donderdag-Zondag."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/a27849c6-a0d6-3612-a72c-c09d5de8a77a",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b806cca3-b901-3e65-ae5b-1f5e2f019f32",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-07-08T14:00:00",
+          "schema:validThrough": "2023-09-03T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag-Dienstag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Monday-Tuesday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni: 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 19h30\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "fr": [
+              "Visites + dégustations  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 19h30\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "nl": [
+              "Fermeture: Maandag-Dinsdag-Zondag."
+            ],
+            "es": [
+              "Fermeture: Lunes-Martes-Domingo."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/61321a32-8f36-3fe6-a60b-3207eb2b568d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c3ce14c8-0bb3-36f0-abb1-a214f060e9e8",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2023-04-22T10:00:00",
+          "schema:validThrough": "2023-05-05T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Dienstag-Montag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Tuesday-Thursday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 18h30\n\nChiusura: 1 maggio\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì."
+            ],
+            "fr": [
+              "Visites + dégustations (durée 1h) : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 18h30\n\nFermeture : 1er mai\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi."
+            ],
+            "es": [
+              "Fermeture: Martes-Jueves-Domingo."
+            ],
+            "nl": [
+              "Fermeture: Dinsdag-Donderdag-Zondag."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/06d20f63-d15a-3c0f-a83c-435143d604cf",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c5c4dad6-b62d-390b-ace8-14271f1b8c79",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Montag"
+                ],
+                "pt": [
+                  "Segunda-feira"
+                ],
+                "en": [
+                  "Monday"
+                ],
+                "it": [
+                  "Lunedì"
+                ],
+                "fr": [
+                  "Lundi"
+                ],
+                "nl": [
+                  "Maandag"
+                ],
+                "es": [
+                  "Lunes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-01-02T14:00:00",
+          "schema:validThrough": "2023-04-07T18:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Dienstag-Montag-Samstag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Tuesday-Thursday-Saturday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1h): 16h00\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: martedì-giovedì-sabato-domenica."
+            ],
+            "fr": [
+              "Visites + Dégustations  (durée 1h): 16h00 \n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Mardi-Jeudi-Samedi-Dimanche."
+            ],
+            "es": [
+              "Fermeture: Martes-Jueves-Sábado-Domingo."
+            ],
+            "nl": [
+              "Fermeture: Dinsdag-Donderdag-Zaterdag-Zondag."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/54fee42e-53e2-3b1e-b72a-c0563fdb6e53",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/cb47f534-1ac5-3a82-91be-06d3314d0200",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-05-06T14:00:00",
+          "schema:validThrough": "2023-06-02T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag."
+            ],
+            "en": [
+              "Fermeture: Monday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 18h30\n\nChiusura: 8 maggio\n\nApertura: giovedì dell'Ascensione, lunedì di Pentecoste\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì-martedì-giovedì."
+            ],
+            "fr": [
+              "Visites + dégustations  (durée 1h)  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 18h30\n\nFermeture : 8 mai\n\nOuverture : Jeudi de l'Ascension, Lundi de Pentecôte\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi-Mardi-Jeudi."
+            ],
+            "nl": [
+              "Fermeture: Maandag."
+            ],
+            "es": [
+              "Fermeture: Lunes."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/de9da980-4da6-3ec2-9341-4c9c35b3eb70",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d8011d32-01b4-33dc-8a1f-55061a877bfb",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-04-22T14:00:00",
+          "schema:validThrough": "2023-05-05T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Dienstag-Montag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Tuesday-Thursday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 18h30\n\nChiusura: 1 maggio\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì."
+            ],
+            "fr": [
+              "Visites + dégustations (durée 1h) : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 18h30\n\nFermeture : 1er mai\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi."
+            ],
+            "es": [
+              "Fermeture: Martes-Jueves-Domingo."
+            ],
+            "nl": [
+              "Fermeture: Dinsdag-Donderdag-Zondag."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/3e04e1ab-93f6-3f3e-8984-452e6fd9ac4a",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/de10540d-aa1b-34eb-944c-512ffb14b130",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-01-02T14:00:00",
+          "schema:validThrough": "2023-04-07T18:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Dienstag-Montag-Samstag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Tuesday-Thursday-Saturday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1h): 16h00\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: martedì-giovedì-sabato-domenica."
+            ],
+            "fr": [
+              "Visites + Dégustations  (durée 1h): 16h00 \n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Mardi-Jeudi-Samedi-Dimanche."
+            ],
+            "es": [
+              "Fermeture: Martes-Jueves-Sábado-Domingo."
+            ],
+            "nl": [
+              "Fermeture: Dinsdag-Donderdag-Zaterdag-Zondag."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/166fa66b-1723-31fa-9294-ed621a5ecae6",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e48f65c1-a1bc-3997-a531-34402fba1e6d",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2023-04-22T10:00:00",
+          "schema:validThrough": "2023-05-05T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Dienstag-Montag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Tuesday-Thursday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 18h30\n\nChiusura: 1 maggio\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì."
+            ],
+            "fr": [
+              "Visites + dégustations (durée 1h) : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 18h30\n\nFermeture : 1er mai\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi."
+            ],
+            "es": [
+              "Fermeture: Martes-Jueves-Domingo."
+            ],
+            "nl": [
+              "Fermeture: Dinsdag-Donderdag-Zondag."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/4ae06726-6249-3668-acd8-d2fe4e3fcf0b",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e505fbb1-6085-3b3f-8491-02d2a4788366",
+          "schema:closes": "18:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-01-02T14:00:00",
+          "schema:validThrough": "2023-04-07T18:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Dienstag-Montag-Samstag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Tuesday-Thursday-Saturday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1h): 16h00\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: martedì-giovedì-sabato-domenica."
+            ],
+            "fr": [
+              "Visites + Dégustations  (durée 1h): 16h00 \n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Mardi-Jeudi-Samedi-Dimanche."
+            ],
+            "es": [
+              "Fermeture: Martes-Jueves-Sábado-Domingo."
+            ],
+            "nl": [
+              "Fermeture: Dinsdag-Donderdag-Zaterdag-Zondag."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/41f6af66-b8e5-3ade-ae03-b573204df907",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/eac5cb43-fc14-3fed-b26b-7f23058da7c2",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2023-04-08T10:00:00",
+          "schema:validThrough": "2023-04-21T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Dienstag-Montag-Samstag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Tuesday-Thursday-Saturday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: martedì-giovedì-domenica."
+            ],
+            "fr": [
+              "Visites + dégustations   (durée 1h) : 11h00 / 14h00 / 16h00 /17h30\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Mardi-Jeudi-Dimanche."
+            ],
+            "es": [
+              "Fermeture: Martes-Jueves-Sábado-Domingo."
+            ],
+            "nl": [
+              "Fermeture: Dinsdag-Donderdag-Zaterdag-Zondag."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/7c6becd4-81a0-350f-842a-8aca37ea4597",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ee5360dd-198f-3bec-ae9f-3718ce1e64e2",
+          "schema:closes": "19:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Tuesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Dienstag"
+                ],
+                "pt": [
+                  "Terça-feira"
+                ],
+                "en": [
+                  "Tuesday"
+                ],
+                "it": [
+                  "Martedì"
+                ],
+                "fr": [
+                  "Mardi"
+                ],
+                "es": [
+                  "Martes"
+                ],
+                "nl": [
+                  "Dinsdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "14:00:00",
+          "schema:validFrom": "2023-04-22T14:00:00",
+          "schema:validThrough": "2023-05-05T19:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Dienstag-Montag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Tuesday-Thursday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 18h30\n\nChiusura: 1 maggio\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì."
+            ],
+            "fr": [
+              "Visites + dégustations (durée 1h) : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 18h30\n\nFermeture : 1er mai\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi."
+            ],
+            "es": [
+              "Fermeture: Martes-Jueves-Domingo."
+            ],
+            "nl": [
+              "Fermeture: Dinsdag-Donderdag-Zondag."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/2076989e-117d-39ff-9ff3-6285184f31e0",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/f65b4e26-775b-3e16-920b-958d232cdea9",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2023-04-22T10:00:00",
+          "schema:validThrough": "2023-05-05T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Dienstag-Montag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Tuesday-Thursday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni (durata 1 ora): 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 18h30\n\nChiusura: 1 maggio\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites\nChiuso: lunedì."
+            ],
+            "fr": [
+              "Visites + dégustations (durée 1h) : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 18h30\n\nFermeture : 1er mai\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites\nFermeture: Lundi."
+            ],
+            "es": [
+              "Fermeture: Martes-Jueves-Domingo."
+            ],
+            "nl": [
+              "Fermeture: Dinsdag-Donderdag-Zondag."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/681abee3-440b-30b3-8a5e-4adb9c98bf76",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/fc830eb6-3fbc-396e-984a-75766c18cb64",
+          "schema:closes": "12:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "10:00:00",
+          "schema:validFrom": "2023-07-08T10:00:00",
+          "schema:validThrough": "2023-09-03T12:30:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Fermeture: Montag-Dienstag-Sonntag."
+            ],
+            "en": [
+              "Fermeture: Monday-Tuesday-Sunday."
+            ],
+            "it": [
+              "Visite + degustazioni: 11:00 / 14:00 / 16:00 / 17:30\n\nPasseggiata al tramonto (durata 1h30): 19h30\n\nPrenotazione su :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "fr": [
+              "Visites + dégustations  : 11h00 / 14h00 / 16h00 /17h30\n\nBalades Coucher de Soleil (durée 1h30): 19h30\n\nRéservation sur :\nwww.domaine-de-soustres.fr/activites"
+            ],
+            "nl": [
+              "Fermeture: Maandag-Dinsdag-Zondag."
+            ],
+            "es": [
+              "Fermeture: Lunes-Martes-Domingo."
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/10e6bf63-a923-3e13-9b9e-7a5e101d21db",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ]
+    }
+  ],
+  "lastUpdate": "2023-11-08",
+  "lastUpdateDatatourisme": "2023-11-09T00:24:21.355Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/0f68d9cf-6442-3262-8465-022825ff1f0f",
+      "schema:priceSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/0f299759-5f0e-3b8e-be99-4f8bdf90d6f2",
+          "schema:maxPrice": [
+            "7"
+          ],
+          "schema:minPrice": [
+            "0"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/205271c1-c33d-3aa7-b175-e9f3254c7048",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification",
+            "PriceSpecification"
+          ],
+          "hasEligiblePolicy": [
+            {
+              "@id": "kb:Group",
+              "@type": [
+                "PricingPolicy"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Gruppentarif"
+                ],
+                "pt": [
+                  "Preço para Grupos"
+                ],
+                "en": [
+                  "Group rate"
+                ],
+                "it": [
+                  "Tariffa per gruppi"
+                ],
+                "fr": [
+                  "Tarif Groupe"
+                ],
+                "es": [
+                  "Tarifa de grupo"
+                ],
+                "nl": [
+                  "Groepstarief"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/51a3f12f-f556-34f6-bb0f-6c1d12dc5546",
+          "schema:maxPrice": [
+            "15"
+          ],
+          "schema:minPrice": [
+            "8"
+          ],
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c03d8ecb-2006-39b0-82e3-0b6f8424037f",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ffa697c6-2de4-35a9-8608-c0a5160d32e6",
+          "schema:priceCurrency": "EUR",
+          "@type": [
+            "schema:PriceSpecification"
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ],
+  "reducedMobilityAccess": true
+}

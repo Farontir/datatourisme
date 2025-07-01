@@ -1,0 +1,4888 @@
+{
+  "@id": "https://data.datatourisme.fr/30/0049c43b-5087-3c44-87ef-349d316fc2b8",
+  "dc:identifier": "RESNOR050V50LHP5",
+  "@type": [
+    "schema:FoodEstablishment",
+    "schema:Restaurant",
+    "FoodEstablishment",
+    "PlaceOfInterest",
+    "PointOfInterest",
+    "Restaurant"
+  ],
+  "rdfs:comment": {
+    "de": [
+      "Die Crêperie \"Chez Jeanne\" bietet Ihnen ein Sortiment, das aus Produkten aus der Region Cotentin zusammengestellt wurde. Bio-Buchweizenpfannkuchen, Bio-Weizencrêpes, Omelettes (Freilandeier), Salate und hausgemachtes Eis.\nSpezialitäten: hausgemachte Produkte,..."
+    ],
+    "en": [
+      "The Crêperie \"Chez Jeanne\" offers you a range of products from the Cotentin region. Organic buckwheat pancakes, organic wheat pancakes, omelets (free range eggs), salads and home made ice creams.\nSpecialities : home made, products..."
+    ],
+    "it": [
+      "La Crêperie \"Chez Jeanne\" offre una gamma di prodotti della regione del Cotentin. Frittelle di grano saraceno biologico, frittelle di grano biologico, omelette (uova da allevamento a terra), insalate e gelati fatti in casa.\nSpecialità: prodotti fatti in casa..."
+    ],
+    "fr": [
+      "La Crêperie \"Chez Jeanne\" vous propose une gamme élaborée à partir de produits du Cotentin. Galettes de sarrasin bio, crêpes de froment bio, omelettes (oeufs de plein air), salades et glaces artisanales.\nSpécialités : le fait maison, des produits..."
+    ],
+    "es": [
+      "La Crêperie \"Chez Jeanne\" ofrece una gama de productos de la región de Cotentin. Tortitas de trigo sarraceno ecológico, tortitas de trigo ecológico, tortillas (huevos de corral), ensaladas y helados caseros.\nEspecialidades: productos caseros..."
+    ],
+    "nl": [
+      "De Crêperie \"Chez Jeanne\" biedt een scala aan producten uit de Cotentin. Biologische boekweitpannenkoeken, biologische tarwepannenkoeken, omeletten (scharreleieren), salades en huisgemaakt ijs.\nSpecialiteiten: huisgemaakte producten..."
+    ]
+  },
+  "rdfs:label": {
+    "en": [
+      "Chez Jeanne"
+    ],
+    "fr": [
+      "Chez Jeanne"
+    ]
+  },
+  "creationDate": "2014-10-08",
+  "hasBeenCreatedBy": {
+    "@id": "https://data.datatourisme.fr/30/6f69d8b6-4bef-31be-a8b8-ffe97172f5a9",
+    "dc:identifier": "df9fc2f9-9163-4f96-b1d3-c9e41eefb961",
+    "schema:address": [
+      {
+        "@id": "https://data.datatourisme.fr/4a48d143-d269-3276-8377-b1267a985694",
+        "schema:addressLocality": "Évreux",
+        "schema:postalCode": "27000",
+        "schema:streetAddress": [
+          "14 Rue Charles Corbeau - le Doyenné"
+        ],
+        "@type": [
+          "schema:PostalAddress",
+          "PostalAddress"
+        ],
+        "hasAddressCity": {
+          "@id": "kb:27229",
+          "@type": [
+            "City"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Évreux"
+            ],
+            "pt": [
+              "Évreux"
+            ],
+            "en": [
+              "Évreux"
+            ],
+            "it": [
+              "Évreux"
+            ],
+            "fr": [
+              "Évreux"
+            ],
+            "nl": [
+              "Évreux"
+            ],
+            "es": [
+              "Évreux"
+            ]
+          },
+          "insee": "27229",
+          "isPartOfDepartment": {
+            "@id": "kb:France2827",
+            "@type": [
+              "Department"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Eure"
+              ],
+              "pt": [
+                "Eure"
+              ],
+              "en": [
+                "Eure"
+              ],
+              "it": [
+                "Eure"
+              ],
+              "fr": [
+                "Eure"
+              ],
+              "nl": [
+                "Eure"
+              ],
+              "es": [
+                "Eure"
+              ]
+            },
+            "insee": "27",
+            "isPartOfRegion": {
+              "@id": "kb:France28",
+              "@type": [
+                "Region"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Normandie"
+                ],
+                "pt": [
+                  "Normandie"
+                ],
+                "en": [
+                  "Normandie"
+                ],
+                "it": [
+                  "Normandie"
+                ],
+                "fr": [
+                  "Normandie"
+                ],
+                "nl": [
+                  "Normandie"
+                ],
+                "es": [
+                  "Normandie"
+                ]
+              },
+              "insee": "28",
+              "isPartOfCountry": {
+                "@id": "kb:France",
+                "@type": [
+                  "schema:Country"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "France",
+                    "Frankreich"
+                  ],
+                  "pt": [
+                    "França",
+                    "France"
+                  ],
+                  "en": [
+                    "France"
+                  ],
+                  "it": [
+                    "France",
+                    "Francia"
+                  ],
+                  "fr": [
+                    "France"
+                  ],
+                  "nl": [
+                    "France",
+                    "Frankrijk"
+                  ],
+                  "es": [
+                    "France",
+                    "Francia"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "schema:email": [
+      "ot@ccsme.fr"
+    ],
+    "schema:legalName": "Attitude Manche",
+    "@type": [
+      "schema:Organization",
+      "foaf:Agent",
+      "Agent"
+    ]
+  },
+  "hasBeenPublishedBy": [
+    {
+      "@id": "https://data.datatourisme.fr/adce4411-0f8d-3138-8d32-b8eb71125ab5",
+      "schema:email": [
+        "l.helbert@normandie-tourisme.fr"
+      ],
+      "schema:legalName": "Normandie Tourisme",
+      "@type": [
+        "schema:Organization",
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "https://www.normandie-tourisme.fr/"
+      ]
+    }
+  ],
+  "hasContact": [
+    {
+      "@id": "https://data.datatourisme.fr/ccf8c95e-2a4c-31dd-944e-207cd775d339",
+      "schema:email": [
+        "chezjeannecreperie@gmail.com"
+      ],
+      "schema:telephone": [
+        "+33 2 14 14 13 60",
+        "+33 6 15 48 54 72"
+      ],
+      "@type": [
+        "foaf:Agent",
+        "Agent"
+      ],
+      "foaf:homepage": [
+        "http://www.chezjeannecreperie.com/"
+      ]
+    }
+  ],
+  "hasDescription": [
+    {
+      "@id": "https://data.datatourisme.fr/c7022af0-2499-3121-a8ba-0099181f73ef",
+      "dc:description": {
+        "de": [
+          "Die Crêperie \"Chez Jeanne\" bietet Ihnen ein Sortiment, das aus Produkten aus der Region Cotentin zusammengestellt wurde. Bio-Buchweizenpfannkuchen, Bio-Weizencrêpes, Omelettes (Freilandeier), Salate und hausgemachtes Eis.\nSpezialitäten: hausgemacht, frische Produkte aus der COTENTIN. Keine gefrorenen Produkte auf der Speisekarte (außer Eis)."
+        ],
+        "en": [
+          "The Crêperie \"Chez Jeanne\" offers you a range of products from the Cotentin region. Organic buckwheat pancakes, organic wheat pancakes, omelets (free range eggs), salads and home made ice creams.\nSpecialties: home-made, fresh products from the Cotentin. No frozen products on the menu (except ice cream)."
+        ],
+        "it": [
+          "La Crêperie \"Chez Jeanne\" offre una gamma di prodotti della regione del Cotentin. Frittelle di grano saraceno biologico, frittelle di grano biologico, omelette (uova da allevamento a terra), insalate e gelati fatti in casa.\nSpecialità: prodotti freschi e fatti in casa della regione del Cotentin. Nessun prodotto surgelato nel menu (tranne il gelato)."
+        ],
+        "fr": [
+          "La Crêperie \"Chez Jeanne\" vous propose une gamme élaborée à partir de produits du Cotentin. Galettes de sarrasin bio, crêpes de froment bio, omelettes (oeufs de plein air), salades et glaces artisanales.\nSpécialités : le fait maison, des produits frais du COTENTIN. Aucun produit congelé dans la carte (sauf les glaces)."
+        ],
+        "es": [
+          "La Crêperie \"Chez Jeanne\" ofrece una gama de productos de la región de Cotentin. Tortitas de trigo sarraceno ecológico, tortitas de trigo ecológico, tortillas (huevos de corral), ensaladas y helados caseros.\nEspecialidades: productos caseros y frescos de la región de Cotentin. No hay productos congelados en el menú (excepto el helado)."
+        ],
+        "nl": [
+          "De Crêperie \"Chez Jeanne\" biedt een scala aan producten uit de Cotentin. Biologische boekweitpannenkoeken, biologische tarwepannenkoeken, omeletten (scharreleieren), salades en huisgemaakt ijs.\nSpecialiteiten: huisgemaakte, verse producten uit de Cotentin. Geen diepvriesproducten op het menu (behalve ijs)."
+        ]
+      },
+      "@type": [
+        "Description"
+      ],
+      "hasTranslatedProperty": [
+        {
+          "@id": "https://data.datatourisme.fr/215eaf50-f0a5-3aa4-bc33-c827bbf2b2df",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/2a98b09e-44f6-3eb4-96e4-7c59cbe45b4a",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/5274be0b-c1c6-392e-bcc7-f5bf5fa2a4b6",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "es"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/69d546ad-742a-3098-83d7-e6acdf60c5a6",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/88a63d7f-6238-3c16-89a1-f2ed6eb381ba",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c4ee7bc2-e414-3996-97b3-6ccb68bf6434",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/c89616ad-ce52-3b57-ba03-40c186120c42",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "nl"
+          ],
+          "rdf:predicate": [
+            "shortDescription"
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d73a2790-ea4a-3689-92aa-1065d8efe0ac",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "de"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e8cc8ee3-6c17-3f38-9073-bf79c63964b0",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "en"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ed8a9725-3cd7-34fe-a9de-696afbc47eb1",
+          "dc:contributor": [
+            "https://api.deepl.com/v2/translate"
+          ],
+          "rdf:language": [
+            "it"
+          ],
+          "rdf:predicate": [
+            {
+              "@id": "dc:description"
+            }
+          ]
+        }
+      ],
+      "shortDescription": {
+        "de": [
+          "Die Crêperie \"Chez Jeanne\" bietet Ihnen ein Sortiment, das aus Produkten aus der Region Cotentin zusammengestellt wurde. Bio-Buchweizenpfannkuchen, Bio-Weizencrêpes, Omelettes (Freilandeier), Salate und hausgemachtes Eis.\nSpezialitäten: hausgemachte Produkte,..."
+        ],
+        "en": [
+          "The Crêperie \"Chez Jeanne\" offers you a range of products from the Cotentin region. Organic buckwheat pancakes, organic wheat pancakes, omelets (free range eggs), salads and home made ice creams.\nSpecialities : home made, products..."
+        ],
+        "it": [
+          "La Crêperie \"Chez Jeanne\" offre una gamma di prodotti della regione del Cotentin. Frittelle di grano saraceno biologico, frittelle di grano biologico, omelette (uova da allevamento a terra), insalate e gelati fatti in casa.\nSpecialità: prodotti fatti in casa..."
+        ],
+        "fr": [
+          "La Crêperie \"Chez Jeanne\" vous propose une gamme élaborée à partir de produits du Cotentin. Galettes de sarrasin bio, crêpes de froment bio, omelettes (oeufs de plein air), salades et glaces artisanales.\nSpécialités : le fait maison, des produits..."
+        ],
+        "es": [
+          "La Crêperie \"Chez Jeanne\" ofrece una gama de productos de la región de Cotentin. Tortitas de trigo sarraceno ecológico, tortitas de trigo ecológico, tortillas (huevos de corral), ensaladas y helados caseros.\nEspecialidades: productos caseros..."
+        ],
+        "nl": [
+          "De Crêperie \"Chez Jeanne\" biedt een scala aan producten uit de Cotentin. Biologische boekweitpannenkoeken, biologische tarwepannenkoeken, omeletten (scharreleieren), salades en huisgemaakt ijs.\nSpecialiteiten: huisgemaakte producten..."
+        ]
+      }
+    }
+  ],
+  "hasFeature": [
+    {
+      "@id": "https://data.datatourisme.fr/27ec3055-5bba-3a90-8842-ad90cc3c1b46",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:Bar",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bar"
+            ],
+            "pt": [
+              "Bar"
+            ],
+            "en": [
+              "Bar"
+            ],
+            "it": [
+              "Bar"
+            ],
+            "fr": [
+              "Bar"
+            ],
+            "nl": [
+              "Bar"
+            ],
+            "es": [
+              "Bar"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/d800eb6c-3438-34cd-8d26-e48efdd0e774",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:SouvenirSales",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Verkauf von touristischen Produkten"
+            ],
+            "pt": [
+              "Venda de produtos turísticos"
+            ],
+            "en": [
+              "Souvenir sales"
+            ],
+            "it": [
+              "Vendita di prodotti turistici"
+            ],
+            "fr": [
+              "Vente de produits touristiques"
+            ],
+            "nl": [
+              "Verkoop van toeristische producten"
+            ],
+            "es": [
+              "Venta de productos turísticos"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/f0cc1752-3191-30d1-b564-8713a014a20e",
+      "@type": [
+        "schema:PropertyValue",
+        "FeatureSpecification"
+      ],
+      "features": [
+        {
+          "@id": "kb:BabyEquipment",
+          "@type": [
+            "CommonAmenity"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Baby-, Kindermaterial"
+            ],
+            "pt": [
+              "Material para bebés e crianças"
+            ],
+            "en": [
+              "Baby or child equipment"
+            ],
+            "it": [
+              "Dotazioni per neonati e bambini"
+            ],
+            "fr": [
+              "Matériel bébé, enfant"
+            ],
+            "es": [
+              "Material para bebés y niños pequeños"
+            ],
+            "nl": [
+              "Baby- en kinderuitrusting"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "hasTranslatedProperty": [
+    {
+      "@id": "https://data.datatourisme.fr/0a91b01d-99c5-35d2-b487-766f8d90907a",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "de"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/23e93ce9-1664-33ae-80e8-78e586e8876d",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "nl"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/324ae041-e2f9-3b6b-b009-a53d5c6472ea",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "it"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/3d4c7c43-65fb-393d-872f-4ce93bef55b3",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "en"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    },
+    {
+      "@id": "https://data.datatourisme.fr/fe52acd5-f7e3-34cb-b178-7e664f0e5e33",
+      "dc:contributor": [
+        "https://api.deepl.com/v2/translate"
+      ],
+      "rdf:language": [
+        "es"
+      ],
+      "rdf:predicate": [
+        {
+          "@id": "rdfs:comment"
+        }
+      ]
+    }
+  ],
+  "isLocatedAt": [
+    {
+      "@id": "https://data.datatourisme.fr/509798a6-e888-31a2-b009-94dd2b8d9367",
+      "schema:address": [
+        {
+          "@id": "https://data.datatourisme.fr/01e302cd-233e-323a-87b2-249b338bccd4",
+          "schema:addressLocality": "Sainte-Mère-Église",
+          "schema:postalCode": "50480",
+          "schema:streetAddress": [
+            "1 rue Division Leclerc"
+          ],
+          "@type": [
+            "schema:PostalAddress",
+            "PostalAddress"
+          ],
+          "hasAddressCity": {
+            "@id": "kb:50523",
+            "@type": [
+              "City"
+            ],
+            "rdfs:label": {
+              "de": [
+                "Sainte-Mère-Église"
+              ],
+              "pt": [
+                "Sainte-Mère-Église"
+              ],
+              "en": [
+                "Sainte-Mère-Église"
+              ],
+              "it": [
+                "Sainte-Mère-Église"
+              ],
+              "fr": [
+                "Sainte-Mère-Église"
+              ],
+              "nl": [
+                "Sainte-Mère-Église"
+              ],
+              "es": [
+                "Sainte-Mère-Église"
+              ]
+            },
+            "insee": "50523",
+            "isPartOfDepartment": {
+              "@id": "kb:France2850",
+              "@type": [
+                "Department"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Manche"
+                ],
+                "pt": [
+                  "Manche"
+                ],
+                "en": [
+                  "Manche"
+                ],
+                "it": [
+                  "Manche"
+                ],
+                "fr": [
+                  "Manche"
+                ],
+                "nl": [
+                  "Manche"
+                ],
+                "es": [
+                  "Manche"
+                ]
+              },
+              "insee": "50",
+              "isPartOfRegion": {
+                "@id": "kb:France28",
+                "@type": [
+                  "Region"
+                ],
+                "rdfs:label": {
+                  "de": [
+                    "Normandie"
+                  ],
+                  "pt": [
+                    "Normandie"
+                  ],
+                  "en": [
+                    "Normandie"
+                  ],
+                  "it": [
+                    "Normandie"
+                  ],
+                  "fr": [
+                    "Normandie"
+                  ],
+                  "nl": [
+                    "Normandie"
+                  ],
+                  "es": [
+                    "Normandie"
+                  ]
+                },
+                "insee": "28",
+                "isPartOfCountry": {
+                  "@id": "kb:France",
+                  "@type": [
+                    "schema:Country"
+                  ],
+                  "rdfs:label": {
+                    "de": [
+                      "France",
+                      "Frankreich"
+                    ],
+                    "pt": [
+                      "França",
+                      "France"
+                    ],
+                    "en": [
+                      "France"
+                    ],
+                    "it": [
+                      "France",
+                      "Francia"
+                    ],
+                    "fr": [
+                      "France"
+                    ],
+                    "nl": [
+                      "France",
+                      "Frankrijk"
+                    ],
+                    "es": [
+                      "France",
+                      "Francia"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "schema:geo": {
+        "@id": "https://data.datatourisme.fr/7207cc7a-bea0-3ba8-9651-fb80613c1367",
+        "schema:latitude": "49.4090531",
+        "schema:longitude": "-1.3177702",
+        "@type": [
+          "schema:GeoCoordinates"
+        ]
+      },
+      "schema:openingHoursSpecification": [
+        {
+          "@id": "https://data.datatourisme.fr/035dda97-f6e7-335c-b90b-088ed3749681",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2023-09-01T00:00:00",
+          "schema:validThrough": "2023-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Winter täglich außer dienstags und mittwochs geöffnet.\nBedienung von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday and Wednesday in winter.\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì e il mercoledì in inverno.\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e dalle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi et mercredi l’hiver.\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Alle dagen geopend behalve dinsdag en woensdag in de winter.\nDienst van 12:00 tot 14:00 uur en 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes y miércoles en invierno.\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/03330ce6-3417-3df0-9705-6a737f01568b",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/160a51dc-b7f7-3193-a3e9-287472397a2f",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/816ebf3f-68ab-3f9d-8d15-a1ccfdc794c4",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/bfe7664b-609b-315c-88fc-1aadb46b9bde",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d33dd125-f44b-3d57-8046-0e9d5b4d2d65",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/164816ed-465b-365a-8318-b4c4958dbb30",
+          "schema:closes": "20:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:00:00",
+          "schema:validFrom": "2023-09-01T00:00:00",
+          "schema:validThrough": "2023-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Winter täglich außer dienstags und mittwochs geöffnet.\nBedienung von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday and Wednesday in winter.\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì e il mercoledì in inverno.\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e dalle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi et mercredi l’hiver.\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Alle dagen geopend behalve dinsdag en woensdag in de winter.\nDienst van 12:00 tot 14:00 uur en 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes y miércoles en invierno.\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/44b7b158-0d83-3cf0-98f3-6e043aabf223",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/752eba7b-e91a-356b-9ac1-e17239fda3b1",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/7b07fee8-9a84-3984-85f4-f5024d9e0fd8",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b45a8754-c400-3ac3-a999-342db74c565d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/bf2aa111-d8e6-39af-b881-2bca57e3de8d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/1822f175-6f2f-3977-ba71-d4d7a6667924",
+          "schema:closes": "20:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:00:00",
+          "schema:validFrom": "2023-01-02T00:00:00",
+          "schema:validThrough": "2023-06-30T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Winter täglich außer dienstags und mittwochs geöffnet.\nBedienung von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday and Wednesday in winter.\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì e il mercoledì in inverno.\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e dalle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi et mercredi l’hiver.\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Alle dagen geopend behalve dinsdag en woensdag in de winter.\nDienst van 12:00 tot 14:00 uur en 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes y miércoles en invierno.\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/4c0bc2b8-7dc8-3f6c-964c-4b243a7f46f1",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/5902e331-989a-3542-8db9-be35428f68b4",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/6a436a0f-8280-3db2-bbce-7ff4e784cb15",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/74a04d25-b13b-3311-ab09-2b8321fd5b21",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/ac891af8-e0aa-3e0d-a1b8-06786c90ab17",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/1ac1c5ff-496a-3fe0-aa68-4fef579dc085",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2023-01-02T00:00:00",
+          "schema:validThrough": "2023-06-30T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Winter täglich außer dienstags und mittwochs geöffnet.\nBedienung von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday and Wednesday in winter.\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì e il mercoledì in inverno.\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e dalle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi et mercredi l’hiver.\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Alle dagen geopend behalve dinsdag en woensdag in de winter.\nDienst van 12:00 tot 14:00 uur en 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes y miércoles en invierno.\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/214d8c8f-d22d-3537-9eaa-5ad55a6e10dd",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/453adaae-6f47-35d9-a45a-9e3b4525aa4e",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/5ef6f978-2f9a-3e13-97f3-e057755f0673",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/66a6f597-91a5-3f25-bff4-feff4c4a0962",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/ff93d36d-055e-3df9-b8b1-951f60e0e164",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/1dcdf63c-1fae-3a4f-b64d-9f9a14f62ade",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Montag"
+                ],
+                "pt": [
+                  "Segunda-feira"
+                ],
+                "en": [
+                  "Monday"
+                ],
+                "it": [
+                  "Lunedì"
+                ],
+                "fr": [
+                  "Lundi"
+                ],
+                "nl": [
+                  "Maandag"
+                ],
+                "es": [
+                  "Lunes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2023-09-01T00:00:00",
+          "schema:validThrough": "2023-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Winter täglich außer dienstags und mittwochs geöffnet.\nBedienung von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday and Wednesday in winter.\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì e il mercoledì in inverno.\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e dalle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi et mercredi l’hiver.\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Alle dagen geopend behalve dinsdag en woensdag in de winter.\nDienst van 12:00 tot 14:00 uur en 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes y miércoles en invierno.\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/0db1fc57-6c22-33df-a5c0-87e02a7e9627",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/54cf8c37-c919-3894-a623-6c81a0269e19",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/59b06fe0-8a88-3f15-9b16-c0d9d2760588",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/75c00a9d-742e-3d21-8930-a05b8d530011",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/cb2b9f7b-aec8-384c-9f69-355a67230068",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/26c27e39-fc43-3192-97d6-5d2fd321b6df",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2023-09-01T00:00:00",
+          "schema:validThrough": "2023-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Winter täglich außer dienstags und mittwochs geöffnet.\nBedienung von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday and Wednesday in winter.\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì e il mercoledì in inverno.\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e dalle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi et mercredi l’hiver.\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Alle dagen geopend behalve dinsdag en woensdag in de winter.\nDienst van 12:00 tot 14:00 uur en 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes y miércoles en invierno.\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/2a2ad937-d604-37ed-98f7-6e565cf90523",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/86848562-91d6-303c-9d4e-1d51f2acda5a",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9ca2db15-b1c3-3f78-b12b-29d32cc4729f",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d446f789-055a-3765-9bc6-a334cc237a58",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/de94a0e8-c40e-346d-8c1f-31b90c3c67f5",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/278cdcf7-53ac-381f-976f-9fae1f0eec0b",
+          "schema:closes": "20:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:00:00",
+          "schema:validFrom": "2023-01-02T00:00:00",
+          "schema:validThrough": "2023-06-30T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Winter täglich außer dienstags und mittwochs geöffnet.\nBedienung von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday and Wednesday in winter.\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì e il mercoledì in inverno.\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e dalle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi et mercredi l’hiver.\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Alle dagen geopend behalve dinsdag en woensdag in de winter.\nDienst van 12:00 tot 14:00 uur en 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes y miércoles en invierno.\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/129eaf9f-5a77-3c04-b3c2-5a322b00a186",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/51c0d3c9-6299-3c60-98e6-682f8a2493a8",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/a5adb073-deea-3559-abad-332954bc71ed",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c6e52562-5f59-3183-af1a-697024027ef2",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/fd01a9be-fcdc-3fa2-bbb3-f65e5197e73d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3bd044c6-111b-39ff-ae0d-6e28b811ed1b",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2023-01-02T00:00:00",
+          "schema:validThrough": "2023-06-30T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Winter täglich außer dienstags und mittwochs geöffnet.\nBedienung von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday and Wednesday in winter.\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì e il mercoledì in inverno.\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e dalle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi et mercredi l’hiver.\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Alle dagen geopend behalve dinsdag en woensdag in de winter.\nDienst van 12:00 tot 14:00 uur en 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes y miércoles en invierno.\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/1288d36f-463a-390f-9fcb-ca794060520f",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/3355f4c8-ed7a-30d9-94ab-882ba8afc7b4",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/60476a4e-3993-3d68-9af1-3175b0e0e351",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/66223751-f766-3029-a29c-06e6d56c00fe",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/753d190e-b54e-3c4a-8b67-e1ec5293c98d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/3e0c541f-bde6-3f1b-aeb8-226b7596550e",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2023-01-02T00:00:00",
+          "schema:validThrough": "2023-06-30T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Winter täglich außer dienstags und mittwochs geöffnet.\nBedienung von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday and Wednesday in winter.\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì e il mercoledì in inverno.\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e dalle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi et mercredi l’hiver.\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Alle dagen geopend behalve dinsdag en woensdag in de winter.\nDienst van 12:00 tot 14:00 uur en 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes y miércoles en invierno.\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/1381ab94-d65c-3caf-b1d0-fd7bc12851ac",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/381a203b-330a-3f09-8203-5a0192d6498e",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/68a8bdb7-3e96-3e83-9329-5997765abbf1",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/a08b09ad-646f-35b3-8443-1df8883d3207",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/f97f2b3d-9a61-3504-9e52-522b475c6a04",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/45dc7336-b447-384b-ba4a-0f1a6c849c94",
+          "schema:closes": "21:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:00:00",
+          "schema:validFrom": "2023-07-01T00:00:00",
+          "schema:validThrough": "2023-08-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Sommer (Juli und August) täglich außer dienstags geöffnet.\nService von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday in summer (July and August).\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì in estate (luglio e agosto).\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e alle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi l’été (juillet et août ).\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Elke dag geopend behalve dinsdag in de zomer (juli en augustus).\nDienst van 12:00 tot 14:00 uur en van 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes en verano (julio y agosto).\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/0eecf0d9-55dd-3843-8e4f-03302e087a2c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/80e35bd3-9621-3d9f-abc6-0dfcace0b04a",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b4e77307-90f8-3f32-807f-8659976188c0",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/bee3ad8b-ec72-3db7-aaa8-60c2c840986e",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e39db76d-4c52-309a-868d-10a863b8d65f",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/4aa8cc0f-0d50-3ea8-a3a8-c5ab0c802648",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2023-07-01T00:00:00",
+          "schema:validThrough": "2023-08-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Sommer (Juli und August) täglich außer dienstags geöffnet.\nService von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday in summer (July and August).\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì in estate (luglio e agosto).\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e alle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi l’été (juillet et août ).\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Elke dag geopend behalve dinsdag in de zomer (juli en augustus).\nDienst van 12:00 tot 14:00 uur en van 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes en verano (julio y agosto).\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/18a735f1-6212-389d-aacb-11612c79845e",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/27f7a616-b52d-3b1f-be3f-45e88deb5d70",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/331f744e-7b5e-30fd-9962-68abfe4d4cba",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/710c943e-1e6a-3955-8bb1-fda159ec2f33",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c291388b-df0b-33fb-84d6-1c2ca25d4cdb",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/696297d8-0957-3b0c-9374-85e826252c18",
+          "schema:closes": "20:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:00:00",
+          "schema:validFrom": "2023-01-02T00:00:00",
+          "schema:validThrough": "2023-06-30T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Winter täglich außer dienstags und mittwochs geöffnet.\nBedienung von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday and Wednesday in winter.\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì e il mercoledì in inverno.\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e dalle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi et mercredi l’hiver.\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Alle dagen geopend behalve dinsdag en woensdag in de winter.\nDienst van 12:00 tot 14:00 uur en 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes y miércoles en invierno.\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/2c7d5537-15ea-3a35-89c3-357f0ca8c342",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/34bcd675-9084-3081-a41c-e459a4badbb6",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/8599c6f5-823f-3880-878a-936dd4a523ae",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/95b5edbb-37e9-32f4-a6be-b460254a6075",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b58be100-d970-3e0d-b1fc-7b212c0381b6",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6bd7d2a6-6051-3322-95de-c17510c69525",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Montag"
+                ],
+                "pt": [
+                  "Segunda-feira"
+                ],
+                "en": [
+                  "Monday"
+                ],
+                "it": [
+                  "Lunedì"
+                ],
+                "fr": [
+                  "Lundi"
+                ],
+                "nl": [
+                  "Maandag"
+                ],
+                "es": [
+                  "Lunes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2023-07-01T00:00:00",
+          "schema:validThrough": "2023-08-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Sommer (Juli und August) täglich außer dienstags geöffnet.\nService von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday in summer (July and August).\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì in estate (luglio e agosto).\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e alle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi l’été (juillet et août ).\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Elke dag geopend behalve dinsdag in de zomer (juli en augustus).\nDienst van 12:00 tot 14:00 uur en van 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes en verano (julio y agosto).\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/2b6bc9fc-0b7e-3fd6-ac6c-c4bb2d4183ea",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/34ea227a-ef98-3aa3-b37b-fe298d3a7d17",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/a2f36c24-321e-3b0e-8fd4-0b4cdecf5474",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d9f4f742-d809-3130-b8d2-4cd49a1c7c59",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/efe69cb2-c7dd-3eb5-95d3-4621955e531f",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6ca6aa77-d150-38fd-b513-d89aab2edffb",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2023-07-01T00:00:00",
+          "schema:validThrough": "2023-08-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Sommer (Juli und August) täglich außer dienstags geöffnet.\nService von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday in summer (July and August).\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì in estate (luglio e agosto).\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e alle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi l’été (juillet et août ).\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Elke dag geopend behalve dinsdag in de zomer (juli en augustus).\nDienst van 12:00 tot 14:00 uur en van 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes en verano (julio y agosto).\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/473241f4-cef7-376b-ba5f-0f6fcc42b208",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/4915cf6f-b786-36f6-a667-9eaa3ea9958c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d0d816ae-6aef-3a03-bed2-7eeeb6fc09e9",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e2102797-8eff-389d-bf3d-a4206372529d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e5f736af-0f74-364f-8b06-d909a93210e6",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/6cabdea5-49ce-37e4-9257-e46d7074c649",
+          "schema:closes": "20:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:00:00",
+          "schema:validFrom": "2023-01-02T00:00:00",
+          "schema:validThrough": "2023-06-30T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Winter täglich außer dienstags und mittwochs geöffnet.\nBedienung von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday and Wednesday in winter.\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì e il mercoledì in inverno.\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e dalle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi et mercredi l’hiver.\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Alle dagen geopend behalve dinsdag en woensdag in de winter.\nDienst van 12:00 tot 14:00 uur en 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes y miércoles en invierno.\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/3554aee8-65b7-3c46-992c-d9c2ae593983",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/8580cb36-ca87-3ac8-8aff-a933e586750c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b7bb7669-8b17-31ac-96af-a683548deb88",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b8543aa0-7c3f-3805-98f9-f6a9bd2afacc",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d136c600-6997-399d-afd5-970b12333139",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/7614755b-07b8-34cc-a40f-71bb2a8f55cb",
+          "schema:closes": "21:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:00:00",
+          "schema:validFrom": "2023-07-01T00:00:00",
+          "schema:validThrough": "2023-08-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Sommer (Juli und August) täglich außer dienstags geöffnet.\nService von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday in summer (July and August).\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì in estate (luglio e agosto).\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e alle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi l’été (juillet et août ).\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Elke dag geopend behalve dinsdag in de zomer (juli en augustus).\nDienst van 12:00 tot 14:00 uur en van 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes en verano (julio y agosto).\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/02b2b3af-ee45-3d65-8703-4bfafc499bc6",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/2910c334-5941-35b5-ac7e-4a988b65f239",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/3dbccb4a-c1b2-3de6-b26f-77e09ba45d0f",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/4c422a0c-f6fa-32b3-82a6-db062887dc84",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/5e0e6c96-8b5e-39ea-a70d-ee7a4e4ef46f",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/76ee53dc-6077-3567-a483-31242a940def",
+          "schema:closes": "21:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:00:00",
+          "schema:validFrom": "2023-07-01T00:00:00",
+          "schema:validThrough": "2023-08-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Sommer (Juli und August) täglich außer dienstags geöffnet.\nService von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday in summer (July and August).\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì in estate (luglio e agosto).\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e alle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi l’été (juillet et août ).\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Elke dag geopend behalve dinsdag in de zomer (juli en augustus).\nDienst van 12:00 tot 14:00 uur en van 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes en verano (julio y agosto).\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/5d5b8798-a4e3-3f5b-918c-08575b9376ab",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/67d89a6c-f8ec-3c56-a413-96c2b2062ce2",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c5f5a940-997f-359e-a38b-5d2300098d0d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d043ff19-d24c-3090-90f2-d518fd2ff44b",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e3a33682-d580-3145-b1a6-6a807ad2d1d3",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8114e29b-7755-3893-bd47-c0fa0558835f",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2023-09-01T00:00:00",
+          "schema:validThrough": "2023-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Winter täglich außer dienstags und mittwochs geöffnet.\nBedienung von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday and Wednesday in winter.\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì e il mercoledì in inverno.\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e dalle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi et mercredi l’hiver.\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Alle dagen geopend behalve dinsdag en woensdag in de winter.\nDienst van 12:00 tot 14:00 uur en 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes y miércoles en invierno.\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/0bc905da-c073-3c48-92e4-033fa7e9ff71",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/90c2cbdb-79f1-3784-acb2-bc12a33cf14c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b3b1cf0c-4d4a-3987-bcd7-ca5720ae3a07",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/dcf87246-2ebb-3741-9869-0d9fee67b1b7",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e1df9800-8e2a-35c0-8fc4-22d8f675dc11",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/8df86c6a-e478-3f1b-8e88-3eca949472ce",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Montag"
+                ],
+                "pt": [
+                  "Segunda-feira"
+                ],
+                "en": [
+                  "Monday"
+                ],
+                "it": [
+                  "Lunedì"
+                ],
+                "fr": [
+                  "Lundi"
+                ],
+                "nl": [
+                  "Maandag"
+                ],
+                "es": [
+                  "Lunes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2023-01-02T00:00:00",
+          "schema:validThrough": "2023-06-30T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Winter täglich außer dienstags und mittwochs geöffnet.\nBedienung von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday and Wednesday in winter.\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì e il mercoledì in inverno.\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e dalle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi et mercredi l’hiver.\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Alle dagen geopend behalve dinsdag en woensdag in de winter.\nDienst van 12:00 tot 14:00 uur en 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes y miércoles en invierno.\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/152dcaff-f352-308c-b19f-51c67f394c37",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/1b18a28d-0550-36e8-ad4d-14dbb784917e",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/6ef26db2-bdbe-3646-8093-d7fbc41f3771",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b6f842b6-a076-344f-8210-10f0921c91d5",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/ef7f0959-b3e4-3e35-8912-95e3fd2875ad",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/964af20e-01f9-3804-9b7e-e038b154d849",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2023-07-01T00:00:00",
+          "schema:validThrough": "2023-08-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Sommer (Juli und August) täglich außer dienstags geöffnet.\nService von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday in summer (July and August).\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì in estate (luglio e agosto).\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e alle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi l’été (juillet et août ).\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Elke dag geopend behalve dinsdag in de zomer (juli en augustus).\nDienst van 12:00 tot 14:00 uur en van 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes en verano (julio y agosto).\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/66810e22-ba9e-365f-9d40-a5a95fd64836",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b290d82a-a8ba-3244-b8ea-32af070729de",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/bb2e81eb-816e-32b8-bdf0-0b99964cd589",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/bd4ff1f9-d507-3602-a96b-742b26763562",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/cfd0f85e-03e0-3e8d-ba59-e684454498ee",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9abda841-b13c-346a-84a0-d359a5c04c15",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2023-09-01T00:00:00",
+          "schema:validThrough": "2023-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Winter täglich außer dienstags und mittwochs geöffnet.\nBedienung von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday and Wednesday in winter.\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì e il mercoledì in inverno.\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e dalle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi et mercredi l’hiver.\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Alle dagen geopend behalve dinsdag en woensdag in de winter.\nDienst van 12:00 tot 14:00 uur en 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes y miércoles en invierno.\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/00fdfb7f-f51f-32f1-a620-61dca0538d55",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/3cd3d8b7-29be-3276-9dae-032b367477f3",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/5cbe9c61-bb27-3beb-a1df-5855019e185c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/a153f625-968b-3413-b673-a9215c31eddd",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/f0225ce9-74f5-334e-959a-c1d33d90face",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9da8468e-cbf6-3b9d-bb22-c29c47f7ba83",
+          "schema:closes": "20:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Sunday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Sonntag"
+                ],
+                "pt": [
+                  "Domingo"
+                ],
+                "en": [
+                  "Sunday"
+                ],
+                "it": [
+                  "Domenica"
+                ],
+                "fr": [
+                  "Dimanche"
+                ],
+                "nl": [
+                  "Zondag"
+                ],
+                "es": [
+                  "Domingo"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:00:00",
+          "schema:validFrom": "2023-09-01T00:00:00",
+          "schema:validThrough": "2023-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Winter täglich außer dienstags und mittwochs geöffnet.\nBedienung von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday and Wednesday in winter.\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì e il mercoledì in inverno.\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e dalle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi et mercredi l’hiver.\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Alle dagen geopend behalve dinsdag en woensdag in de winter.\nDienst van 12:00 tot 14:00 uur en 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes y miércoles en invierno.\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/16f3845b-5b52-30f3-a86a-60fd1fa74cf9",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/36b3b0de-ba08-3c44-bea9-8341433c278a",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/5507b86a-25e1-3d83-abac-895bd27c96c7",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c99ab072-8bfa-3cb8-bdcf-15c18bf1e648",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/f5af2e11-d575-3976-8fe1-2e44bb8dd42e",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/9e12abbc-e754-3dbd-96a9-0985c037c813",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2023-07-01T00:00:00",
+          "schema:validThrough": "2023-08-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Sommer (Juli und August) täglich außer dienstags geöffnet.\nService von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday in summer (July and August).\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì in estate (luglio e agosto).\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e alle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi l’été (juillet et août ).\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Elke dag geopend behalve dinsdag in de zomer (juli en augustus).\nDienst van 12:00 tot 14:00 uur en van 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes en verano (julio y agosto).\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/471b3d82-ef13-313f-8a91-ba18d3e52932",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/4f48fb64-3e28-396f-9bc2-0749dda3f20d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9413ff5a-7d8e-32b5-8b67-ff31c489f84d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e8bfcfcc-1244-36f2-a654-0195e71adb51",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/f4ce3ffc-7eee-3797-a5ae-a965de53f79e",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a627ff9c-ec63-3a1d-a5dc-91f47e446c89",
+          "schema:closes": "21:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:00:00",
+          "schema:validFrom": "2023-07-01T00:00:00",
+          "schema:validThrough": "2023-08-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Sommer (Juli und August) täglich außer dienstags geöffnet.\nService von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday in summer (July and August).\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì in estate (luglio e agosto).\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e alle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi l’été (juillet et août ).\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Elke dag geopend behalve dinsdag in de zomer (juli en augustus).\nDienst van 12:00 tot 14:00 uur en van 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes en verano (julio y agosto).\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/717e32f6-25cd-34fc-9158-91259f5adf0c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d30b8f98-84ea-3f49-b35f-0457e5eba0af",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d7b851eb-20c7-31c5-a517-ad1aa6852998",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e9befcd5-2357-3b25-9dbf-a7404ffae878",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/eef30ea2-1508-3c12-9895-718877beada9",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/a855462e-b12c-3435-b1fa-4379a399508c",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Wednesday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Mittwoch"
+                ],
+                "pt": [
+                  "Quarta-feira"
+                ],
+                "en": [
+                  "Wednesday"
+                ],
+                "it": [
+                  "Mercoledì"
+                ],
+                "fr": [
+                  "Mercredi"
+                ],
+                "nl": [
+                  "Woensdag"
+                ],
+                "es": [
+                  "Miércoles"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2023-07-01T00:00:00",
+          "schema:validThrough": "2023-08-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Sommer (Juli und August) täglich außer dienstags geöffnet.\nService von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday in summer (July and August).\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì in estate (luglio e agosto).\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e alle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi l’été (juillet et août ).\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Elke dag geopend behalve dinsdag in de zomer (juli en augustus).\nDienst van 12:00 tot 14:00 uur en van 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes en verano (julio y agosto).\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/16ef4809-3359-380c-abb5-5c09b650b8e3",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/45734607-35c4-320d-90ea-75a02be516dd",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/66c4c63f-0f91-35a4-b34d-a4ec36fceafe",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/8f4a5768-e207-3fbb-a403-f0aa268fedd4",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c0b52f22-7daa-3e4d-93f0-135530dd1928",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/ab2abba0-4660-3c4b-bc77-df2a189d31fb",
+          "schema:closes": "21:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Montag"
+                ],
+                "pt": [
+                  "Segunda-feira"
+                ],
+                "en": [
+                  "Monday"
+                ],
+                "it": [
+                  "Lunedì"
+                ],
+                "fr": [
+                  "Lundi"
+                ],
+                "nl": [
+                  "Maandag"
+                ],
+                "es": [
+                  "Lunes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:00:00",
+          "schema:validFrom": "2023-07-01T00:00:00",
+          "schema:validThrough": "2023-08-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Sommer (Juli und August) täglich außer dienstags geöffnet.\nService von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday in summer (July and August).\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì in estate (luglio e agosto).\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e alle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi l’été (juillet et août ).\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Elke dag geopend behalve dinsdag in de zomer (juli en augustus).\nDienst van 12:00 tot 14:00 uur en van 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes en verano (julio y agosto).\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/721803af-22d7-3cff-817f-01cf07fa731a",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/7486ab9e-4eca-34c7-a35e-c50b3555ce06",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/9d4d10ee-a61b-3794-9309-8b360ebe61ba",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/aa5a539e-6a49-351e-a514-5b737893b45a",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d411fe25-bde9-3fb8-ae87-0cf7606c6271",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/b6cc6a28-7b83-34d8-a0a5-b9e8ad9a6e71",
+          "schema:closes": "20:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:00:00",
+          "schema:validFrom": "2023-09-01T00:00:00",
+          "schema:validThrough": "2023-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Winter täglich außer dienstags und mittwochs geöffnet.\nBedienung von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday and Wednesday in winter.\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì e il mercoledì in inverno.\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e dalle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi et mercredi l’hiver.\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Alle dagen geopend behalve dinsdag en woensdag in de winter.\nDienst van 12:00 tot 14:00 uur en 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes y miércoles en invierno.\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/368aa474-2fbf-3c1e-9dc6-2ab027d7f734",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/80972256-913c-3027-a9b5-c2412621336d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/ca95714f-eaa1-3431-bce0-68f4eed4a18d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/da8399b4-f8b6-34e0-bcc2-0aa7be3ade40",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/feaedf68-06d4-3e3a-b256-6377ae23b7b9",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/bc3f4b89-b2d2-3ecd-bc35-0572ececf681",
+          "schema:closes": "20:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Montag"
+                ],
+                "pt": [
+                  "Segunda-feira"
+                ],
+                "en": [
+                  "Monday"
+                ],
+                "it": [
+                  "Lunedì"
+                ],
+                "fr": [
+                  "Lundi"
+                ],
+                "nl": [
+                  "Maandag"
+                ],
+                "es": [
+                  "Lunes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:00:00",
+          "schema:validFrom": "2023-09-01T00:00:00",
+          "schema:validThrough": "2023-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Winter täglich außer dienstags und mittwochs geöffnet.\nBedienung von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday and Wednesday in winter.\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì e il mercoledì in inverno.\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e dalle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi et mercredi l’hiver.\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Alle dagen geopend behalve dinsdag en woensdag in de winter.\nDienst van 12:00 tot 14:00 uur en 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes y miércoles en invierno.\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/0aa867c3-1973-3bc6-a496-ae7af7b24ca7",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/5c385405-756c-3863-8f0a-2bb3524504fa",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/a7bbc31f-7792-35c2-9954-6666d415f659",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/ab44b030-09b0-3a61-92bc-4c985c1aab99",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/e25100e0-6e65-31d2-854a-f11c40232ba8",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d05f2dc6-20a9-33bc-b154-3095497ac748",
+          "schema:closes": "20:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Friday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Freitag"
+                ],
+                "pt": [
+                  "Sexta-feira"
+                ],
+                "en": [
+                  "Friday"
+                ],
+                "it": [
+                  "Venerdì"
+                ],
+                "fr": [
+                  "Vendredi"
+                ],
+                "nl": [
+                  "Vrijdag"
+                ],
+                "es": [
+                  "Viernes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:00:00",
+          "schema:validFrom": "2023-09-01T00:00:00",
+          "schema:validThrough": "2023-12-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Winter täglich außer dienstags und mittwochs geöffnet.\nBedienung von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday and Wednesday in winter.\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì e il mercoledì in inverno.\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e dalle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi et mercredi l’hiver.\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Alle dagen geopend behalve dinsdag en woensdag in de winter.\nDienst van 12:00 tot 14:00 uur en 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes y miércoles en invierno.\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/1a74e33e-e75b-3565-b6df-7184c65d3290",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/3366fd0c-74c7-3bd4-b715-ff8fc914941d",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/8d6c8b2c-ef56-385c-8de0-1029157a4254",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c08f2a14-0514-3399-a733-225bc3db8017",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d574ffb9-9936-3866-971f-6c248d6e7779",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/d3211e57-281e-3fbe-b33b-0bb4519b26fe",
+          "schema:closes": "14:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Thursday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Donnerstag"
+                ],
+                "pt": [
+                  "Quinta-feira"
+                ],
+                "en": [
+                  "Thursday"
+                ],
+                "it": [
+                  "Giovedì"
+                ],
+                "fr": [
+                  "Jeudi"
+                ],
+                "es": [
+                  "Jueves"
+                ],
+                "nl": [
+                  "Donderdag"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "12:00:00",
+          "schema:validFrom": "2023-01-02T00:00:00",
+          "schema:validThrough": "2023-06-30T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Winter täglich außer dienstags und mittwochs geöffnet.\nBedienung von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday and Wednesday in winter.\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì e il mercoledì in inverno.\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e dalle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi et mercredi l’hiver.\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Alle dagen geopend behalve dinsdag en woensdag in de winter.\nDienst van 12:00 tot 14:00 uur en 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes y miércoles en invierno.\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/780c6576-66d0-3756-b0a4-0c890c69e8ad",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/785115a0-9d0a-35f8-b89c-cbc3e2e3914c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/91aeb9c4-26da-37d3-9bbd-4b00c59ce6ef",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/b596d77f-4831-32f9-a3bf-1e6629325af0",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/d6708ac1-42ed-3928-892c-6c89c4a2aa80",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e5b83bd7-af28-3d7e-8603-a070541a53a5",
+          "schema:closes": "20:30:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Monday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Montag"
+                ],
+                "pt": [
+                  "Segunda-feira"
+                ],
+                "en": [
+                  "Monday"
+                ],
+                "it": [
+                  "Lunedì"
+                ],
+                "fr": [
+                  "Lundi"
+                ],
+                "nl": [
+                  "Maandag"
+                ],
+                "es": [
+                  "Lunes"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:00:00",
+          "schema:validFrom": "2023-01-02T00:00:00",
+          "schema:validThrough": "2023-06-30T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Winter täglich außer dienstags und mittwochs geöffnet.\nBedienung von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday and Wednesday in winter.\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì e il mercoledì in inverno.\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e dalle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi et mercredi l’hiver.\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Alle dagen geopend behalve dinsdag en woensdag in de winter.\nDienst van 12:00 tot 14:00 uur en 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes y miércoles en invierno.\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/0935fd1a-c4ac-30a0-bbda-cd2ce6c4a970",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/44e6fa8a-1e7c-30c9-aa41-2bcb2f364956",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/78eb9f07-ff94-3d51-bd6a-07f84a227bc4",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/82d7f4a2-5206-31c0-959f-bfa0cb96c091",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/c2a6ff44-7506-3641-9851-96b30d2995ff",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        },
+        {
+          "@id": "https://data.datatourisme.fr/e75fb0f1-7130-39f0-bcad-4812569f74ec",
+          "schema:closes": "21:00:00",
+          "schema:dayOfWeek": [
+            {
+              "@id": "schema:Saturday",
+              "@type": [
+                "schema:DayOfWeek"
+              ],
+              "rdfs:label": {
+                "de": [
+                  "Samstag"
+                ],
+                "pt": [
+                  "Sábado"
+                ],
+                "en": [
+                  "Saturday"
+                ],
+                "it": [
+                  "Sabato"
+                ],
+                "fr": [
+                  "Samedi"
+                ],
+                "nl": [
+                  "Zaterdag"
+                ],
+                "es": [
+                  "Sábado"
+                ]
+              }
+            }
+          ],
+          "schema:opens": "19:00:00",
+          "schema:validFrom": "2023-07-01T00:00:00",
+          "schema:validThrough": "2023-08-31T00:00:00",
+          "@type": [
+            "schema:OpeningHoursSpecification"
+          ],
+          "additionalInformation": {
+            "de": [
+              "Im Sommer (Juli und August) täglich außer dienstags geöffnet.\nService von 12 bis 14 Uhr und von 19 bis 20.30 Uhr im Winter und 21 Uhr im Sommer"
+            ],
+            "en": [
+              "Open every day except Tuesday in summer (July and August).\nService from 12:00 to 14:00 and from 19:00 to 20:30 in winter and 21:00 in summer"
+            ],
+            "it": [
+              "Aperto tutti i giorni tranne il martedì in estate (luglio e agosto).\nServizio dalle 12:00 alle 14:00 e dalle 19:00 alle 20:30 in inverno e alle 21:00 in estate"
+            ],
+            "fr": [
+              "Ouverture tous les jours sauf mardi l’été (juillet et août ).\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+            ],
+            "nl": [
+              "Elke dag geopend behalve dinsdag in de zomer (juli en augustus).\nDienst van 12:00 tot 14:00 uur en van 19:00 tot 20:30 uur in de winter en 21:00 uur in de zomer"
+            ],
+            "es": [
+              "Abierto todos los días excepto los martes en verano (julio y agosto).\nServicio de 12:00 a 14:00 y de 19:00 a 20:30 en invierno y 21:00 en verano"
+            ]
+          },
+          "hasTranslatedProperty": [
+            {
+              "@id": "https://data.datatourisme.fr/0729a67b-af20-3fce-818c-60d6af9bcd5c",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "de"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/145bb356-d646-3ffd-aa25-501a373ab9b9",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "es"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/3e1666f1-eba7-3681-bb3e-51444b11cc7e",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "it"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/47ec98d0-303d-3746-a360-3093419b89a3",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "en"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            },
+            {
+              "@id": "https://data.datatourisme.fr/5426e1d7-de86-36e2-9362-77d5540e0e09",
+              "dc:contributor": [
+                "https://api.deepl.com/v2/translate"
+              ],
+              "rdf:language": [
+                "nl"
+              ],
+              "rdf:predicate": [
+                "additionalInformation"
+              ]
+            }
+          ]
+        }
+      ],
+      "@type": [
+        "schema:Place",
+        "Place"
+      ],
+      "TextOpeningHoursSpecification": {
+        "de": [
+          "Ouverture tous les jours sauf mardi et mercredi l’hiver.\nOuverture tous les jours sauf mardi l’été (juillet et août )\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+        ],
+        "en": [
+          "Ouverture tous les jours sauf mardi et mercredi l’hiver.\nOuverture tous les jours sauf mardi l’été (juillet et août )\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+        ],
+        "fr": [
+          "Ouverture tous les jours sauf mardi et mercredi l’hiver.\nOuverture tous les jours sauf mardi l’été (juillet et août )\nService de 12h à 14h et de 19h à 20h30 l’hiver et 21h l’été"
+        ]
+      },
+      "petsAllowed": true
+    }
+  ],
+  "lastUpdate": "2023-03-01",
+  "lastUpdateDatatourisme": "2023-11-08T12:24:11.344Z",
+  "offers": [
+    {
+      "@id": "https://data.datatourisme.fr/12ba0ed3-e8b2-3378-bc96-baa598a479f3",
+      "schema:acceptedPaymentMethod": [
+        {
+          "@id": "kb:BlueCard",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Carte bleue"
+            ],
+            "pt": [
+              "Cartão de pagamento (Carte bleue)"
+            ],
+            "en": [
+              "Blue card"
+            ],
+            "it": [
+              "Carta blu"
+            ],
+            "fr": [
+              "Carte bleue"
+            ],
+            "es": [
+              "Tarjeta bancaria"
+            ],
+            "nl": [
+              "Carte Bleue"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Cash",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Art"
+            ],
+            "pt": [
+              "Espécie"
+            ],
+            "en": [
+              "Cash"
+            ],
+            "it": [
+              "Contanti"
+            ],
+            "fr": [
+              "Espèce"
+            ],
+            "es": [
+              "Especie"
+            ],
+            "nl": [
+              "Contant"
+            ]
+          }
+        },
+        {
+          "@id": "kb:Check",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Scheck"
+            ],
+            "pt": [
+              "Cheque"
+            ],
+            "en": [
+              "Check"
+            ],
+            "it": [
+              "Assegno"
+            ],
+            "fr": [
+              "Chèque"
+            ],
+            "nl": [
+              "Cheque"
+            ],
+            "es": [
+              "Cheque"
+            ]
+          }
+        },
+        {
+          "@id": "kb:ChequesDejeunersTicketsRestaurants",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Essensgutscheine – Ticket Restaurant"
+            ],
+            "pt": [
+              "Vales-refeições — vales-restaurante"
+            ],
+            "en": [
+              "Chèques déjeuners - tickets restaurants"
+            ],
+            "it": [
+              "Buoni pasto - ticket restaurant"
+            ],
+            "fr": [
+              "Chèques déjeuners - tickets restaurants"
+            ],
+            "es": [
+              "Vales de comida - Cheques restaurante"
+            ],
+            "nl": [
+              "Ontbijtcheques - restauranttickets"
+            ]
+          }
+        },
+        {
+          "@id": "kb:CreditCards",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Bankkarten"
+            ],
+            "pt": [
+              "Cartões bancários"
+            ],
+            "en": [
+              "Credit Cards"
+            ],
+            "it": [
+              "Carte bancarie"
+            ],
+            "fr": [
+              "Cartes bancaires"
+            ],
+            "es": [
+              "Tarjetas bancarias"
+            ],
+            "nl": [
+              "Bankkaarten"
+            ]
+          }
+        },
+        {
+          "@id": "kb:HolidayVouchers",
+          "@type": [
+            "schema:PaymentMethod"
+          ],
+          "rdfs:label": {
+            "de": [
+              "Urlaubsschecks"
+            ],
+            "pt": [
+              "Vales de férias"
+            ],
+            "en": [
+              "Holiday vouchers"
+            ],
+            "it": [
+              "Buoni vacanza"
+            ],
+            "fr": [
+              "Chèques vacances"
+            ],
+            "nl": [
+              "Vakantiecheques"
+            ],
+            "es": [
+              "Cheques de vacaciones"
+            ]
+          }
+        }
+      ],
+      "@type": [
+        "schema:Offer",
+        "Offer"
+      ]
+    }
+  ]
+}
