@@ -3,8 +3,10 @@ Django settings for tourism_project project.
 """
 
 import os
+import sys
 from pathlib import Path
 from decouple import config
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -32,6 +34,14 @@ INSTALLED_APPS = [
     'django_filters',
     'drf_spectacular',
     
+    # Phase 2 dependencies
+    'django_redis',
+    'django_elasticsearch_dsl',
+    'graphene_django',
+    'django_celery_beat',
+    'django_celery_results',
+    'channels',
+    
     # Local apps
     'core',
     'tourism',
@@ -47,6 +57,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'core.middleware.LanguageMiddleware',
 ]
 
 ROOT_URLCONF = 'tourism_project.urls'
@@ -68,18 +79,22 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'tourism_project.wsgi.application'
+ASGI_APPLICATION = 'tourism_project.asgi.application'
 
 
 # Database avec PostGIS
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': 'tourism_db',
-        'USER': 'tourism_user',
-        'PASSWORD': 'tourism_pass',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
+    'default': dj_database_url.config(
+        default=config('DATABASE_URL', default='postgis://tourism_user:tourism_pass@localhost:5432/tourism_db'),
+        conn_max_age=600,
+        conn_health_checks=True,
+    )
+}
+
+# S'assurer que le moteur PostGIS est utilisé avec psycopg3
+DATABASES['default']['ENGINE'] = 'django.contrib.gis.db.backends.postgis'
+DATABASES['default']['OPTIONS'] = {
+    'options': '-c default_transaction_isolation=serializable'
 }
 
 
@@ -114,6 +129,57 @@ REST_FRAMEWORK = {
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
 }
 
+# Redis Cache Configuration
+CACHES = {
+    'default': {
+        'BACKEND': 'django_redis.cache.RedisCache',
+        'LOCATION': config('REDIS_URL', default='redis://localhost:6379/0'),
+        'OPTIONS': {
+            'CLIENT_CLASS': 'django_redis.client.DefaultClient',
+            'COMPRESSOR': 'django_redis.compressors.zlib.ZlibCompressor',
+            'SERIALIZER': 'django_redis.serializers.json.JSONSerializer',
+        },
+        'KEY_PREFIX': 'tourism',
+        'TIMEOUT': config('CACHE_TTL', default=300, cast=int),
+    }
+}
+
+# Session cache
+SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
+SESSION_CACHE_ALIAS = 'default'
+
+# Elasticsearch Configuration
+ELASTICSEARCH_DSL = {
+    'default': {
+        'hosts': config('ELASTICSEARCH_HOST', default='localhost:9200')
+    },
+}
+
+# Celery Configuration
+CELERY_BROKER_URL = config('CELERY_BROKER_URL', default='redis://localhost:6379/1')
+CELERY_RESULT_BACKEND = config('CELERY_RESULT_BACKEND', default='redis://localhost:6379/2')
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_TIMEZONE = 'Europe/Paris'
+CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
+
+# GraphQL Configuration
+GRAPHENE = {
+    'SCHEMA': 'tourism.schema.schema',
+    'MIDDLEWARE': [],
+}
+
+# Channels Configuration
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            "hosts": [config('REDIS_URL', default='redis://localhost:6379/3')],
+        },
+    },
+}
+
 # CORS
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
@@ -136,3 +202,23 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Test configuration
+if 'test' in sys.argv:
+    # Disable Elasticsearch during tests
+    ELASTICSEARCH_DSL = {
+        'default': {
+            'hosts': []
+        }
+    }
+    
+    # Use in-memory cache for tests
+    CACHES = {
+        'default': {
+            'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+        }
+    }
+    
+    # Disable Celery during tests
+    CELERY_TASK_ALWAYS_EAGER = True
+    CELERY_TASK_EAGER_PROPAGATES = True

@@ -36,6 +36,9 @@ class JsonLdImportService:
                         float(geo['schema:latitude'])
                     )
             
+            # Extraction de l'adresse
+            address = self._extract_address(json_data)
+            
             # Extraction des langues disponibles
             available_languages = list(name.keys())
             
@@ -49,6 +52,7 @@ class JsonLdImportService:
                     'name': name,
                     'description': description,
                     'location': location,
+                    'address': address,
                     'available_languages': available_languages,
                     'creation_date': self._parse_date(json_data.get('creationDate')),
                 }
@@ -79,13 +83,39 @@ class JsonLdImportService:
         else:
             return {}
     
+    def _extract_address(self, json_data):
+        """Extrait l'adresse depuis les données JSON-LD"""
+        address_data = json_data.get('schema:address', {})
+        if not address_data:
+            return None
+        
+        return {
+            'streetAddress': address_data.get('schema:streetAddress', ''),
+            'postalCode': address_data.get('schema:postalCode', ''),
+            'addressLocality': address_data.get('schema:addressLocality', ''),
+            'addressCountry': address_data.get('schema:addressCountry', 'FR'),
+        }
+    
     def _parse_date(self, date_string):
-        """Parse une date au format ISO"""
+        """Parse une date au format ISO avec gestion d'erreurs améliorée"""
         if not date_string:
             return None
+        
         try:
-            return datetime.fromisoformat(date_string).date()
-        except:
+            # Gérer différents formats de date
+            if isinstance(date_string, str):
+                # Format avec time : 2024-01-01T00:00:00
+                if 'T' in date_string:
+                    return datetime.fromisoformat(date_string.split('T')[0]).date()
+                # Format simple : 2024-01-01
+                elif len(date_string) == 10 and '-' in date_string:
+                    return datetime.strptime(date_string, '%Y-%m-%d').date()
+                # Autres formats ISO
+                else:
+                    return datetime.fromisoformat(date_string).date()
+            return None
+        except (ValueError, AttributeError) as e:
+            self.errors.append(f"Erreur parsing date '{date_string}': {str(e)}")
             return None
     
     def _import_opening_hours(self, resource, json_data):
@@ -117,13 +147,23 @@ class JsonLdImportService:
                 day_num = day_mapping.get(day_id)
                 
                 if day_num is not None:
+                    # Gestion des dates par défaut
+                    valid_from = self._parse_date(spec.get('schema:validFrom'))
+                    valid_through = self._parse_date(spec.get('schema:validThrough'))
+                    
+                    # Si les dates ne sont pas fournies, utiliser l'année courante
+                    if not valid_from:
+                        valid_from = datetime.now().replace(month=1, day=1).date()
+                    if not valid_through:
+                        valid_through = datetime.now().replace(month=12, day=31).date()
+                    
                     OpeningHours.objects.create(
                         resource=resource,
                         day_of_week=day_num,
                         opens=spec.get('schema:opens', '00:00'),
                         closes=spec.get('schema:closes', '23:59'),
-                        valid_from=self._parse_date(spec.get('schema:validFrom')),
-                        valid_through=self._parse_date(spec.get('schema:validThrough')),
+                        valid_from=valid_from,
+                        valid_through=valid_through,
                     )
     
     def _import_prices(self, resource, json_data):
@@ -155,21 +195,21 @@ class JsonLdImportService:
             )
     
     def _import_media(self, resource, json_data):
-        """Importe les représentations média"""
+        """Importe les représentations média avec meilleure gestion des erreurs"""
         representations = []
         
         # Représentation principale
-        main_rep = json_data.get('hasMainRepresentation', {})
-        if main_rep:
+        main_rep = json_data.get('hasMainRepresentation')
+        if main_rep and isinstance(main_rep, dict):
             representations.append((main_rep, True))
         
         # Autres représentations
         other_reps = json_data.get('hasRepresentation', [])
         if not isinstance(other_reps, list):
-            other_reps = [other_reps]
+            other_reps = [other_reps] if other_reps else []
         
         for rep in other_reps:
-            if rep and rep != main_rep:
+            if rep and isinstance(rep, dict) and rep != main_rep:
                 representations.append((rep, False))
         
         # Suppression des anciens médias
@@ -179,16 +219,46 @@ class JsonLdImportService:
         for rep_data, is_main in representations:
             if not isinstance(rep_data, dict):
                 continue
-                
+            
+            # Extraction des données avec gestion d'erreurs
+            annotation = rep_data.get('ebucore:hasAnnotation', {})
+            if isinstance(annotation, list):
+                annotation = annotation[0] if annotation else {}
+            
+            title = {}
+            credits = ''
+            
+            if isinstance(annotation, dict):
+                title = self._extract_multilingual_field(
+                    annotation.get('ebucore:title', {})
+                )
+                credits_list = annotation.get('credits', [])
+                if isinstance(credits_list, list) and credits_list:
+                    credits = credits_list[0]
+                elif isinstance(credits_list, str):
+                    credits = credits_list
+            
             related_resource = rep_data.get('ebucore:hasRelatedResource', {})
             if isinstance(related_resource, dict):
-                MediaRepresentation.objects.create(
-                    resource=resource,
-                    url=related_resource.get('ebucore:locator', ''),
-                    mime_type=related_resource.get('ebucore:hasMimeType', {}).get('@id', ''),
-                    is_main=is_main,
-                    title=self._extract_multilingual_field(
-                        rep_data.get('ebucore:hasAnnotation', {}).get('ebucore:title', {})
-                    ),
-                    credits=rep_data.get('ebucore:hasAnnotation', {}).get('credits', [''])[0],
-                )
+                url = related_resource.get('ebucore:locator', '')
+                
+                # Extraction du mime type
+                mime_type_data = related_resource.get('ebucore:hasMimeType', {})
+                mime_type = ''
+                if isinstance(mime_type_data, dict):
+                    mime_type = mime_type_data.get('@id', '')
+                elif isinstance(mime_type_data, str):
+                    mime_type = mime_type_data
+                
+                if url:  # Créer seulement si on a une URL
+                    try:
+                        MediaRepresentation.objects.create(
+                            resource=resource,
+                            url=url,
+                            mime_type=mime_type,
+                            is_main=is_main,
+                            title=title,
+                            credits=credits,
+                        )
+                    except Exception as e:
+                        self.errors.append(f"Erreur import média: {str(e)}")

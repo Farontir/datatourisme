@@ -1,0 +1,26 @@
+# Inclure les dépendances de base
+-r requirements.txt
+
+# Outils de développement
+ipython==8.18.1
+django-extensions==3.2.3
+
+# Tests
+pytest==7.4.3
+pytest-django==4.7.0
+pytest-cov==4.1.0
+factory-boy==3.3.0
+coverage==7.3.2
+
+# Qualité du code
+flake8==6.1.0
+black==23.12.0
+isort==5.13.0
+pre-commit==3.5.0
+
+# Documentation
+mkdocs==1.5.3
+mkdocs-material==9.5.2
+
+# Debugging
+django-debug-toolbar==4.2.0

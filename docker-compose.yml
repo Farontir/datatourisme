@@ -11,6 +11,126 @@ services:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U tourism_user -d tourism_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - tourism_network
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - tourism_network
+
+  elasticsearch:
+    image: elasticsearch:8.11.0
+    environment:
+      - discovery.type=single-node
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+      - xpack.security.enabled=false
+      - xpack.security.enrollment.enabled=false
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    volumes:
+      - elasticsearch_data:/usr/share/elasticsearch/data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:9200/_cluster/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    networks:
+      - tourism_network
+
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      elasticsearch:
+        condition: service_healthy
+    environment:
+      - DATABASE_URL=postgis://tourism_user:tourism_pass@db:5432/tourism_db
+      - REDIS_URL=redis://redis:6379/0
+      - ELASTICSEARCH_HOST=elasticsearch:9200
+      - DEBUG=True
+      - SECRET_KEY=o-umwp*972a$)$r^9hms^w!_kvv1yw=yzyft9qh9!fa-&5h)9i
+      - CELERY_BROKER_URL=redis://redis:6379/1
+      - CELERY_RESULT_BACKEND=redis://redis:6379/2
+    networks:
+      - tourism_network
+
+  celery_worker:
+    build: .
+    command: celery -A tourism_project worker --loglevel=info
+    volumes:
+      - .:/code
+    depends_on:
+      - redis
+      - db
+    environment:
+      - DATABASE_URL=postgis://tourism_user:tourism_pass@db:5432/tourism_db
+      - REDIS_URL=redis://redis:6379/0
+      - ELASTICSEARCH_HOST=elasticsearch:9200
+      - CELERY_BROKER_URL=redis://redis:6379/1
+      - CELERY_RESULT_BACKEND=redis://redis:6379/2
+    networks:
+      - tourism_network
+
+  celery_beat:
+    build: .
+    command: celery -A tourism_project beat --loglevel=info
+    volumes:
+      - .:/code
+    depends_on:
+      - redis
+      - db
+    environment:
+      - DATABASE_URL=postgis://tourism_user:tourism_pass@db:5432/tourism_db
+      - REDIS_URL=redis://redis:6379/0
+      - ELASTICSEARCH_HOST=elasticsearch:9200
+      - CELERY_BROKER_URL=redis://redis:6379/1
+      - CELERY_RESULT_BACKEND=redis://redis:6379/2
+    networks:
+      - tourism_network
+
+  flower:
+    build: .
+    command: celery -A tourism_project flower
+    ports:
+      - "5555:5555"
+    depends_on:
+      - redis
+    environment:
+      - CELERY_BROKER_URL=redis://redis:6379/1
+      - CELERY_RESULT_BACKEND=redis://redis:6379/2
+    networks:
+      - tourism_network
 
 volumes:
   postgres_data:
+  redis_data:
+  elasticsearch_data:
+
+networks:
+  tourism_network:
+    driver: bridge

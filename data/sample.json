@@ -1,0 +1,74 @@
+{
+  "@id": "https://data.datatourisme.fr/sample/test-resource",
+  "dc:identifier": "TEST001",
+  "@type": ["PlaceOfInterest", "SportsAndLeisurePlace"],
+  "rdfs:label": {
+    "fr": "Escapade Nature Test",
+    "en": "Nature Escape Test"
+  },
+  "rdfs:comment": {
+    "fr": "Centre d'activités de pleine nature offrant diverses activités sportives",
+    "en": "Outdoor activity center offering various sports activities"
+  },
+  "schema:geo": {
+    "@type": "schema:GeoCoordinates",
+    "schema:latitude": 45.0937363,
+    "schema:longitude": 1.9324802
+  },
+  "schema:address": {
+    "@type": "schema:PostalAddress",
+    "schema:addressLocality": "Argentat-sur-Dordogne",
+    "schema:postalCode": "19400",
+    "schema:streetAddress": "21, avenue Foch"
+  },
+  "creationDate": "2024-01-15",
+  "availableLanguage": ["fr", "en"],
+  "schema:openingHoursSpecification": [
+    {
+      "@type": "schema:OpeningHoursSpecification",
+      "schema:dayOfWeek": {
+        "@type": "schema:DayOfWeek",
+        "@id": "schema:Monday"
+      },
+      "schema:opens": "09:00:00",
+      "schema:closes": "18:00:00",
+      "schema:validFrom": "2024-01-01",
+      "schema:validThrough": "2024-12-31"
+    }
+  ],
+  "hasOffers": {
+    "@type": "schema:Offer",
+    "schema:priceSpecification": [
+      {
+        "@type": "schema:PriceSpecification",
+        "schema:minPrice": 20,
+        "schema:maxPrice": 50,
+        "schema:priceCurrency": "EUR",
+        "rdfs:label": {
+          "fr": "Tarif standard"
+        },
+        "additionalInformation": {
+          "fr": "Initiation Escalade - 2h d'activité",
+          "en": "Introduction to rock climbing - 2h activity"
+        }
+      }
+    ]
+  },
+  "hasMainRepresentation": {
+    "@id": "https://data.datatourisme.fr/d99739eb-7da4-3618-8674-75bbc618a5ee",
+    "ebucore:hasAnnotation": {
+      "@id": "https://data.datatourisme.fr/39ffb108-f11e-3558-823c-77922e1149cb",
+      "ebucore:title": {
+        "fr": "Activités sports nature-Escapade Nature-Argentat (6)_1"
+      },
+      "credits": ["Escapade Nature"]
+    },
+    "ebucore:hasRelatedResource": {
+      "@id": "https://data.datatourisme.fr/f862f2b8-e923-3dd1-b54c-ac03eff40d98",
+      "ebucore:hasMimeType": {
+        "@id": "kb:JPEG"
+      },
+      "ebucore:locator": "http://aquitaine.media.tourinsoft.eu/Upload/Activites-sports-nature-Escapade-Nature-Argentat---6-.JPG"
+    }
+  }
+}

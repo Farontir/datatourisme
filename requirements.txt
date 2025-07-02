@@ -1,7 +1,51 @@
+# Base Django dependencies
 Django==4.2.8
-psycopg2-binary==2.9.9
+psycopg[binary]==3.2.9
 djangorestframework==3.14.0
 django-cors-headers==4.3.1
 python-decouple==3.8
 django-filter==23.5
 drf-spectacular==0.27.0
+dj-database-url==2.1.0
+
+# Redis et Cache
+redis>=4.5.2,<5.0.0
+django-redis==5.4.0
+
+# Elasticsearch
+elasticsearch>=7.0.0,<8.0.0
+django-elasticsearch-dsl==7.4.0
+elasticsearch-dsl>=7.0.0,<8.0.0
+
+# GraphQL
+graphene-django==3.2.0
+graphene-django-optimizer==0.10.0
+django-graphql-jwt==0.4.0
+
+# Celery - Tâches asynchrones
+celery[redis]==5.3.4
+django-celery-beat==2.5.0
+django-celery-results==2.5.0
+flower==2.0.1
+
+# WebSockets
+channels==4.0.0
+channels-redis==4.1.0
+daphne==4.0.0
+
+# Export de données
+openpyxl==3.1.2
+xlsxwriter==3.1.9
+python-magic==0.4.27
+
+# Analytics et monitoring
+django-extensions==3.2.3
+django-debug-toolbar==4.2.0
+sentry-sdk[django]==1.38.0
+
+# Performance
+django-cachalot==2.6.1
+gunicorn==21.2.0
+
+# Développement
+ipython==8.18.1

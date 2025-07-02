@@ -29,3 +29,14 @@ Thumbs.db
 *.egg-info/
 dist/
 build/
+
+# Phase 2 - Celery
+*.celerybeat-schedule
+celerybeat.pid
+
+# Phase 2 - Exports
+exports/
+
+# Phase 2 - Docker volumes
+elasticsearch_data/
+redis_data/
