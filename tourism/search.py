@@ -1,26 +1,34 @@
 """
-Services de recherche Elasticsearch pour les ressources touristiques
+Services de recherche Elasticsearch pour les ressources touristiques avec fallback
 """
 from typing import Dict, List, Optional, Tuple
 from elasticsearch_dsl import Search, Q, A
 from django_elasticsearch_dsl.search import Search as DjangoSearch
 from django.contrib.gis.geos import Point
 from django.contrib.gis.measure import Distance
+from django.db.models import Q as DjangoQ
+from django.contrib.postgres.search import SearchVector, SearchQuery, SearchRank
 from .documents import TouristicResourceDocument
+from .models import TouristicResource
+from .connections import with_elasticsearch_fallback
+from .circuit_breaker import ServiceCircuitBreakers, CircuitBreakerError
+from .metrics import ApplicationMetrics, time_it
+from .exceptions import SearchError, ServiceUnavailableError, ErrorHandler
 import logging
 
 logger = logging.getLogger(__name__)
 
 
-class SearchService:
-    """Service centralisé pour les recherches Elasticsearch"""
+class DatabaseSearchFallback:
+    """Service de recherche fallback utilisant PostgreSQL"""
     
-    @classmethod
-    def text_search(cls, query: str, language: str = 'fr', 
+    @staticmethod
+    @time_it('search.database_fallback.text_search.duration')
+    def text_search(query: str, language: str = 'fr', 
                    filters: Optional[Dict] = None, 
                    page: int = 1, page_size: int = 20) -> Dict:
         """
-        Recherche textuelle dans les ressources
+        Recherche textuelle avec PostgreSQL full-text search
         
         Args:
             query: Terme de recherche
@@ -33,62 +41,59 @@ class SearchService:
             Dictionnaire avec résultats et métadonnées
         """
         try:
-            search = Search(using='default', index='tourism_resources')
+            ApplicationMetrics.increment_counter('search.fallback.text_search.calls', 1)
             
+            # Construire le queryset de base
+            queryset = TouristicResource.objects.filter(is_active=True)
+            
+            # Appliquer la recherche textuelle si query fourni
             if query:
-                # Recherche multi-champs avec boost
-                search_query = Q('multi_match', 
-                    query=query,
-                    fields=[
-                        f'multilingual_data.{language}.name^3',
-                        f'multilingual_data.{language}.description^2',
-                        f'multilingual_data.{language}.short_description',
-                        'name^3',
-                        'description^2',
-                        'city^1.5',
-                        'address'
-                    ],
-                    type='best_fields',
-                    fuzziness='AUTO'
-                )
+                # Utiliser PostgreSQL full-text search
+                search_vector = SearchVector('name', 'description', config='french')
+                search_query = SearchQuery(query, config='french')
                 
-                # Ajouter recherche par suggestion pour l'autocomplétion
-                suggest_query = Q('match', **{f'name.suggest': {'value': query, 'boost': 2}})
-                
-                # Combiner les requêtes
-                combined_query = Q('bool', should=[search_query, suggest_query])
-                search = search.query(combined_query)
+                queryset = queryset.annotate(
+                    search=search_vector,
+                    rank=SearchRank(search_vector, search_query)
+                ).filter(search=search_query).order_by('-rank')
+            else:
+                queryset = queryset.order_by('-created_at')
             
             # Appliquer les filtres
             if filters:
-                search = cls._apply_filters(search, filters)
-            
-            # Tri par pertinence puis par date
-            search = search.sort('_score', '-creation_date')
+                queryset = DatabaseSearchFallback._apply_filters(queryset, filters)
             
             # Pagination
+            total = queryset.count()
             start = (page - 1) * page_size
-            search = search[start:start + page_size]
+            end = start + page_size
+            results = queryset[start:end]
             
-            # Agrégations pour les facettes
-            search.aggs.bucket('types', 'terms', field='resource_types', size=20)
-            search.aggs.bucket('cities', 'terms', field='city.raw', size=20)
+            # Formatter les résultats
+            hits = []
+            for resource in results:
+                hit = DatabaseSearchFallback._format_database_hit(resource, language)
+                hits.append(hit)
             
-            # Exécution
-            response = search.execute()
+            # Calculer les agrégations basiques
+            aggregations = DatabaseSearchFallback._calculate_aggregations(
+                TouristicResource.objects.filter(is_active=True)
+            )
             
             return {
-                'hits': [cls._format_hit(hit, language) for hit in response.hits],
-                'total': response.hits.total.value,
-                'took': response.took,
-                'aggregations': cls._format_aggregations(response.aggregations),
+                'hits': hits,
+                'total': total,
+                'took': 0,  # Non applicable pour DB
+                'aggregations': aggregations,
                 'page': page,
                 'page_size': page_size,
-                'max_score': response.hits.max_score
+                'fallback': True,
+                'source': 'database'
             }
             
         except Exception as e:
-            logger.error(f"Erreur recherche textuelle: {e}")
+            logger.error(f"Database fallback text search failed: {e}")
+            ApplicationMetrics.increment_counter('search.fallback.text_search.errors', 1)
             return {
                 'hits': [],
                 'total': 0,
@@ -96,15 +101,18 @@ class SearchService:
                 'aggregations': {},
                 'page': page,
                 'page_size': page_size,
-                'error': str(e)
+                'error': str(e),
+                'fallback': True,
+                'source': 'database'
             }
     
-    @classmethod
-    def geo_search(cls, lat: float, lng: float, radius_km: float = 10,
+    @staticmethod
+    @time_it('search.database_fallback.geo_search.duration')
+    def geo_search(lat: float, lng: float, radius_km: float = 10,
                   language: str = 'fr', filters: Optional[Dict] = None,
                   page: int = 1, page_size: int = 20) -> Dict:
         """
-        Recherche géographique
+        Recherche géographique avec PostGIS
         
         Args:
             lat: Latitude
@@ -119,57 +127,54 @@ class SearchService:
             Dictionnaire avec résultats et métadonnées
         """
         try:
-            search = Search(using='default', index='tourism_resources')
+            ApplicationMetrics.increment_counter('search.fallback.geo_search.calls', 1)
             
-            # Filtre géographique
-            geo_query = Q('geo_distance', 
-                distance=f'{radius_km}km',
-                location={'lat': lat, 'lon': lng}
-            )
-            search = search.query(geo_query)
+            # Point de recherche
+            search_point = Point(lng, lat, srid=4326)
             
-            # Appliquer les filtres additionnels
+            # Construire le queryset avec distance
+            queryset = TouristicResource.objects.filter(
+                is_active=True,
+                location__distance_lte=(search_point, Distance(km=radius_km))
+            ).annotate(
+                distance=Distance('location', search_point)
+            ).order_by('distance')
+            
+            # Appliquer les filtres
             if filters:
-                search = cls._apply_filters(search, filters)
-            
-            # Tri par distance
-            search = search.sort({
-                '_geo_distance': {
-                    'location': {'lat': lat, 'lon': lng},
-                    'order': 'asc',
-                    'unit': 'km'
-                }
-            })
+                queryset = DatabaseSearchFallback._apply_filters(queryset, filters)
             
             # Pagination
+            total = queryset.count()
             start = (page - 1) * page_size
-            search = search[start:start + page_size]
+            end = start + page_size
+            results = queryset[start:end]
             
-            # Agrégations
-            search.aggs.bucket('types', 'terms', field='resource_types', size=20)
-            search.aggs.metric('avg_distance', 'geo_distance', 
-                field='location', 
-                origin={'lat': lat, 'lon': lng},
-                unit='km'
-            )
+            # Formatter les résultats
+            hits = []
+            for resource in results:
+                hit = DatabaseSearchFallback._format_database_hit(resource, language, include_distance=True)
+                hits.append(hit)
             
-            # Exécution
-            response = search.execute()
+            # Calculer les agrégations
+            aggregations = DatabaseSearchFallback._calculate_aggregations(queryset)
             
             return {
-                'hits': [cls._format_hit(hit, language, include_distance=True, 
-                        center_point={'lat': lat, 'lon': lng}) for hit in response.hits],
-                'total': response.hits.total.value,
-                'took': response.took,
-                'aggregations': cls._format_aggregations(response.aggregations),
+                'hits': hits,
+                'total': total,
+                'took': 0,
+                'aggregations': aggregations,
                 'page': page,
                 'page_size': page_size,
                 'center': {'lat': lat, 'lng': lng},
-                'radius_km': radius_km
+                'radius_km': radius_km,
+                'fallback': True,
+                'source': 'database'
             }
             
         except Exception as e:
-            logger.error(f"Erreur recherche géographique: {e}")
+            logger.error(f"Database fallback geo search failed: {e}")
+            ApplicationMetrics.increment_counter('search.fallback.geo_search.errors', 1)
             return {
                 'hits': [],
                 'total': 0,
@@ -177,8 +182,273 @@ class SearchService:
                 'aggregations': {},
                 'page': page,
                 'page_size': page_size,
-                'error': str(e)
+                'error': str(e),
+                'fallback': True,
+                'source': 'database'
             }
+    
+    @staticmethod
+    def _apply_filters(queryset, filters: Dict):
+        """Applique les filtres au queryset"""
+        if 'resource_types' in filters and filters['resource_types']:
+            queryset = queryset.filter(resource_types__overlap=filters['resource_types'])
+        
+        if 'cities' in filters and filters['cities']:
+            queryset = queryset.filter(city__in=filters['cities'])
+        
+        if 'is_active' in filters:
+            queryset = queryset.filter(is_active=filters['is_active'])
+        
+        if 'date_from' in filters:
+            queryset = queryset.filter(creation_date__gte=filters['date_from'])
+        
+        if 'date_to' in filters:
+            queryset = queryset.filter(creation_date__lte=filters['date_to'])
+        
+        return queryset
+    
+    @staticmethod
+    def _format_database_hit(resource, language: str = 'fr', include_distance: bool = False) -> Dict:
+        """Formate un résultat de recherche depuis la base de données"""
+        result = {
+            'resource_id': resource.resource_id,
+            'name': resource.get_name(language),
+            'description': resource.get_description(language),
+            'location': {
+                'lat': resource.location.y if resource.location else None,
+                'lon': resource.location.x if resource.location else None
+            } if resource.location else None,
+            'city': resource.city,
+            'address': resource.address,
+            'resource_types': resource.resource_types or [],
+            'creation_date': resource.creation_date.isoformat() if resource.creation_date else None,
+            'is_active': resource.is_active,
+            'score': getattr(resource, 'rank', None) or 1.0
+        }
+        
+        # Ajouter la distance si calculée
+        if include_distance and hasattr(resource, 'distance'):
+            result['distance_km'] = round(resource.distance.km, 2)
+        
+        return result
+    
+    @staticmethod
+    def _calculate_aggregations(queryset) -> Dict:
+        """Calcule des agrégations basiques depuis la base de données"""
+        try:
+            # Compter les types de ressources
+            resource_types_agg = {}
+            for resource in queryset.values_list('resource_types', flat=True):
+                if resource:
+                    for rt in resource:
+                        resource_types_agg[rt] = resource_types_agg.get(rt, 0) + 1
+            
+            # Compter les villes
+            cities_agg = {}
+            for city in queryset.exclude(city__isnull=True).exclude(city='').values_list('city', flat=True):
+                cities_agg[city] = cities_agg.get(city, 0) + 1
+            
+            return {
+                'types': [{'key': k, 'count': v} for k, v in sorted(resource_types_agg.items(), key=lambda x: x[1], reverse=True)[:20]],
+                'cities': [{'key': k, 'count': v} for k, v in sorted(cities_agg.items(), key=lambda x: x[1], reverse=True)[:20]]
+            }
+            
+        except Exception as e:
+            logger.error(f"Error calculating aggregations: {e}")
+            return {'types': [], 'cities': []}
+
+
+class SearchService:
+    """Service centralisé pour les recherches Elasticsearch avec fallback robuste"""
+    
+    @classmethod
+    @time_it('search.text_search.duration')
+    def text_search(cls, query: str, language: str = 'fr', 
+                   filters: Optional[Dict] = None, 
+                   page: int = 1, page_size: int = 20) -> Dict:
+        """
+        Recherche textuelle dans les ressources avec fallback automatique
+        
+        Args:
+            query: Terme de recherche
+            language: Langue de recherche
+            filters: Filtres additionnels
+            page: Numéro de page
+            page_size: Taille de page
+            
+        Returns:
+            Dictionnaire avec résultats et métadonnées
+        """
+        # Tenter Elasticsearch d'abord
+        try:
+            ApplicationMetrics.increment_counter('search.elasticsearch.text_search.attempts', 1)
+            
+            # Vérifier le circuit breaker
+            circuit_breaker = ServiceCircuitBreakers.elasticsearch_circuit_breaker()
+            
+            def _elasticsearch_search():
+                search = Search(using='default', index='tourism_resources')
+                
+                if query:
+                    # Recherche multi-champs avec boost
+                    search_query = Q('multi_match', 
+                        query=query,
+                        fields=[
+                            f'multilingual_data.{language}.name^3',
+                            f'multilingual_data.{language}.description^2',
+                            f'multilingual_data.{language}.short_description',
+                            'name^3',
+                            'description^2',
+                            'city^1.5',
+                            'address'
+                        ],
+                        type='best_fields',
+                        fuzziness='AUTO'
+                    )
+                    
+                    # Ajouter recherche par suggestion pour l'autocomplétion
+                    suggest_query = Q('match', **{f'name.suggest': {'value': query, 'boost': 2}})
+                    
+                    # Combiner les requêtes
+                    combined_query = Q('bool', should=[search_query, suggest_query])
+                    search = search.query(combined_query)
+                
+                # Appliquer les filtres
+                if filters:
+                    search = cls._apply_filters(search, filters)
+                
+                # Tri par pertinence puis par date
+                search = search.sort('_score', '-creation_date')
+                
+                # Pagination
+                start = (page - 1) * page_size
+                search = search[start:start + page_size]
+                
+                # Agrégations pour les facettes
+                search.aggs.bucket('types', 'terms', field='resource_types', size=20)
+                search.aggs.bucket('cities', 'terms', field='city.raw', size=20)
+                
+                # Exécution
+                response = search.execute()
+                
+                result = {
+                    'hits': [cls._format_hit(hit, language) for hit in response.hits],
+                    'total': response.hits.total.value,
+                    'took': response.took,
+                    'aggregations': cls._format_aggregations(response.aggregations),
+                    'page': page,
+                    'page_size': page_size,
+                    'max_score': response.hits.max_score,
+                    'source': 'elasticsearch'
+                }
+                
+                ApplicationMetrics.increment_counter('search.elasticsearch.text_search.success', 1)
+                ApplicationMetrics.record_search_operation('text', result['total'], response.took / 1000.0)
+                
+                return result
+            
+            # Exécuter avec circuit breaker
+            return circuit_breaker.call(_elasticsearch_search)
+            
+        except (CircuitBreakerError, Exception) as e:
+            logger.warning(f"Elasticsearch text search failed, using fallback: {e}")
+            ApplicationMetrics.increment_counter('search.elasticsearch.text_search.failures', 1)
+            
+            # Fallback vers la base de données
+            return DatabaseSearchFallback.text_search(query, language, filters, page, page_size)
+    
+    @classmethod
+    @time_it('search.geo_search.duration')
+    def geo_search(cls, lat: float, lng: float, radius_km: float = 10,
+                  language: str = 'fr', filters: Optional[Dict] = None,
+                  page: int = 1, page_size: int = 20) -> Dict:
+        """
+        Recherche géographique avec fallback automatique
+        
+        Args:
+            lat: Latitude
+            lng: Longitude  
+            radius_km: Rayon en kilomètres
+            language: Langue
+            filters: Filtres additionnels
+            page: Numéro de page
+            page_size: Taille de page
+            
+        Returns:
+            Dictionnaire avec résultats et métadonnées
+        """
+        # Tenter Elasticsearch d'abord
+        try:
+            ApplicationMetrics.increment_counter('search.elasticsearch.geo_search.attempts', 1)
+            
+            # Vérifier le circuit breaker
+            circuit_breaker = ServiceCircuitBreakers.elasticsearch_circuit_breaker()
+            
+            def _elasticsearch_geo_search():
+                search = Search(using='default', index='tourism_resources')
+                
+                # Filtre géographique
+                geo_query = Q('geo_distance', 
+                    distance=f'{radius_km}km',
+                    location={'lat': lat, 'lon': lng}
+                )
+                search = search.query(geo_query)
+                
+                # Appliquer les filtres additionnels
+                if filters:
+                    search = cls._apply_filters(search, filters)
+                
+                # Tri par distance
+                search = search.sort({
+                    '_geo_distance': {
+                        'location': {'lat': lat, 'lon': lng},
+                        'order': 'asc',
+                        'unit': 'km'
+                    }
+                })
+                
+                # Pagination
+                start = (page - 1) * page_size
+                search = search[start:start + page_size]
+                
+                # Agrégations
+                search.aggs.bucket('types', 'terms', field='resource_types', size=20)
+                search.aggs.metric('avg_distance', 'geo_distance', 
+                    field='location', 
+                    origin={'lat': lat, 'lon': lng},
+                    unit='km'
+                )
+                
+                # Exécution
+                response = search.execute()
+                
+                result = {
+                    'hits': [cls._format_hit(hit, language, include_distance=True, 
+                            center_point={'lat': lat, 'lon': lng}) for hit in response.hits],
+                    'total': response.hits.total.value,
+                    'took': response.took,
+                    'aggregations': cls._format_aggregations(response.aggregations),
+                    'page': page,
+                    'page_size': page_size,
+                    'center': {'lat': lat, 'lng': lng},
+                    'radius_km': radius_km,
+                    'source': 'elasticsearch'
+                }
+                
+                ApplicationMetrics.increment_counter('search.elasticsearch.geo_search.success', 1)
+                ApplicationMetrics.record_search_operation('geo', result['total'], response.took / 1000.0)
+                
+                return result
+            
+            # Exécuter avec circuit breaker
+            return circuit_breaker.call(_elasticsearch_geo_search)
+            
+        except (CircuitBreakerError, Exception) as e:
+            logger.warning(f"Elasticsearch geo search failed, using fallback: {e}")
+            ApplicationMetrics.increment_counter('search.elasticsearch.geo_search.failures', 1)
+            
+            # Fallback vers la base de données
+            return DatabaseSearchFallback.geo_search(lat, lng, radius_km, language, filters, page, page_size)
     
     @classmethod
     def autocomplete(cls, query: str, language: str = 'fr', limit: int = 10) -> List[Dict]:

@@ -55,13 +55,23 @@ class TouristicResourceListSerializer(serializers.ModelSerializer):
         return desc[:200] + '...' if len(desc) > 200 else desc
     
     def get_main_image(self, obj):
-        main_media = obj.media.filter(is_main=True).first()
+        # Use prefetched main_media if available
+        if hasattr(obj, 'main_media_prefetch'):
+            main_media = next((m for m in obj.main_media_prefetch if m.is_main), None)
+        else:
+            main_media = obj.media.filter(is_main=True).first()
+        
         if main_media:
             return main_media.url
         return None
     
     def get_price_range(self, obj):
-        prices = obj.prices.all()
+        # Use prefetched prices if available
+        if hasattr(obj, 'prices_prefetch'):
+            prices = obj.prices_prefetch
+        else:
+            prices = obj.prices.all()
+        
         if not prices:
             return None
         
