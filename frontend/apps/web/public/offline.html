@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hors ligne - DataTourisme</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            padding: 3rem 2rem;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 2rem;
+            background: #f3f4f6;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+        }
+        
+        h1 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: #1f2937;
+        }
+        
+        p {
+            font-size: 1rem;
+            color: #6b7280;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+        
+        .button {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 24px;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .button:hover {
+            background: #2563eb;
+        }
+        
+        .button:disabled {
+            background: #9ca3af;
+            cursor: not-allowed;
+        }
+        
+        .status {
+            margin-top: 2rem;
+            padding: 1rem;
+            background: #f9fafb;
+            border-radius: 8px;
+            font-size: 0.875rem;
+            color: #6b7280;
+        }
+        
+        .status.online {
+            background: #ecfdf5;
+            color: #065f46;
+            border: 1px solid #d1fae5;
+        }
+        
+        .status.offline {
+            background: #fef2f2;
+            color: #991b1b;
+            border: 1px solid #fecaca;
+        }
+        
+        .features {
+            margin-top: 2rem;
+            text-align: left;
+        }
+        
+        .features h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #1f2937;
+        }
+        
+        .features ul {
+            list-style: none;
+        }
+        
+        .features li {
+            padding: 0.5rem 0;
+            display: flex;
+            align-items: center;
+            color: #6b7280;
+        }
+        
+        .features li::before {
+            content: "✓";
+            color: #10b981;
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+        
+        @media (max-width: 640px) {
+            .container {
+                padding: 2rem 1.5rem;
+            }
+            
+            h1 {
+                font-size: 1.5rem;
+            }
+            
+            .icon {
+                width: 60px;
+                height: 60px;
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">
+            📡
+        </div>
+        
+        <h1>Vous êtes hors ligne</h1>
+        
+        <p>
+            Il semble que vous n'ayez pas de connexion internet. 
+            Certaines fonctionnalités restent disponibles en mode hors ligne.
+        </p>
+        
+        <button class="button" onclick="checkConnection()" id="retryButton">
+            Réessayer la connexion
+        </button>
+        
+        <div class="status" id="connectionStatus">
+            <span id="statusText">Vérification de la connexion...</span>
+        </div>
+        
+        <div class="features">
+            <h3>Fonctionnalités disponibles hors ligne :</h3>
+            <ul>
+                <li>Consulter vos favoris</li>
+                <li>Voir vos réservations</li>
+                <li>Parcourir le contenu mis en cache</li>
+                <li>Accéder à votre profil</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        let isChecking = false;
+        
+        function updateConnectionStatus(isOnline) {
+            const statusElement = document.getElementById('connectionStatus');
+            const statusText = document.getElementById('statusText');
+            const retryButton = document.getElementById('retryButton');
+            
+            if (isOnline) {
+                statusElement.className = 'status online';
+                statusText.textContent = 'Connexion rétablie ! Redirection en cours...';
+                retryButton.style.display = 'none';
+                
+                setTimeout(() => {
+                    window.location.href = '/';
+                }, 1500);
+            } else {
+                statusElement.className = 'status offline';
+                statusText.textContent = 'Aucune connexion internet détectée';
+                retryButton.disabled = false;
+                retryButton.textContent = 'Réessayer la connexion';
+                isChecking = false;
+            }
+        }
+        
+        async function checkConnection() {
+            if (isChecking) return;
+            
+            isChecking = true;
+            const retryButton = document.getElementById('retryButton');
+            const statusText = document.getElementById('statusText');
+            
+            retryButton.disabled = true;
+            retryButton.textContent = 'Vérification...';
+            statusText.textContent = 'Vérification de la connexion...';
+            
+            try {
+                const response = await fetch('/', { 
+                    method: 'HEAD',
+                    cache: 'no-cache'
+                });
+                updateConnectionStatus(response.ok);
+            } catch (error) {
+                updateConnectionStatus(false);
+            }
+        }
+        
+        // Check connection on page load
+        window.addEventListener('load', () => {
+            setTimeout(checkConnection, 1000);
+        });
+        
+        // Listen for online/offline events
+        window.addEventListener('online', () => {
+            updateConnectionStatus(true);
+        });
+        
+        window.addEventListener('offline', () => {
+            updateConnectionStatus(false);
+        });
+        
+        // Initial connection check
+        updateConnectionStatus(navigator.onLine);
+    </script>
+</body>
+</html>

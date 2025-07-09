@@ -40,3 +40,62 @@ exports/
 # Phase 2 - Docker volumes
 elasticsearch_data/
 redis_data/
+
+# Frontend - Node.js
+frontend/node_modules/
+frontend/*/node_modules/
+frontend/*/*/node_modules/
+
+# Frontend - Build outputs
+frontend/.next/
+frontend/*/.next/
+frontend/dist/
+frontend/*/dist/
+frontend/build/
+frontend/*/build/
+frontend/coverage/
+frontend/*/coverage/
+frontend/storybook-static/
+frontend/*/storybook-static/
+frontend/**/storybook-static/
+
+# Frontend - Cache
+frontend/.turbo/
+frontend/*/.turbo/
+frontend/.swc/
+frontend/*/.swc/
+frontend/tsconfig.tsbuildinfo
+frontend/*/tsconfig.tsbuildinfo
+
+# Frontend - Development
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/*/.env.local
+frontend/*/.env.development.local
+frontend/*/.env.test.local
+frontend/*/.env.production.local
+
+# Frontend - Logs
+frontend/*.log
+frontend/*/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+# Frontend - Testing
+frontend/test-results/
+frontend/*/test-results/
+frontend/playwright-report/
+frontend/*/playwright-report/
+frontend/playwright/.cache/
+frontend/*/playwright/.cache/
+
+# Frontend - Temporary
+frontend/.tmp/
+frontend/*/.tmp/
+frontend/.temp/
+frontend/*/.temp/

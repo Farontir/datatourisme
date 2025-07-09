@@ -1,0 +1,11 @@
+{
+  "extends": "@datatourisme/typescript-config/react-library.json",
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

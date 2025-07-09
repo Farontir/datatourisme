@@ -1,0 +1,168 @@
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Introduction" />
+
+# DataTourisme UI Components
+
+Welcome to the DataTourisme UI component library! This Storybook contains all the reusable components used throughout the DataTourisme platform.
+
+## 🎨 Visual Testing with Chromatic
+
+This Storybook is integrated with **Chromatic** for automated visual regression testing. Every component is tested across multiple:
+
+- **Viewports**: Mobile (375px), Tablet (768px), Desktop (1440px), Wide (1920px)
+- **Browsers**: Chrome, Firefox, Safari
+- **Themes**: Light and dark mode
+- **States**: Default, hover, focus, disabled, loading
+- **Interactions**: Click, keyboard navigation, form inputs
+
+### Visual Testing Features
+
+- **Automated Screenshots**: Every story is automatically captured
+- **Visual Diff Detection**: Changes are highlighted and require approval
+- **Accessibility Testing**: Built-in a11y checks with axe-core
+- **Interaction Testing**: User flows and component behavior
+- **Responsive Testing**: Components tested across different screen sizes
+
+## 🧪 Component Testing
+
+Each component includes:
+
+### Story Types
+- **Basic Examples**: Default component usage
+- **Variants**: Different visual styles and sizes
+- **States**: Loading, disabled, error, success states
+- **Interactions**: Click handlers, keyboard navigation
+- **Accessibility**: ARIA attributes and screen reader support
+- **Responsive**: Mobile-first responsive behavior
+
+### Testing Patterns
+- **Visual Regression**: Automated screenshot comparison
+- **Interaction Testing**: User event simulation
+- **Accessibility Validation**: WCAG compliance checks
+- **Cross-browser Testing**: Consistent appearance across browsers
+
+## 🎯 Component Categories
+
+### Basic Components
+- **Button**: Primary actions and navigation
+- **Card**: Content containers and layouts
+- **Badge**: Status indicators and labels
+- **Alert**: Notifications and feedback
+
+### Form Components
+- **Input**: Text input fields
+- **Select**: Dropdown selections
+- **Textarea**: Multi-line text input
+- **Form**: Form validation and layout
+
+### Layout Components
+- **Dialog**: Modal dialogs and overlays
+- **Sheet**: Sliding panels and drawers
+- **Separator**: Visual dividers
+- **Progress**: Loading and progress indicators
+
+### Navigation Components
+- **NavigationMenu**: Main site navigation
+- **AppShell**: Application layout wrapper
+
+### Feature Components
+- **Map**: Interactive maps for tourism data
+- **BookingWizard**: Multi-step booking process
+- **PaymentForm**: Secure payment processing
+- **Favorites**: User preference management
+
+## 🔧 Development Guidelines
+
+### Using Components
+```tsx
+import { Button, Card, CardContent } from '@datatourisme/ui';
+
+function MyComponent() {
+  return (
+    <Card>
+      <CardContent>
+        <Button onClick={() => console.log('clicked')}>
+          Click me
+        </Button>
+      </CardContent>
+    </Card>
+  );
+}
+```
+
+### Component Props
+All components follow consistent patterns:
+- **Variant props**: `variant`, `size`, `color`
+- **State props**: `disabled`, `loading`, `error`
+- **Event props**: `onClick`, `onSubmit`, `onChange`
+- **Accessibility props**: `aria-label`, `aria-describedby`, `role`
+
+### Styling
+Components use:
+- **Tailwind CSS**: Utility-first styling
+- **CVA (Class Variance Authority)**: Type-safe variant props
+- **CSS Custom Properties**: Theme customization
+- **Responsive Design**: Mobile-first approach
+
+## 📱 Responsive Design
+
+All components are designed mobile-first with responsive breakpoints:
+- **Mobile**: 375px and up
+- **Tablet**: 768px and up
+- **Desktop**: 1440px and up
+- **Wide**: 1920px and up
+
+## ♿ Accessibility
+
+Components follow WCAG 2.1 AA guidelines:
+- **Keyboard Navigation**: All interactive elements are keyboard accessible
+- **Screen Reader Support**: Proper ARIA attributes and semantic markup
+- **Color Contrast**: Meets minimum contrast ratios
+- **Focus Management**: Visible focus indicators and logical tab order
+
+## 🎨 Design System
+
+### Colors
+- **Primary**: Blue (#0570de)
+- **Secondary**: Gray (#6b7280)
+- **Success**: Green (#10b981)
+- **Warning**: Yellow (#f59e0b)
+- **Error**: Red (#ef4444)
+
+### Typography
+- **Font Family**: System fonts (system-ui, -apple-system, sans-serif)
+- **Font Sizes**: 12px, 14px, 16px, 18px, 20px, 24px, 32px
+- **Font Weights**: 400 (normal), 500 (medium), 600 (semibold), 700 (bold)
+
+### Spacing
+- **Base Unit**: 4px
+- **Scale**: 4px, 8px, 12px, 16px, 20px, 24px, 32px, 40px, 48px, 64px
+
+## 🚀 Getting Started
+
+1. **Browse Components**: Explore the component library in the sidebar
+2. **Read Documentation**: Each component has detailed documentation
+3. **Test Interactions**: Use the Controls panel to test different props
+4. **Check Accessibility**: Use the A11y addon to validate accessibility
+5. **View Source**: Check the "Show code" toggle to see implementation
+
+## 📝 Contributing
+
+When adding new components:
+1. Create comprehensive stories with all variants
+2. Include interaction tests for user flows
+3. Add accessibility tests with proper ARIA attributes
+4. Test across all supported viewports
+5. Document props and usage examples
+
+## 🔗 Links
+
+- **Component Library**: [GitHub Repository](https://github.com/datatourisme/frontend)
+- **Design System**: [Figma Design Files](https://figma.com/datatourisme)
+- **Chromatic**: [Visual Testing Dashboard](https://chromatic.com/builds)
+- **Accessibility**: [WCAG 2.1 Guidelines](https://www.w3.org/WAI/WCAG21/)
+
+---
+
+*This Storybook is automatically updated with every deployment and includes the latest components and design patterns.*

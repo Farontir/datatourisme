@@ -1,0 +1,32 @@
+{
+  "booking.step.selection": "Selectie",
+  "booking.step.details": "Details",
+  "booking.step.payment": "Betaling",
+  "booking.step.confirmation": "Bevestiging",
+
+  "booking.selection.date": "Bezoekdatum",
+  "booking.selection.time": "Tijdslot",
+  "booking.selection.guests": "Aantal bezoekers",
+  "booking.selection.guestCount": "{count, plural, =1 {# bezoeker} other {# bezoekers}}",
+  "booking.selection.availableSlots": "Beschikbare tijdsloten",
+  "booking.selection.noAvailability": "Geen beschikbaarheid voor deze datum",
+
+  "booking.details.primaryContact": "Hoofdcontact",
+  "booking.details.guestDetails": "Bezoekersdetails",
+  "booking.details.specialRequirements": "Speciale verzoeken",
+  "booking.details.accessibility": "Toegankelijkheidsbehoeften",
+
+  "booking.payment.method": "Betaalmethode",
+  "booking.payment.total": "Totaal",
+  "booking.payment.processing": "Betaling verwerken...",
+  "booking.payment.secure": "100% veilige betaling",
+  "booking.payment.applePay": "Apple Pay",
+  "booking.payment.googlePay": "Google Pay",
+
+  "booking.confirmation.title": "Boeking bevestigd!",
+  "booking.confirmation.subtitle": "Je boeking is succesvol vastgelegd",
+  "booking.confirmation.number": "Bevestigingsnummer",
+  "booking.confirmation.details": "Je boekingsdetails",
+  "booking.confirmation.downloadPDF": "PDF-ticket downloaden",
+  "booking.confirmation.addCalendar": "Toevoegen aan agenda"
+}

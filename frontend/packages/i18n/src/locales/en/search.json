@@ -1,0 +1,24 @@
+{
+  "search.placeholder": "Search places, activities, events...",
+  "search.button": "Search",
+  "search.filters": "Filters",
+  "search.results": "Results",
+  "search.noResults": "No results found",
+  "search.loading": "Searching...",
+
+  "search.filter.category": "Category",
+  "search.filter.location": "Location",
+  "search.filter.date": "Date",
+  "search.filter.price": "Price",
+  "search.filter.rating": "Rating",
+  "search.filter.availability": "Availability",
+  "search.filter.clear": "Clear filters",
+  "search.filter.apply": "Apply filters",
+
+  "search.result.from": "From",
+  "search.result.perPerson": "per person",
+  "search.result.available": "Available",
+  "search.result.bookNow": "Book now",
+  "search.result.addFavorite": "Add to favorites",
+  "search.result.removeFavorite": "Remove from favorites"
+}

@@ -1,0 +1,24 @@
+{
+  "search.placeholder": "Zoek plaatsen, activiteiten, evenementen...",
+  "search.button": "Zoeken",
+  "search.filters": "Filters",
+  "search.results": "Resultaten",
+  "search.noResults": "Geen resultaten gevonden",
+  "search.loading": "Zoeken...",
+
+  "search.filter.category": "Categorie",
+  "search.filter.location": "Locatie",
+  "search.filter.date": "Datum",
+  "search.filter.price": "Prijs",
+  "search.filter.rating": "Waardering",
+  "search.filter.availability": "Beschikbaarheid",
+  "search.filter.clear": "Filters wissen",
+  "search.filter.apply": "Filters toepassen",
+
+  "search.result.from": "Vanaf",
+  "search.result.perPerson": "per persoon",
+  "search.result.available": "Beschikbaar",
+  "search.result.bookNow": "Nu boeken",
+  "search.result.addFavorite": "Toevoegen aan favorieten",
+  "search.result.removeFavorite": "Verwijderen uit favorieten"
+}

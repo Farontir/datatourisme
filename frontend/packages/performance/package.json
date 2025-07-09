@@ -1,0 +1,40 @@
+{
+  "name": "@datatourisme/performance",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./lighthouse": "./src/lighthouse.ts",
+    "./web-vitals": "./src/web-vitals.ts",
+    "./monitoring": "./src/monitoring.ts"
+  },
+  "scripts": {
+    "lint": "eslint src/",
+    "type-check": "tsc --noEmit",
+    "test": "jest",
+    "lighthouse": "lhci autorun",
+    "lighthouse:collect": "lhci collect",
+    "lighthouse:upload": "lhci upload",
+    "performance:audit": "node scripts/performance-audit.js"
+  },
+  "dependencies": {
+    "@lhci/cli": "^0.13.0",
+    "web-vitals": "^4.2.3"
+  },
+  "devDependencies": {
+    "@datatourisme/eslint-config": "workspace:*",
+    "@datatourisme/typescript-config": "workspace:*",
+    "@types/node": "^20.11.16",
+    "chrome-launcher": "^1.1.0",
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "lighthouse": "^12.0.0",
+    "puppeteer": "^21.9.0",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0"
+  }
+}

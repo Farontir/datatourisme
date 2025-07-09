@@ -1,0 +1,293 @@
+name: 'Bundle Size Monitor'
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+    types: [ opened, synchronize, reopened ]
+
+# Cancel in-progress runs on new commits
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  bundle-analysis:
+    runs-on: ubuntu-latest
+    
+    # Only run if code changes are detected
+    if: contains(github.event.head_commit.message, '[bundle]') || contains(github.event.pull_request.title, '[bundle]') || github.event_name == 'pull_request'
+    
+    outputs:
+      bundle-size: ${{ steps.analyze.outputs.bundle-size }}
+      size-change: ${{ steps.analyze.outputs.size-change }}
+      violations: ${{ steps.analyze.outputs.violations }}
+      
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Required for comparison with baseline
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      
+      - name: Download baseline bundle stats
+        if: github.event_name == 'pull_request'
+        run: |
+          # Download baseline bundle stats from main branch
+          curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+               -H "Accept: application/vnd.github.v3.raw" \
+               -L "https://api.github.com/repos/${{ github.repository }}/contents/bundle-stats.json?ref=main" \
+               -o baseline-bundle-stats.json || echo "No baseline found"
+      
+      - name: Build with bundle analysis
+        run: |
+          cd apps/web
+          ANALYZE=true MONITOR_BUNDLE=true pnpm build
+        env:
+          NODE_ENV: production
+          NEXT_TELEMETRY_DISABLED: 1
+      
+      - name: Analyze bundle
+        id: analyze
+        run: |
+          cd apps/web
+          
+          # Get bundle stats
+          BUNDLE_SIZE=$(node -e "
+            const stats = require('./bundle-stats.json');
+            const totalSize = stats.assets.reduce((sum, asset) => sum + asset.size, 0);
+            console.log(Math.round(totalSize / 1024));
+          ")
+          
+          echo "bundle-size=${BUNDLE_SIZE}" >> $GITHUB_OUTPUT
+          
+          # Compare with baseline if available
+          if [ -f "../../baseline-bundle-stats.json" ]; then
+            BASELINE_SIZE=$(node -e "
+              const stats = require('../../baseline-bundle-stats.json');
+              const totalSize = stats.assets.reduce((sum, asset) => sum + asset.size, 0);
+              console.log(Math.round(totalSize / 1024));
+            ")
+            
+            SIZE_CHANGE=$((BUNDLE_SIZE - BASELINE_SIZE))
+            echo "size-change=${SIZE_CHANGE}" >> $GITHUB_OUTPUT
+          else
+            echo "size-change=0" >> $GITHUB_OUTPUT
+          fi
+          
+          # Check for violations (example: > 1MB total)
+          VIOLATIONS=0
+          if [ $BUNDLE_SIZE -gt 1024 ]; then
+            VIOLATIONS=$((VIOLATIONS + 1))
+          fi
+          
+          echo "violations=${VIOLATIONS}" >> $GITHUB_OUTPUT
+      
+      - name: Upload bundle analyzer report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bundle-analyzer-report
+          path: |
+            apps/web/bundle-analyzer-report.html
+            apps/web/bundle-stats.json
+          retention-days: 30
+      
+      - name: Comment PR with bundle analysis
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            
+            // Read bundle stats
+            const bundleStatsPath = path.join('apps/web/bundle-stats.json');
+            const bundleStats = JSON.parse(fs.readFileSync(bundleStatsPath, 'utf8'));
+            
+            // Calculate sizes
+            const totalSize = bundleStats.assets.reduce((sum, asset) => sum + asset.size, 0);
+            const totalSizeKB = Math.round(totalSize / 1024);
+            
+            // Read baseline if available
+            let baselineSize = null;
+            let sizeChange = 0;
+            let changePercent = 0;
+            
+            try {
+              const baselineStats = JSON.parse(fs.readFileSync('baseline-bundle-stats.json', 'utf8'));
+              baselineSize = baselineStats.assets.reduce((sum, asset) => sum + asset.size, 0);
+              const baselineSizeKB = Math.round(baselineSize / 1024);
+              sizeChange = totalSizeKB - baselineSizeKB;
+              changePercent = ((sizeChange / baselineSizeKB) * 100).toFixed(1);
+            } catch (e) {
+              console.log('No baseline found for comparison');
+            }
+            
+            // Generate comment
+            const sizeChangeText = sizeChange !== 0 ? 
+              `(${sizeChange > 0 ? '+' : ''}${sizeChange}kb, ${changePercent}%)` : '';
+            
+            const statusEmoji = totalSizeKB > 1024 ? '🚨' : 
+                               totalSizeKB > 800 ? '⚠️' : '✅';
+            
+            const comment = `
+            ## 📦 Bundle Size Analysis
+            
+            ${statusEmoji} **Total Bundle Size**: ${totalSizeKB}kb ${sizeChangeText}
+            
+            ### Bundle Breakdown
+            | Asset | Size | Gzipped |
+            |-------|------|---------|
+            ${bundleStats.assets
+              .filter(asset => asset.name.endsWith('.js'))
+              .sort((a, b) => b.size - a.size)
+              .slice(0, 10)
+              .map(asset => {
+                const sizeKB = Math.round(asset.size / 1024);
+                const name = asset.name.replace(/^static\/chunks\//, '').replace(/\.js$/, '');
+                return `| ${name} | ${sizeKB}kb | ~${Math.round(sizeKB * 0.3)}kb |`;
+              })
+              .join('\n')}
+            
+            ### Bundle Health
+            - **Initial Bundle**: ${Math.round(bundleStats.assets.filter(a => a.name.includes('main')).reduce((sum, asset) => sum + asset.size, 0) / 1024)}kb
+            - **Vendor Chunks**: ${bundleStats.assets.filter(a => a.name.includes('vendor')).length}
+            - **Total Chunks**: ${bundleStats.chunks.length}
+            
+            ${totalSizeKB > 1024 ? '🚨 **Warning**: Bundle size exceeds 1MB recommendation' : ''}
+            ${totalSizeKB > 800 ? '⚠️ **Notice**: Bundle size is approaching 1MB limit' : ''}
+            
+            ### Recommendations
+            ${totalSizeKB > 500 ? '- Consider implementing code splitting for large components' : ''}
+            ${bundleStats.assets.some(a => a.name.includes('vendor') && a.size > 400 * 1024) ? '- Large vendor chunk detected - consider splitting vendor dependencies' : ''}
+            ${bundleStats.chunks.length > 50 ? '- High number of chunks - consider optimizing chunk strategy' : ''}
+            
+            <details>
+            <summary>View Bundle Analyzer Report</summary>
+            
+            📊 [Bundle Analyzer Report](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
+            
+            Download the bundle analyzer report from the workflow artifacts to get detailed insights into your bundle composition.
+            </details>
+            
+            ---
+            *Bundle analysis powered by webpack-bundle-analyzer*
+            `;
+            
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            });
+      
+      - name: Check bundle size limits
+        run: |
+          cd apps/web
+          BUNDLE_SIZE=$(node -e "
+            const stats = require('./bundle-stats.json');
+            const totalSize = stats.assets.reduce((sum, asset) => sum + asset.size, 0);
+            console.log(Math.round(totalSize / 1024));
+          ")
+          
+          echo "Total bundle size: ${BUNDLE_SIZE}kb"
+          
+          # Fail if bundle exceeds 1.5MB
+          if [ $BUNDLE_SIZE -gt 1536 ]; then
+            echo "❌ Bundle size ${BUNDLE_SIZE}kb exceeds maximum limit of 1.5MB"
+            exit 1
+          fi
+          
+          # Warn if bundle exceeds 1MB
+          if [ $BUNDLE_SIZE -gt 1024 ]; then
+            echo "⚠️ Bundle size ${BUNDLE_SIZE}kb exceeds recommended limit of 1MB"
+          fi
+      
+      - name: Save bundle stats for baseline
+        if: github.ref == 'refs/heads/main'
+        run: |
+          # Save bundle stats as baseline for future comparisons
+          cp apps/web/bundle-stats.json bundle-stats.json
+          
+          # Commit baseline stats back to repo
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add bundle-stats.json
+          git commit -m "chore: update bundle stats baseline [skip ci]" || exit 0
+          git push
+
+  # Performance budget check
+  performance-budget:
+    runs-on: ubuntu-latest
+    needs: bundle-analysis
+    if: always()
+    
+    steps:
+      - name: Performance Budget Check
+        run: |
+          BUNDLE_SIZE="${{ needs.bundle-analysis.outputs.bundle-size }}"
+          SIZE_CHANGE="${{ needs.bundle-analysis.outputs.size-change }}"
+          VIOLATIONS="${{ needs.bundle-analysis.outputs.violations }}"
+          
+          echo "Bundle size: ${BUNDLE_SIZE}kb"
+          echo "Size change: ${SIZE_CHANGE}kb"
+          echo "Violations: ${VIOLATIONS}"
+          
+          # Performance budget rules
+          if [ $BUNDLE_SIZE -gt 1536 ]; then
+            echo "❌ FAIL: Bundle size exceeds 1.5MB limit"
+            exit 1
+          fi
+          
+          if [ $VIOLATIONS -gt 0 ]; then
+            echo "⚠️ WARNING: ${VIOLATIONS} performance budget violations detected"
+          fi
+          
+          # Check for significant size increases
+          if [ $SIZE_CHANGE -gt 100 ]; then
+            echo "⚠️ WARNING: Bundle size increased by ${SIZE_CHANGE}kb"
+          fi
+          
+          echo "✅ Performance budget check passed"
+
+  # Notify on significant changes
+  notify-changes:
+    runs-on: ubuntu-latest
+    needs: bundle-analysis
+    if: always() && github.ref == 'refs/heads/main'
+    
+    steps:
+      - name: Notify on significant changes
+        run: |
+          BUNDLE_SIZE="${{ needs.bundle-analysis.outputs.bundle-size }}"
+          SIZE_CHANGE="${{ needs.bundle-analysis.outputs.size-change }}"
+          
+          if [ $SIZE_CHANGE -gt 50 ] || [ $SIZE_CHANGE -lt -50 ]; then
+            echo "Significant bundle size change detected: ${SIZE_CHANGE}kb"
+            
+            # Here you could send notifications to Slack, Discord, etc.
+            # Example webhook payload:
+            curl -X POST "${{ secrets.WEBHOOK_URL }}" \
+              -H "Content-Type: application/json" \
+              -d "{
+                \"text\": \"📦 Bundle size changed by ${SIZE_CHANGE}kb (now ${BUNDLE_SIZE}kb)\",
+                \"commit\": \"${{ github.sha }}\",
+                \"branch\": \"${{ github.ref_name }}\",
+                \"url\": \"${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"
+              }" || echo "No webhook configured"
+          fi

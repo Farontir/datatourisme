@@ -1,0 +1,32 @@
+{
+  "booking.step.selection": "Sélection",
+  "booking.step.details": "Détails",
+  "booking.step.payment": "Paiement",
+  "booking.step.confirmation": "Confirmation",
+
+  "booking.selection.date": "Date de visite",
+  "booking.selection.time": "Créneau horaire",
+  "booking.selection.guests": "Nombre de visiteurs",
+  "booking.selection.guestCount": "{count, plural, =1 {# visiteur} other {# visiteurs}}",
+  "booking.selection.availableSlots": "Créneaux disponibles",
+  "booking.selection.noAvailability": "Aucune disponibilité pour cette date",
+
+  "booking.details.primaryContact": "Contact principal",
+  "booking.details.guestDetails": "Détails des visiteurs",
+  "booking.details.specialRequirements": "Demandes spéciales",
+  "booking.details.accessibility": "Besoins d'accessibilité",
+
+  "booking.payment.method": "Méthode de paiement",
+  "booking.payment.total": "Total",
+  "booking.payment.processing": "Traitement du paiement...",
+  "booking.payment.secure": "Paiement 100% sécurisé",
+  "booking.payment.applePay": "Apple Pay",
+  "booking.payment.googlePay": "Google Pay",
+
+  "booking.confirmation.title": "Réservation confirmée !",
+  "booking.confirmation.subtitle": "Votre réservation a été enregistrée avec succès",
+  "booking.confirmation.number": "Numéro de confirmation",
+  "booking.confirmation.details": "Détails de votre réservation",
+  "booking.confirmation.downloadPDF": "Télécharger le billet PDF",
+  "booking.confirmation.addCalendar": "Ajouter au calendrier"
+}

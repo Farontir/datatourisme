@@ -1,0 +1,198 @@
+name: 'Chromatic Visual Testing'
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+    types: [ opened, synchronize, reopened ]
+
+# Cancel in-progress runs on new commits
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  chromatic-deployment:
+    runs-on: ubuntu-latest
+    
+    # Only run if UI changes are detected
+    if: contains(github.event.head_commit.message, '[visual]') || contains(github.event.pull_request.title, '[visual]') || github.event_name == 'pull_request'
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Required for Chromatic baseline detection
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      
+      - name: Build UI packages
+        run: pnpm build --filter="@datatourisme/ui"
+      
+      - name: Build Storybook
+        run: pnpm build --filter="@datatourisme/storybook"
+        env:
+          NODE_ENV: production
+      
+      - name: Run Chromatic
+        uses: chromaui/action@v1
+        with:
+          # Chromatic project token
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          
+          # Storybook build directory
+          buildScriptName: build
+          workingDir: apps/storybook
+          
+          # Exit with code 0 on visual changes for PRs
+          exitZeroOnChanges: ${{ github.event_name == 'pull_request' }}
+          
+          # Only run on changed stories for efficiency
+          onlyChanged: true
+          
+          # Skip specific stories if needed
+          skip: 'skip-visual-tests'
+          
+          # Auto-accept changes on main branch
+          autoAcceptChanges: ${{ github.ref == 'refs/heads/main' }}
+          
+          # Enable interaction testing
+          interactionTests: true
+          
+          # Enable accessibility testing
+          a11y: true
+          
+          # Branch name for baseline comparison
+          branchName: ${{ github.head_ref || github.ref_name }}
+          
+          # Additional options
+          debug: false
+          diagnostics: true
+          
+          # Timeout settings
+          timeout: 600000  # 10 minutes
+          
+          # Parallel testing
+          parallelism: 4
+          
+          # Turbosnap for faster builds
+          turbosnap: true
+      
+      - name: Comment PR with Chromatic results
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { context } = require('@actions/github');
+            const chromatic = require('./chromatic.json');
+            
+            const comment = `
+            ## 🎨 Visual Testing Results
+            
+            **Chromatic Build:** [View Details](${chromatic.webUrl})
+            **Changes:** ${chromatic.changeCount} stories changed
+            **Baseline:** ${chromatic.baselineCommit}
+            
+            ${chromatic.changeCount > 0 ? '⚠️ **Visual changes detected!** Please review the changes in Chromatic.' : '✅ **No visual changes detected.**'}
+            
+            ### Stories Tested
+            - Total: ${chromatic.storyCount}
+            - Changed: ${chromatic.changeCount}
+            - Errors: ${chromatic.errorCount}
+            
+            ### Test Results
+            - **Interaction Tests:** ${chromatic.interactionTestResults?.passed || 0} passed, ${chromatic.interactionTestResults?.failed || 0} failed
+            - **Accessibility Tests:** ${chromatic.a11yTestResults?.passed || 0} passed, ${chromatic.a11yTestResults?.failed || 0} failed
+            
+            ---
+            *This comment is automatically updated by the Chromatic workflow.*
+            `;
+            
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            });
+      
+      - name: Upload Chromatic results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: chromatic-results
+          path: |
+            apps/storybook/chromatic.json
+            apps/storybook/chromatic-diagnostics.json
+          retention-days: 7
+      
+      - name: Report status to PR
+        if: github.event_name == 'pull_request'
+        run: |
+          if [ -f apps/storybook/chromatic.json ]; then
+            echo "Visual testing completed successfully"
+            echo "::notice::Chromatic build completed. Check the PR comment for details."
+          else
+            echo "::error::Chromatic build failed or no results generated"
+            exit 1
+          fi
+
+  # Job to check if visual testing is required
+  check-visual-changes:
+    runs-on: ubuntu-latest
+    outputs:
+      should-run: ${{ steps.changes.outputs.ui }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Check for UI changes
+        uses: dorny/paths-filter@v2
+        id: changes
+        with:
+          filters: |
+            ui:
+              - 'packages/ui/**'
+              - 'apps/storybook/**'
+              - '**/*.stories.tsx'
+              - '**/*.stories.ts'
+              - 'packages/ui/src/**/*.tsx'
+              - 'packages/ui/src/**/*.ts'
+      
+      - name: Log detection result
+        run: |
+          echo "UI changes detected: ${{ steps.changes.outputs.ui }}"
+          echo "Should run visual tests: ${{ steps.changes.outputs.ui == 'true' }}"
+
+  # Summary job
+  visual-testing-summary:
+    runs-on: ubuntu-latest
+    needs: [chromatic-deployment, check-visual-changes]
+    if: always()
+    steps:
+      - name: Visual testing summary
+        run: |
+          echo "## Visual Testing Summary"
+          echo "- UI Changes Detected: ${{ needs.check-visual-changes.outputs.should-run }}"
+          echo "- Chromatic Status: ${{ needs.chromatic-deployment.result }}"
+          
+          if [ "${{ needs.chromatic-deployment.result }}" = "success" ]; then
+            echo "✅ Visual testing completed successfully"
+          elif [ "${{ needs.chromatic-deployment.result }}" = "skipped" ]; then
+            echo "⏭️ Visual testing skipped (no UI changes)"
+          else
+            echo "❌ Visual testing failed"
+            exit 1
+          fi

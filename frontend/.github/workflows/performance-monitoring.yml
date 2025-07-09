@@ -1,0 +1,262 @@
+name: Performance Monitoring
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+  schedule:
+    # Run daily at 6 AM UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: 'URLs to test (comma-separated)'
+        required: false
+        default: 'http://localhost:3000,http://localhost:3000/search'
+
+jobs:
+  lighthouse-ci:
+    name: Lighthouse CI
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+        
+      - name: Build applications
+        run: pnpm run build
+        env:
+          NODE_ENV: production
+          
+      - name: Start application server
+        run: |
+          pnpm --filter @datatourisme/web run start &
+          sleep 30
+        env:
+          NODE_ENV: production
+          PORT: 3000
+          
+      - name: Wait for server to be ready
+        run: |
+          timeout 60s bash -c 'until curl -f http://localhost:3000/api/health 2>/dev/null; do sleep 2; done' || \
+          timeout 60s bash -c 'until curl -f http://localhost:3000 2>/dev/null; do sleep 2; done'
+          
+      - name: Run Lighthouse CI
+        run: pnpm --filter @datatourisme/performance run lighthouse
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+          
+      - name: Run custom performance audit
+        run: |
+          if [ -n "${{ github.event.inputs.urls }}" ]; then
+            URLS="${{ github.event.inputs.urls }}"
+            pnpm --filter @datatourisme/performance run performance:audit ${URLS//,/ }
+          else
+            pnpm --filter @datatourisme/performance run performance:audit
+          fi
+          
+      - name: Upload Lighthouse reports
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: lighthouse-reports-${{ github.sha }}
+          path: |
+            .lighthouseci/
+            packages/performance/reports/
+          retention-days: 30
+          
+      - name: Comment PR with results
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            
+            // Find the latest performance report
+            const reportsDir = 'packages/performance/reports';
+            if (!fs.existsSync(reportsDir)) return;
+            
+            const files = fs.readdirSync(reportsDir)
+              .filter(file => file.startsWith('performance-report-') && file.endsWith('.json'))
+              .sort()
+              .reverse();
+              
+            if (files.length === 0) return;
+            
+            const reportFile = path.join(reportsDir, files[0]);
+            const report = JSON.parse(fs.readFileSync(reportFile, 'utf8'));
+            
+            // Format results for comment
+            const formatScore = (score) => {
+              const percentage = Math.round(score * 100);
+              const emoji = percentage >= 90 ? '✅' : percentage >= 70 ? '⚠️' : '❌';
+              return `${emoji} ${percentage}%`;
+            };
+            
+            const scoresTable = Object.entries(report.summary.averageScores)
+              .map(([category, score]) => `| ${category} | ${formatScore(score)} |`)
+              .join('\n');
+              
+            const recommendations = report.recommendations
+              .slice(0, 3)
+              .map(rec => `- **${rec.priority.toUpperCase()}**: ${rec.title}`)
+              .join('\n');
+            
+            const comment = `## 📊 Performance Report
+            
+            | Category | Score |
+            |----------|-------|
+            ${scoresTable}
+            
+            **Summary:**
+            - Total Audits: ${report.summary.totalAudits}
+            - Passed: ${report.summary.passedAudits}
+            - Failed: ${report.summary.failedAudits}
+            
+            ${recommendations ? `**Top Recommendations:**\n${recommendations}` : ''}
+            
+            [View detailed report](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
+            `;
+            
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            });
+
+  web-vitals-monitoring:
+    name: Web Vitals Monitoring
+    runs-on: ubuntu-latest
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+        
+      - name: Monitor production Web Vitals
+        run: |
+          # This would connect to your production monitoring
+          # For now, we'll simulate monitoring
+          echo "Monitoring Web Vitals for production environment..."
+          
+          # You would implement actual monitoring here
+          # curl -X POST "$MONITORING_WEBHOOK" -H "Content-Type: application/json" \
+          #   -d '{"type":"web_vitals_check","timestamp":"'$(date -u +%Y-%m-%dT%H:%M:%S.%3NZ)'"}'
+        env:
+          MONITORING_WEBHOOK: ${{ secrets.MONITORING_WEBHOOK }}
+
+  performance-regression-check:
+    name: Performance Regression Check
+    runs-on: ubuntu-latest
+    if: github.event_name == 'pull_request'
+    
+    steps:
+      - name: Checkout PR code
+        uses: actions/checkout@v4
+        
+      - name: Checkout base branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.base_ref }}
+          path: baseline
+          
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          
+      - name: Install dependencies (baseline)
+        run: |
+          cd baseline
+          pnpm install --frozen-lockfile
+          
+      - name: Install dependencies (current)
+        run: pnpm install --frozen-lockfile
+        
+      - name: Build baseline
+        run: |
+          cd baseline
+          pnpm run build
+          
+      - name: Build current
+        run: pnpm run build
+        
+      - name: Run baseline performance test
+        run: |
+          cd baseline
+          pnpm --filter @datatourisme/web run start &
+          BASELINE_PID=$!
+          sleep 30
+          
+          # Run Lighthouse on baseline
+          pnpm --filter @datatourisme/performance run lighthouse
+          mv packages/performance/reports baseline-reports
+          
+          kill $BASELINE_PID
+          sleep 5
+          
+      - name: Run current performance test
+        run: |
+          pnpm --filter @datatourisme/web run start &
+          CURRENT_PID=$!
+          sleep 30
+          
+          # Run Lighthouse on current
+          pnpm --filter @datatourisme/performance run lighthouse
+          
+          kill $CURRENT_PID
+          
+      - name: Compare performance results
+        run: |
+          # This would implement actual comparison logic
+          echo "Comparing performance between baseline and current..."
+          
+          # Placeholder for comparison logic
+          # node scripts/compare-performance.js baseline-reports/ packages/performance/reports/
+          
+      - name: Upload comparison results
+        uses: actions/upload-artifact@v3
+        with:
+          name: performance-comparison-${{ github.sha }}
+          path: |
+            baseline-reports/
+            packages/performance/reports/
+          retention-days: 14

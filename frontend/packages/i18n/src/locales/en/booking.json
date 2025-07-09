@@ -1,0 +1,32 @@
+{
+  "booking.step.selection": "Selection",
+  "booking.step.details": "Details",
+  "booking.step.payment": "Payment",
+  "booking.step.confirmation": "Confirmation",
+
+  "booking.selection.date": "Visit date",
+  "booking.selection.time": "Time slot",
+  "booking.selection.guests": "Number of visitors",
+  "booking.selection.guestCount": "{count, plural, =1 {# visitor} other {# visitors}}",
+  "booking.selection.availableSlots": "Available slots",
+  "booking.selection.noAvailability": "No availability for this date",
+
+  "booking.details.primaryContact": "Primary contact",
+  "booking.details.guestDetails": "Visitor details",
+  "booking.details.specialRequirements": "Special requests",
+  "booking.details.accessibility": "Accessibility needs",
+
+  "booking.payment.method": "Payment method",
+  "booking.payment.total": "Total",
+  "booking.payment.processing": "Processing payment...",
+  "booking.payment.secure": "100% secure payment",
+  "booking.payment.applePay": "Apple Pay",
+  "booking.payment.googlePay": "Google Pay",
+
+  "booking.confirmation.title": "Booking confirmed!",
+  "booking.confirmation.subtitle": "Your booking has been successfully recorded",
+  "booking.confirmation.number": "Confirmation number",
+  "booking.confirmation.details": "Your booking details",
+  "booking.confirmation.downloadPDF": "Download PDF ticket",
+  "booking.confirmation.addCalendar": "Add to calendar"
+}
